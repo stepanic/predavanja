@@ -1,6 +1,6 @@
 # AI u praksi, StartupVG Masterclass, 20. 10. 2026.
 
-Dvosatno predavanje o svakodnevnom radu s AI agentima, održano u poduzetničkom inkubatoru StartupVG u Velikoj Gorici (domaćin Domagoj Ilečić, ravnatelj inkubatora). Bez klasičnih slajdova: pitanja publike stizala su u WhatsApp grupu, Claude Code ih je obrađivao uživo, a na platnu je bio katalog projekata. Snimka: uskoro.
+Dvosatno predavanje o svakodnevnom radu s AI agentima, održano u poduzetničkom inkubatoru StartupVG u Velikoj Gorici (domaćin Domagoj Ilečić, ravnatelj inkubatora). Bez klasičnih slajdova: pitanja publike stizala su u WhatsApp grupu, Claude Code ih je obrađivao uživo, a na platnu je bio katalog projekata. Snimka: [youtu.be/QkcpHsj43rE](https://youtu.be/QkcpHsj43rE).
 
 Ova mapa dokumentira tri faze, od kojih je svaka napravljena s AI-jem.
 

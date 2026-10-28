@@ -4,7 +4,7 @@ Portfolio javnih predavanja Matije Stepanića. Svako predavanje je u svojoj mapi
 
 | Datum | Predavanje | Mjesto | Mapa | Snimka |
 |---|---|---|---|---|
-| 20. 10. 2026. | „AI u praksi”, StartupVG Masterclass | Poduzetnički inkubator StartupVG, Velika Gorica | [`2026-10-20-startupvg-ai-u-praksi/`](2026-10-20-startupvg-ai-u-praksi/) | uskoro |
+| 20. 10. 2026. | „AI u praksi”, StartupVG Masterclass | Poduzetnički inkubator StartupVG, Velika Gorica | [`2026-10-20-startupvg-ai-u-praksi/`](2026-10-20-startupvg-ai-u-praksi/) | [YouTube](https://youtu.be/QkcpHsj43rE) |
 
 ## Licenca
 
