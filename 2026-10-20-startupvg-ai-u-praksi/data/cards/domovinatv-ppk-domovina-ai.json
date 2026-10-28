@@ -1,0 +1,70 @@
+{
+  "id": "domovinatv-ppk-domovina-ai",
+  "title": "PKK izvještaj",
+  "one_liner": "Skripta koja iz ePorezne izračuna koliko je tvrtka ukupno platila poreza i doprinosa.",
+  "description": "Alat koji se zalijepi u konzolu preglednika na ePoreznoj i iz pregleda poreznog knjigovodstva složi izvještaj o svim plaćenim javnim davanjima od osnutka tvrtke. Kune preračunava u eure i generira PDF sažetak. Sve se izvršava lokalno u pregledniku.",
+  "category": "tool",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "porezna",
+    "eporezna",
+    "javna davanja",
+    "javascript",
+    "pdf",
+    "open source"
+  ],
+  "aliases": [
+    "pkk",
+    "p k k",
+    "pe ka ka",
+    "ppk",
+    "pkk izvještaj",
+    "pkk izvjestaj",
+    "eporezna",
+    "e porezna",
+    "javna davanja",
+    "koliko sam platio poreza"
+  ],
+  "facts": [
+    "Radi u konzoli preglednika bez instalacije; nijedan podatak ne odlazi na vanjski server.",
+    "Automatski preračun kuna u eure po fiksnom tečaju 7,53450.",
+    "Izvještaj se sprema kao PDF, HTML i CSV.",
+    "Napravljeno u jednom popodnevu (2026-06-18)."
+  ],
+  "talk_hooks": [
+    "U jednom popodnevu Claude je 'provalio' kako ePorezna šalje zahtjeve i napravio alat kojim svaka firma vidi koliko je platila državi."
+  ],
+  "stack": [
+    "JavaScript",
+    "Node.js",
+    "Bash",
+    "Headless Chrome"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/pkk.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Relatabilna tema za publiku (porezi), mali alat napravljen brzo.",
+  "related": [
+    "domovinatv-company-details-api",
+    "domovinatv-domovina-fiskal"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-ppk-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "repo"
+    }
+  ],
+  "rank": 60
+}

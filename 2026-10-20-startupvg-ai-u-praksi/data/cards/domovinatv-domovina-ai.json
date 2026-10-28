@@ -1,0 +1,101 @@
+{
+  "id": "domovinatv-domovina-ai",
+  "title": "Domovina.ai",
+  "one_liner": "Aplikacija za AI-obrađene hrvatske podcaste i videe: sažeci, poglavlja, pretraga po sadržaju, na webu, mobitelu i TV-u.",
+  "description": "Domovina.ai uzima epizode hrvatskih YouTube kanala i podcasta, a AI iz njih radi transkript, sažetak, poglavlja, članak i popis spomenutih osoba. Gledatelj može pretraživati izgovoreni sadržaj i skočiti točno na trenutak. Jedna Flutter aplikacija radi na webu, Androidu, iOS-u i Android TV-u.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "flutter",
+    "podcasti",
+    "transkripcija",
+    "semantička pretraga",
+    "rag",
+    "android tv",
+    "supabase",
+    "cloudflare",
+    "mcp",
+    "titlovi",
+    "sponzorski trenuci"
+  ],
+  "aliases": [
+    "domovina ai",
+    "domovina.ai",
+    "domovina a i",
+    "domovina aj",
+    "domovinu ai",
+    "domovini ai",
+    "domovinom ai",
+    "domovina",
+    "aplikacija domovina",
+    "domovina tv",
+    "domovina ej aj"
+  ],
+  "facts": [
+    "48 kanala, 3175 epizoda i oko 3036 sati AI-obrađenog sadržaja.",
+    "144 294 isječka indeksirana za semantičku pretragu po izgovorenom sadržaju.",
+    "Jedna Flutter aplikacija za web, Android, iOS i Android TV; 227 Dart datoteka, ~56 000 linija koda, 365 testova.",
+    "Verzija 2.0.178 do 9. 10. 2026., s noćnim buildom koji sam šalje na TestFlight i Google Play.",
+    "Prijava putem eOsobne (Certilia), passkeyja, Googlea i Applea.",
+    "Podrška epizodi SEPA Instant uplatom: potvrda stiže u istoj sekundi kad banka zaprimi novac, a poruka podrške doleti na zid s pregledom linka.",
+    "Pretraga unutar epizode (\"Pronađi u epizodi\"): upišeš riječ i skočiš na točnu sekundu u transkriptu.",
+    "Epizoda se učitava iz jedne datoteke episode.json umjesto ~29 zahtjeva (3 zahtjeva, 32,6 KB brotli).",
+    "Boot splash: na sporoj 4G mreži bijeli ekran prije prvog framea trajao je 13 s, a splash sad ostaje dok Flutter ne nacrta prvi frame; na splashu se vrte citati iz Evanđelja.",
+    "Gost bez sesije umjesto anonimnih prijava; sponzorski trenuci u epizodi (samoposlužni izlog i checkout)."
+  ],
+  "talk_hooks": [
+    "Aplikaciju za četiri platforme, s više od 160 izdanja u pet mjeseci, napisao sam uglavnom razgovarajući s Claude Codeom.",
+    "Tri tisuće sati govora postalo je pretraživo: pitaš tko je o nečemu govorio i skočiš točno na tu sekundu.",
+    "Bijeli ekran prije prvog framea izmjerili smo skriptom i popravili u nekoliko verzija u jednom danu."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "Supabase",
+    "Cloudflare Pages",
+    "Cloudflare R2",
+    "Cloudflare Workers",
+    "MeiliSearch",
+    "ClickHouse",
+    "bge-m3",
+    "RevenueCat"
+  ],
+  "urls": {
+    "live": [
+      "https://domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Glavni vlastiti proizvod: živ, vizualan, na četiri platforme, s jakim brojkama i pričom o AI-ju koji obrađuje tisuće sati sadržaja.",
+  "related": [
+    "domovinatv-domovina-api",
+    "podcasterium-podcasterium-app",
+    "domovinatv-domovina-rag",
+    "domovinatv-pipeline-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 2
+}

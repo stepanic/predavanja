@@ -1,0 +1,77 @@
+{
+  "id": "stepanic-linkedin-poster",
+  "title": "LinkedIn Poster",
+  "one_liner": "Objava na vlastiti LinkedIn iz Claude Codea, s linterom koji odbija tekst koji zvuči kao da ga je pisao AI.",
+  "description": "Mali servis na Cloudflare Workersu kroz koji Claude Code ili skripta mogu objaviti post na govornikov LinkedIn. Prije objave 'linter glasa' blokira tipične znakove strojno pisanog teksta, poput crtica. Noćni proces predlaže objave o novim epizodama podcasta, ali ništa ne izlazi bez ljudskog klika.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "linkedin",
+    "mcp",
+    "cloudflare workers",
+    "telegram",
+    "linter",
+    "open source",
+    "human in the loop"
+  ],
+  "aliases": [
+    "linkedin poster",
+    "linkedin",
+    "linked in",
+    "linkedina",
+    "linkedinu",
+    "linkedin mcp",
+    "objava na linkedin",
+    "linter glasa",
+    "em dash",
+    "poster za linkedin"
+  ],
+  "facts": [
+    "Tri ulaza u jednom Workeru: MCP server za agenta, HTTP API za skripte i linter glasa.",
+    "Linter blokira objavu s em-crticom, 'najjasnijim znakom generiranog teksta'.",
+    "LinkedIn token traje 60 dana; servis 14 dana ranije svako jutro podsjeća na obnovu, koja je jedan klik.",
+    "Nacrti iz noćnog procesa čekaju u Telegram grupi i sami istječu nakon 14 dana ako ih nitko ne objavi.",
+    "Otvoreni kod na GitHubu.",
+    "Noćni proces radi svaku noć: do 10. 10. 2026. zabilježeno je 55 automatskih pokretanja, a kôd servisa se od 27. 8. nije mijenjao (6 commitova), jer servis samo radi.",
+    "Prva obnova LinkedIn tokena stiže krajem listopada 2026., a podsjetnik u Telegramu kreće 14 dana ranije."
+  ],
+  "talk_hooks": [
+    "Napravio sam alat koji AI-ju zabranjuje da zvuči kao AI: ako post ima em-crticu, ne objavljuje se.",
+    "AI piše prijedloge objava noću, ali gumb 'objavi' uvijek pritisne čovjek."
+  ],
+  "stack": [
+    "TypeScript",
+    "Cloudflare Workers",
+    "Cloudflare KV",
+    "MCP",
+    "LinkedIn API",
+    "Telegram Bot API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/linkedin-poster",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Mali, ali vrlo prepoznatljiv za publiku: AI objavljuje na LinkedIn, a linter ga tjera da ne zvuči kao AI. Duhovito i poučno o čovjeku u petlji.",
+  "related": [
+    "domovinatv-fetch-domovina-tv",
+    "stepanic-realtime-presentation"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-linkedin-poster.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 31
+}

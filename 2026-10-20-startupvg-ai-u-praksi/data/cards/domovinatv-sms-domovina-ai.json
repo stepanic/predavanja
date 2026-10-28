@@ -1,0 +1,87 @@
+{
+  "id": "domovinatv-sms-domovina-ai",
+  "title": "DOMOVINA SMS gateway",
+  "one_liner": "Vlastiti SMS gateway na Android mobitelu i provjera broja telefona kad korisnik sam pošalje SMS.",
+  "description": "Umjesto plaćene SMS usluge, obični Android mobitel sa SIM karticom postaje gateway kojim upravlja web aplikacija. Uz to je napravljen Reverse OTP: stranica potvrđuje broj tako da korisnik pošalje SMS, a ne da ga primi.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "sms",
+    "otp",
+    "android",
+    "self-hosted",
+    "open source"
+  ],
+  "aliases": [
+    "sms domovina",
+    "sms.domovina.ai",
+    "sms gateway",
+    "es em es",
+    "reverse otp",
+    "obrnuti otp",
+    "otp",
+    "verifikacija broja",
+    "httpsms"
+  ],
+  "facts": [
+    "Temelj je open-source httpsms: Go API, Nuxt web i Kotlin Android klijent.",
+    "Reverse OTP servis ima 32 testa.",
+    "Radi na vlastitom serveru iza Cloudflare Tunnela.",
+    "Nastao je u 5 dana i 5 sessiona, sa 102 prompta."
+  ],
+  "talk_hooks": [
+    "Besplatna SMS verifikacija: obični Android mobitel u ladici radi kao SMS server."
+  ],
+  "stack": [
+    "Go",
+    "Nuxt",
+    "Kotlin",
+    "Hono",
+    "Bun",
+    "Docker",
+    "Coolify",
+    "Cloudflare Tunnel"
+  ],
+  "urls": {
+    "live": [
+      "https://sms.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/sms.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Zgodan hack (mobitel kao infrastruktura), ali demo nije jako vizualan.",
+  "related": [
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-sms-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://sms.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-sms-domovina-ai.full.jpg",
+      "width": 2880,
+      "height": 6036,
+      "url": "https://sms.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://sms.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 3018,
+    "checked": "2026-09-25"
+  },
+  "rank": 30
+}

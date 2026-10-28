@@ -1,0 +1,57 @@
+{
+  "id": "repo-spremni-za-qr-offline-generator",
+  "title": "Offline QR generator",
+  "one_liner": "Flutter aplikacija koja potpuno offline generira i skenira QR kodove i izrađuje kartice za ispis.",
+  "description": "Na računalu generira QR kodove, a na mobitelu ih i skenira. Izrađuje karticu spremnu za ispis kao PNG, a sve radi bez interneta, pa su i fontovi zapakirani u aplikaciju.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "qr",
+    "offline",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "qr generator",
+    "qr kod",
+    "qr kodovi",
+    "ku er",
+    "kjuar",
+    "offline qr",
+    "qr offline",
+    "qr kartica"
+  ],
+  "facts": [
+    "16 commita u jednom danu (2025-12-29).",
+    "Jedna aplikacija za desktop, iOS i Android.",
+    "Radi potpuno offline, s lokalno zapakiranim fontom."
+  ],
+  "talk_hooks": [
+    "Primjer iz vremena prije Claude Codea, za usporedbu s onim što nastaje danas."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "qr_flutter",
+    "mobile_scanner"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali alat, zanimljiv samo kao kontrast prije i poslije.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-za-qr-offline-generator.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 90
+}

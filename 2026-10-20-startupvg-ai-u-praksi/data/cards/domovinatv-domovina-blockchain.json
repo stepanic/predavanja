@@ -1,0 +1,65 @@
+{
+  "id": "domovinatv-domovina-blockchain",
+  "title": "DOMOVINA blockchain",
+  "one_liner": "Arhitektura vlastitog blockchaina po uzoru na Gnosis Chain, s euro stablecoinom i tokenom za staking.",
+  "description": "Javni repozitorij s vizijom i arhitekturom: kako bi izgledao vlastiti EVM blockchain s nativnim euro stablecoinom, tko bi bili validatori i kako bi se mreža širila. Za sada je to dokumentacija s dijagramima, bez pokrenute mreže.",
+  "category": "research",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "blockchain",
+    "evm",
+    "gnosis",
+    "stablecoin",
+    "arhitektura",
+    "mermaid"
+  ],
+  "aliases": [
+    "domovina blockchain",
+    "blockchain",
+    "blokčejn",
+    "blok čejn",
+    "dom token",
+    "deur",
+    "d eur",
+    "vlastiti blockchain"
+  ],
+  "facts": [
+    "Dvotokenski model: dEUR kao nativni euro stablecoin i DOM kao token za staking.",
+    "Temelj je Nethermind klijent s AuRa/POSDAO konsenzusom, kao na Gnosis Chainu.",
+    "Plan: 2 validatora za start, najmanje 4 za otpornost, a cilj je 7 i više.",
+    "README ima 10 Mermaid dijagrama."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Nethermind",
+    "AuRa/POSDAO",
+    "EVM",
+    "Mermaid"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-blockchain",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Ambiciozna ideja, ali je samo dokumentacija bez demoa.",
+  "related": [
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-blockchain.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 73
+}

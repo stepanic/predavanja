@@ -1,0 +1,81 @@
+{
+  "id": "italk-italk-hr",
+  "title": "ITalk web",
+  "one_liner": "Nova web stranica govornikove tvrtke ITalk, prepisana u Astro i usklađena s pravnim tekstovima.",
+  "description": "Stara statička stranica tvrtke prepisana je u Astro u jednom popodnevu: novi dizajn, hrvatska i engleska verzija, pravni tekstovi pretvoreni u Markdown i usklađeni sa stvarnim stanjem (stranica ne koristi kolačiće). Stranica je dvostruko lakša od stare.",
+  "category": "landing",
+  "context": "ITalk",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "astro",
+    "typescript",
+    "scss",
+    "firebase hosting",
+    "i18n",
+    "gdpr",
+    "redizajn"
+  ],
+  "aliases": [
+    "italk",
+    "i talk",
+    "aj tok",
+    "italk.hr",
+    "italk hr",
+    "italka",
+    "italku",
+    "itolk",
+    "ajtok",
+    "tvrtka italk",
+    "web tvrtke"
+  ],
+  "facts": [
+    "Početna stranica smanjena s 177 kB na 84 kB.",
+    "1702 linije HTML-a pravnih stranica pretvorene u Markdown s jednim predloškom.",
+    "19 neprevedenih blokova ispravljeno; pravila o kolačićima prepisana jer stranica ne koristi kolačiće.",
+    "Cijeli redizajn i objava u jednoj sesiji, 3. kolovoza 2026."
+  ],
+  "talk_hooks": [
+    "AI nije samo prepisao stranicu nego je pronašao da pravni tekstovi tvrde stvari koje stranica uopće ne radi, poput kolačića."
+  ],
+  "stack": [
+    "Astro 5",
+    "TypeScript",
+    "SCSS",
+    "Firebase Hosting"
+  ],
+  "urls": {
+    "live": [
+      "https://italk.hr"
+    ],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Solidan primjer brzog redizajna, ali običan web tvrtke bez posebne AI priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/italk-italk-hr.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://italk.hr"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/italk-italk-hr.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://italk.hr"
+    }
+  ],
+  "embed": {
+    "url": "https://italk.hr",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 8506,
+    "vh_dependent": true,
+    "checked": "2026-10-19"
+  },
+  "rank": 51
+}

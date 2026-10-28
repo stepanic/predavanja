@@ -1,0 +1,87 @@
+{
+  "id": "domovinatv-domovina-ulaznice",
+  "title": "Domovina Ulaznice",
+  "one_liner": "Prodaja ulaznica bez provizije: plaćanje ide ravno organizatoru, a ulaznica je QR kod.",
+  "description": "SaaS za prodaju ulaznica gdje organizator naplaćuje izravno preko Stripe Connecta, bez posrednika i bez naknade po ulaznici. Uključuje web prodaju, izvorne iOS i Android aplikacije, skener ulaznica i fiskalne račune.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "ulaznice",
+    "stripe",
+    "fiskalizacija",
+    "ios",
+    "android",
+    "qr",
+    "otvoreni kod"
+  ],
+  "aliases": [
+    "ulaznice",
+    "ulaznica",
+    "ulaznicama",
+    "domovina ulaznice",
+    "ulaznice.domovina.ai",
+    "prodaja ulaznica",
+    "tiketi",
+    "ticketing",
+    "ulaznice domovina"
+  ],
+  "facts": [
+    "0 € provizije po ulaznici; kod konkurencije to je oko 0,70 € (Ticket Tailor) ili oko 2,75 € na ulaznicu od 50 € (Entrio).",
+    "Web, iOS (SwiftUI) i Android (Compose) dijele isti mali design sustav.",
+    "Fiskalni računi izdaju se automatski preko FIRA-e.",
+    "QR ulaznica vrijedi jednom i rotira se pri ponovnom slanju.",
+    "97 testova, repozitorij javan pod MIT licencom.",
+    "Novi događaj ne unosi se kroz editor nego razgovorom: agent organizatorov Google obrazac pretvara u shemu događaja."
+  ],
+  "talk_hooks": [
+    "Web aplikacija, iOS i Android s istim dizajnom: s Claudeom je jedna osoba napravila ono za što inače treba cijeli tim.",
+    "Umjesto da gradim editor događaja, organizator mi pošalje obrazac koji već ima, a Claude iz njega složi događaj s cjenikom."
+  ],
+  "stack": [
+    "React",
+    "Hono",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Supabase",
+    "Stripe Connect",
+    "SwiftUI",
+    "Jetpack Compose",
+    "FIRA"
+  ],
+  "urls": {
+    "live": [
+      "https://ulaznice.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-ulaznice",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Jasna vrijednost (0 % provizije), tri platforme i javni kod; produkcija se tek otvara.",
+  "related": [
+    "stepanic-fira-forms-connector",
+    "novcanik-prototipovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-ulaznice.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://ulaznice.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://ulaznice.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 858,
+    "checked": "2026-09-25"
+  },
+  "rank": 17
+}

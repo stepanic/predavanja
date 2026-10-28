@@ -1,0 +1,57 @@
+{
+  "id": "repo-stepanic-youtube-player-flutter",
+  "title": "YouTube player za Flutter (fork)",
+  "one_liner": "Fork popularnog open-source Flutter paketa za YouTube player, s jednim vlastitim eksperimentom.",
+  "description": "Fork paketa youtube_player_flutter koji ugrađuje YouTube video preko službenog iFrame API-ja. Govornik je dodao jedan commit: pokušaj skrivanja kontrola playera preko CSS-a.",
+  "category": "other",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "youtube",
+    "open source",
+    "fork",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "youtube player flutter",
+    "youtube player",
+    "jutjub plejer",
+    "youtube_player_flutter",
+    "youtube iframe",
+    "fork"
+  ],
+  "facts": [
+    "Repozitorij ima 557 commitova, od toga 1 govornikov (2025-11-17).",
+    "Taj commit pokušava sakriti kontrole YouTube playera ubacivanjem CSS-a."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "YouTube iFrame API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/youtube_player_flutter",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Tuđi paket s jednim commitom, nema priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-youtube-player-flutter.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 77
+}

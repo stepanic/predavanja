@@ -1,0 +1,81 @@
+{
+  "id": "domovinatv-podcast-domovina-ai",
+  "title": "Katalog hrvatskih podcasta",
+  "one_liner": "Pregledan katalog 476 hrvatskih podcasta po kategorijama, s feedom novih epizoda svaki dan.",
+  "description": "Statički web katalog hrvatskih podcasta složen po kategorijama, s detaljem kanala, brojem epizoda i pratitelja te arhivom novih epizoda po danima. Podatke svake noći slaže iz registra podcasta projekta Domovina. Epizode izvan domovina.ai otvaraju se kao običan YouTube embed.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "podcasti",
+    "katalog",
+    "astro",
+    "cloudflare",
+    "otvoreni podaci"
+  ],
+  "aliases": [
+    "podcast domovina",
+    "podcast.domovina.ai",
+    "podcast domovina ai",
+    "podcast domovina a i",
+    "katalog podcasta",
+    "katalog hrvatskih podcasta",
+    "katalogu podcasta",
+    "hrvatski podcasti",
+    "podcasti",
+    "kategorije podcasta",
+    "logopedski podcasti"
+  ],
+  "facts": [
+    "476 podcasta u katalogu, razvrstanih u 14 kategorija.",
+    "51 kanal ima epizode i na domovina.ai, 168 je aktivnih.",
+    "Kronološka arhiva /dani/ s točnim datumom objave svake epizode od 1. 1. 2025.",
+    "Čisto statički Astro build koji servira Cloudflare Worker, bez Worker koda.",
+    "Prva sesija: upit o kategorijama otkrio je da nema logopedskih podcasta pa je registar proširen."
+  ],
+  "talk_hooks": [
+    "Pitao sam Claudea postoji li kategorija logopedskih podcasta; odgovor je bio da ne, pa smo pokrenuli istraživanje koje proširuje cijeli registar.",
+    "Katalog se svake noći sam slaže iz registra i objavljuje bez ručnog rada."
+  ],
+  "stack": [
+    "Astro",
+    "JavaScript",
+    "Cloudflare Workers",
+    "YouTube embed"
+  ],
+  "urls": {
+    "live": [
+      "https://podcast.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/podcast.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Živ i koristan, ali vizualno običan katalog; priča je u brzini i povezanosti s ostatkom Domovine.",
+  "related": [
+    "domovinatv-fetch-domovina-tv",
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-podcast-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://podcast.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://podcast.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-10-10"
+  },
+  "rank": 38
+}

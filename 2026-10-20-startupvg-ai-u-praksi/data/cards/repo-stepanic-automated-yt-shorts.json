@@ -1,0 +1,61 @@
+{
+  "id": "repo-stepanic-automated-yt-shorts",
+  "title": "Automatski YouTube Shorts",
+  "one_liner": "Serverless pipeline koji sam pronađe trendove, napiše scenarij, napravi video i objavi ga na YouTubeu.",
+  "description": "Eksperiment iz ožujka 2025.: Zapier tokovi iz tutoriala zamijenjeni su Cloudflare Workerom. Ima tri faze: istraživač, kreator i izdavač.",
+  "category": "automation",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "youtube shorts",
+    "automatizacija",
+    "ai video",
+    "cloudflare workers",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "youtube shorts",
+    "jutjub šorts",
+    "šortsi",
+    "automated shorts",
+    "automatski shortsi",
+    "yt shorts",
+    "heygen"
+  ],
+  "facts": [
+    "Pipeline: Google Trends → Perplexity istraživanje → Claude scenarij → HeyGen video → YouTube upload.",
+    "Prvi commit zove se 'Inital copy from Claude': kod je prenesen iz Claude chata.",
+    "5 commitova u jednom danu (2025-03-20)."
+  ],
+  "talk_hooks": [
+    "Prije Claude Codea kod se kopirao iz chata. Ovaj projekt pokazuje kako je to izgledalo u ožujku 2025."
+  ],
+  "stack": [
+    "Cloudflare Workers",
+    "Hono",
+    "Claude API",
+    "Perplexity",
+    "HeyGen",
+    "YouTube API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Dobar kontrast 'prije i poslije', ali projekt nije živ.",
+  "related": [
+    "repo-stepanic-mcp-server-wasp"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-automated-yt-shorts.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 75
+}

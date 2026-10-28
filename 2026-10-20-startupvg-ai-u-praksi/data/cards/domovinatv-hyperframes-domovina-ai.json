@@ -1,0 +1,64 @@
+{
+  "id": "domovinatv-hyperframes-domovina-ai",
+  "title": "Video tvornica (HyperFrames)",
+  "one_liner": "Videi napisani kao HTML: kompozicije renderirane HyperFramesom, među njima video za odds.domovina.ai.",
+  "description": "Radionica u kojoj se videi ne montiraju nego pišu: svaki kadar je HTML stranica s GSAP ili Three.js animacijom, a HyperFrames ih renderira u MP4. Odavde dolazi 92-sekundni video za odds.domovina.ai, a isti postupak daje i verzije u 16:9 i 9:16.",
+  "category": "tool",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "video",
+    "hyperframes",
+    "animacija",
+    "three.js",
+    "gsap"
+  ],
+  "aliases": [
+    "hyperframes",
+    "hyper frames",
+    "hajperfrejms",
+    "video tvornica",
+    "video iz html-a",
+    "hyperframes domovina",
+    "kompozicije",
+    "render videa"
+  ],
+  "facts": [
+    "Video za odds.domovina.ai: 92 s, 1920×1080, iz 8 HTML kadrova.",
+    "Kadrovi su HTML stranice s GSAP i Three.js animacijom, renderirane u MP4.",
+    "Rezovi uz glazbu postavljaju se u izmjerene pauze vokala, uz vremena riječi iz Speechmatics transkripcije.",
+    "Storyboard se generira iz snapshota kompozicija prije rendera.",
+    "19 commitova u dva dana (18.–19. 10. 2026.)."
+  ],
+  "talk_hooks": [
+    "Video sam napisao kao web stranicu. Kad treba promijeniti tekst ili rez, Claude promijeni HTML i ponovno renderira, bez video editora."
+  ],
+  "stack": [
+    "HyperFrames",
+    "HTML",
+    "GSAP",
+    "Three.js",
+    "ffmpeg",
+    "Python"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Neočekivan način izrade videa; rezultat se vidi na odds.domovina.ai.",
+  "related": [
+    "domovinatv-odds-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-hyperframes-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 68
+}

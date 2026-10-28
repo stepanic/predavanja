@@ -1,0 +1,69 @@
+{
+  "id": "stepanic-launchd-menubar",
+  "title": "LaunchdBar",
+  "one_liner": "macOS aplikacija u traci izbornika koja prikazuje i pokreće noćne automatizirane poslove.",
+  "description": "Mala SwiftUI aplikacija koja prikazuje sve vlastite launchd poslove po skupinama: noćni, dnevni, polleri i servisi. Posao se iz nje može pokrenuti, a log otvoriti jednim klikom. Uz nju je nastao alat koji raspoređuje noćne Claude poslove unutar dostupne kvote.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "macos",
+    "swiftui",
+    "automatizacija",
+    "launchd",
+    "claude kvota"
+  ],
+  "aliases": [
+    "launchdbar",
+    "launchd bar",
+    "launchd menubar",
+    "lonč di",
+    "lanč di",
+    "launch d",
+    "menu bar",
+    "menubar",
+    "traka izbornika",
+    "claude window"
+  ],
+  "facts": [
+    "Prikazuje 23 vlastita launchd posla podijeljena u skupine.",
+    "Stanje se osvježava svakih 8 sekundi.",
+    "Alat claude-window raspoređuje noćne poslove unutar Claude kvote; ima 17 testova.",
+    "Aplikacija je napisana, izgrađena i instalirana u prvom sessionu (2026-06-22)."
+  ],
+  "talk_hooks": [
+    "Dok spavam, na računalu radi dvadesetak automatiziranih poslova, a ova mala aplikacija u traci izbornika pokazuje što se događa."
+  ],
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "Bash",
+    "Node.js",
+    "launchd"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/launchd-menubar",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Dobra priča o noćnoj automatizaciji s AI-jem, ali vizualno skromno.",
+  "related": [
+    "stepanic-dotclaude-backup"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-launchd-menubar.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 50
+}

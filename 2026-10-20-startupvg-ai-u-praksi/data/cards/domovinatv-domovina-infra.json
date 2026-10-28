@@ -1,0 +1,66 @@
+{
+  "id": "domovinatv-domovina-infra",
+  "title": "DOMOVINA infrastruktura",
+  "one_liner": "Jedan besplatni Oracle Cloud server s 44 kontejnera i automatskim backupom u Cloudflare R2.",
+  "description": "Repozitorij koji je jedini izvor istine za infrastrukturu Domovina servisa: dokumentacija, upute za oporavak i skripte. Svake noći baze i konfiguracije se povlače na lokalni Mac i šalju u R2, uz obavijest na Telegram ako nešto pođe po zlu.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "internal",
+  "tags": [
+    "infrastruktura",
+    "backup",
+    "oracle cloud",
+    "coolify",
+    "cloudflare r2"
+  ],
+  "aliases": [
+    "domovina infra",
+    "infrastruktura",
+    "oracle cloud",
+    "orakl klaud",
+    "backup",
+    "bekap",
+    "coolify",
+    "kulifaj",
+    "dom 001"
+  ],
+  "facts": [
+    "44 Docker kontejnera vrti na jednom ARM virtualnom stroju (4 jezgre, 24 GB RAM-a).",
+    "Cijeli noćni backup s prijenosom u R2 traje 159 sekundi.",
+    "Gubitak podataka najviše 24 sata; 5 od 5 noći uspješno od uvođenja R2.",
+    "Pohrana backupa u R2 procijenjena na oko 0,01 USD mjesečno."
+  ],
+  "talk_hooks": [
+    "Claude je istovremeno i administrator i dokumentarist: sve što promijeni na serveru zapiše u repo, pa sljedeća sesija zna gdje je što."
+  ],
+  "stack": [
+    "Oracle Cloud",
+    "Coolify",
+    "Docker",
+    "Bash",
+    "rclone",
+    "Cloudflare R2",
+    "launchd"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Korisna priča o jeftinoj infrastrukturi, ali bez vizuala.",
+  "related": [
+    "domovinatv-domovina-rag",
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-infra.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 48
+}

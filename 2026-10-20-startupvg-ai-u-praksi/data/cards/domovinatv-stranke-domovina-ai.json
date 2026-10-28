@@ -1,0 +1,95 @@
+{
+  "id": "domovinatv-stranke-domovina-ai",
+  "title": "Hrvatske političke stranke",
+  "one_liner": "Otvoreni katalog svih ikad registriranih političkih stranaka u Hrvatskoj.",
+  "description": "Javna baza znanja s podacima iz službenog registra stranaka, s logotipima, bojama i sjedištima na karti. Nastala je preslikavanjem arhitekture kataloga nogometnih klubova na novu temu, a u listopadu je dobila stranicu o tome koliko se javnog novca iz proračuna strankama i kako to raste u stvarnom vremenu.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "otvoreni podaci",
+    "politika",
+    "pwa",
+    "react",
+    "katalog",
+    "financiranje",
+    "proračun"
+  ],
+  "aliases": [
+    "stranke",
+    "stranaka",
+    "strankama",
+    "stranke domovina",
+    "stranke.domovina.ai",
+    "političke stranke",
+    "katalog stranaka",
+    "registar stranaka",
+    "financiranje stranaka",
+    "novac za stranke"
+  ],
+  "facts": [
+    "434 stranke: 155 aktivnih i 279 ugašenih.",
+    "421 stranka geokodirana, 100 % onih s upisanim sjedištem.",
+    "58 logotipa i 62 prepoznate boje stranaka.",
+    "Od 9. 10. 2026. stranica /financiranje prikazuje proračunsko financiranje stranaka 10. i 11. saziva Sabora: odluke Odbora za Ustav, Saborova izvješća i projekcija do kraja saziva 15. 5. 2028.",
+    "Stranica /financiranje/uzivo raspoređuje novac po sekundama i prikazuje brojač javnog novca u stvarnom vremenu (oko 0,4 € u sekundi svim strankama zajedno).",
+    "Iznosi se provjeravaju: zbroj iz odluka poklapa se sa Saborovim izvješćima za 2021.–2025. do 2 centa.",
+    "Revizije Državnog ureda za reviziju: 244 PDF-a izvješća stranaka (2020.–2024.) parsirana skriptom, uz provjeru zbrojeva i bilance; porezi su 2018.–2025. rasli +76,5 %, cijene +34,9 %.",
+    "Nastalo u jednom danu uz Claude Code; među popravcima je i service worker koji je nakon deploya prikazivao stari kod."
+  ],
+  "talk_hooks": [
+    "Rekao sam Claudeu da preslika arhitekturu kataloga klubova na stranke i za tri sata imao sam javnu aplikaciju.",
+    "Na stranci se vidi kako javni novac stranama teče sekundu po sekundu, a svaki iznos Claude je provjerio protiv službenih izvješća."
+  ],
+  "stack": [
+    "Python",
+    "SQLite",
+    "FastAPI",
+    "HTMX",
+    "React",
+    "MapLibre",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://stranke.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/stranke.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živo, vizualno i nastalo iznimno brzo; tema je politička.",
+  "related": [
+    "domovinatv-izbori-domovina-ai",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-stranke-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://stranke.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-stranke-domovina-ai.full.jpg",
+      "width": 2880,
+      "height": 8316,
+      "url": "https://stranke.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://stranke.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 4158,
+    "checked": "2026-09-25"
+  },
+  "rank": 29
+}

@@ -1,0 +1,60 @@
+{
+  "id": "stepanic-bojna-cavoglave-audio-analiza",
+  "title": "Audio forenzika: Bojna Čavoglave",
+  "one_liner": "Forenzička analiza zvuka koja provjerava tvrdnju da je snimka s YouTubea izvorna verzija poznate pjesme.",
+  "description": "Analiza je usporedila snimke otiskom zvuka (kao Shazam), korelacijom, tempom, tonalitetom i spektrom. Zaključak je da snimka nije izvorna verzija. Metodologija je dokumentirana, uključujući i odbačene pristupe.",
+  "category": "research",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "audio forenzika",
+    "whisper",
+    "ffmpeg",
+    "python",
+    "fact-checking"
+  ],
+  "aliases": [
+    "bojna čavoglave",
+    "čavoglave",
+    "cavoglave",
+    "čavoglava",
+    "audio forenzika",
+    "audio analiza",
+    "forenzika pjesme",
+    "forenzička analiza",
+    "analiza pjesme"
+  ],
+  "facts": [
+    "Otisak zvuka: 34 podudaranja sa službenom snimkom, naspram 30.848 kontrolnih.",
+    "Sporna snimka ima 138 BPM i gis-mol, a službeni singl 147 BPM i a-mol.",
+    "Spektar odrezan na 5,3 kHz upućuje na MP3 niske kvalitete iz oko 2011.",
+    "Sedam Python skripti i jedno popodne rada (2026-08-28)."
+  ],
+  "talk_hooks": [
+    "Pitanje s interneta riješeno je forenzikom: tempo, tonalitet i otisak zvuka razotkrili su tvrdnju za jedno popodne."
+  ],
+  "stack": [
+    "Python",
+    "yt-dlp",
+    "whisper.cpp",
+    "ffmpeg"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Odlična priča o AI-ju u provjeri činjenica, ali tema je politički osjetljiva.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-bojna-cavoglave-audio-analiza.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 64
+}

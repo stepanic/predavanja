@@ -1,0 +1,65 @@
+{
+  "id": "podcasterium-podcasterium-registry",
+  "title": "Podcasterium registar",
+  "one_liner": "Globalni registar podcasta: 4,7 milijuna RSS feedova, deduplicirano i geolocirano za kartu.",
+  "description": "Podatkovni projekt koji želi katalogizirati sve podcaste svijeta iz javnih izvora, spojiti duplikate u logičke emisije i smjestiti ih na kartu. Prvi korak, uvoz cijelog Podcast Index dumpa, je gotov.",
+  "category": "data-pipeline",
+  "context": "Podcasterium",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "podcast",
+    "registar",
+    "python",
+    "sqlite",
+    "otvoreni podaci",
+    "gis"
+  ],
+  "aliases": [
+    "podcasterium",
+    "podkasterium",
+    "podcasterijum",
+    "podcast registar",
+    "registar podcasta",
+    "podcast index",
+    "podkast indeks",
+    "svi podcasti"
+  ],
+  "facts": [
+    "4.711.475 podcast feedova uvezeno u SQLite.",
+    "Podcast Index dump: 1,8 GB komprimirano, 4,7 GB raspakirano.",
+    "Procjena: oko 500.000 aktivnih podcasta.",
+    "Oko 80 % arhitekture preuzeto iz projekata crkava i nogometnih klubova; 43 testa."
+  ],
+  "talk_hooks": [
+    "Obrazac koji sam s Claudeom razvio za katalog crkava ponovno je upotrijebljen za 4,7 milijuna podcasta."
+  ],
+  "stack": [
+    "Python",
+    "SQLite",
+    "PMTiles",
+    "MapLibre"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Impresivna brojka, ali tek početak bez vizualnog rezultata.",
+  "related": [
+    "podcasterium-podcasterium-app",
+    "repo-podcasterium-podcasterium-landing",
+    "domovinatv-crkve-domovina-ai",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/podcasterium-podcasterium-registry.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 40
+}

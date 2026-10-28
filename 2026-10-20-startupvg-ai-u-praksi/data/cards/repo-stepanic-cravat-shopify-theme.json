@@ -1,0 +1,59 @@
+{
+  "id": "repo-stepanic-cravat-shopify-theme",
+  "title": "Cravat Shopify tema",
+  "one_liner": "Open-source Shopify tema izvedena iz Shopifyjeve službene teme Dawn.",
+  "description": "Početak vlastite Shopify teme na temelju teme Dawn 15.4.0, s MIT licencom i uputama za razvoj. Gotovo sva povijest repozitorija dolazi iz Shopifyjeve izvorne teme; govornikova su dva commita iz listopada 2025.",
+  "category": "other",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "shopify",
+    "liquid",
+    "tema",
+    "dawn",
+    "open source",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "cravat",
+    "kravata",
+    "cravat tema",
+    "cravat shopify",
+    "shopify tema",
+    "shopify theme",
+    "dawn"
+  ],
+  "facts": [
+    "1008 commitova u povijesti, od toga 2 govornikova (listopad 2025.); ostalo je izvorna tema Dawn.",
+    "Temelj: Dawn 15.4.0, MIT licenca.",
+    "Nema zabilježenih Claude Code sesija."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Shopify Liquid",
+    "Shopify CLI"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/cravat-shopify-theme",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Samo inicijalizirana tema bez vlastitog sadržaja i priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-cravat-shopify-theme.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 76
+}

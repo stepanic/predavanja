@@ -1,0 +1,74 @@
+{
+  "id": "domovinatv-domovina-cutter",
+  "title": "Domovina Cutter",
+  "one_liner": "Servis koji na zahtjev izrezuje poglavlje iz videa epizode i poslužuje ga s CDN-a.",
+  "description": "Kad korisnik zatraži isječak poglavlja, Cloudflare Worker provjeri postoji li već na CDN-u, a ako ne, Docker servis ga izreže ffmpegom i spremi. Svaki sljedeći zahtjev dobiva gotovu datoteku. Za ?dl=1 nudi stranicu s napretkom i dijeljenjem.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "video",
+    "ffmpeg",
+    "cloudflare workers",
+    "docker",
+    "coolify",
+    "isječci"
+  ],
+  "aliases": [
+    "cutter",
+    "domovina cutter",
+    "katter",
+    "kater",
+    "rezač",
+    "rezač videa",
+    "isječci",
+    "cutter.domovina.ai",
+    "rezanje poglavlja"
+  ],
+  "facts": [
+    "Isječak od 20 s izrezan za 1,3 s.",
+    "Već izrezani isječak poslužuje se za 0,21 s.",
+    "Prvo rezanje poglavlja traje oko 5 s.",
+    "Cijeli sustav postavljen i provjeren u jednom danu.",
+    "Stranica za preuzimanje isječka s napretkom i Web Share API-jem: na mobitelu se MP4 (~70 MB) može izravno podijeliti u WhatsApp ili spremiti u Fotografije."
+  ],
+  "talk_hooks": [
+    "Mali servis napravljen u jednoj sesiji: od ideje do Cloudflare Workera i Docker servisa koji rade zajedno."
+  ],
+  "stack": [
+    "TypeScript",
+    "Hono",
+    "Cloudflare Workers",
+    "Cloudflare R2",
+    "Docker",
+    "Coolify",
+    "FFmpeg"
+  ],
+  "urls": {
+    "live": [
+      "https://cutter.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-cutter",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Solidna infrastruktura s dobrim brojkama, ali nevidljiva krajnjem korisniku.",
+  "related": [
+    "domovinatv-fetch-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-cutter.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 54
+}

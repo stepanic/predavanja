@@ -1,0 +1,88 @@
+{
+  "id": "pinka-finance-landing",
+  "title": "Pinka Finance landing",
+  "one_liner": "Dvojezična landing stranica s listom čekanja za Pinku, platformu za crowdfunding na lancu.",
+  "description": "Landing stranica za Pinku koja predstavlja donacije, crowdfunding i ulaznice na infrastrukturi s eurom na lancu. Ima posebne dijelove za nogomet i podcaste te obrazac za listu čekanja.",
+  "category": "landing",
+  "context": "Pinka",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "landing",
+    "crowdfunding",
+    "next.js",
+    "i18n",
+    "cloudflare"
+  ],
+  "aliases": [
+    "pinka",
+    "pinke",
+    "pinki",
+    "pinku",
+    "pinka finance",
+    "pinka.finance",
+    "pinka fajnens",
+    "pinka landing",
+    "pinka io"
+  ],
+  "facts": [
+    "Hrvatski i engleski, s prekidačem jezika i SEO metapodacima po jeziku.",
+    "Lista čekanja sprema se u Cloudflare D1, a potvrda ide e-mailom preko Resenda.",
+    "Statički Next.js export na Cloudflare Pagesu, API na Workeru.",
+    "Posebne sekcije za nogometni i podcast segment."
+  ],
+  "talk_hooks": [
+    "Kad se pivot promijenio s podcasta na opći crowdfunding, cijela dvojezična stranica prepisana je u jednom sessionu."
+  ],
+  "stack": [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Cloudflare Pages",
+    "Cloudflare D1",
+    "Resend"
+  ],
+  "urls": {
+    "live": [
+      "https://pinka-finance-landing.d-o-m.workers.dev"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/pinka-finance/landing",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Uredna landing stranica, ali bez posebne priče.",
+  "related": [
+    "repo-pinka-finance-mcp-automation",
+    "novcanik-prototipovi",
+    "ss-ff-landing"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/pinka-finance-landing.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://pinka-finance-landing.d-o-m.workers.dev"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/pinka-finance-landing.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://pinka-finance-landing.d-o-m.workers.dev"
+    }
+  ],
+  "embed": {
+    "url": "https://pinka-finance-landing.d-o-m.workers.dev",
+    "frameable": false,
+    "mode": "page",
+    "page_height": 14811,
+    "checked": "2026-10-19"
+  },
+  "rank": 46
+}

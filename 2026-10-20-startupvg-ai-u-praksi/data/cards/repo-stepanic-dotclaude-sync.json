@@ -1,0 +1,61 @@
+{
+  "id": "repo-stepanic-dotclaude-sync",
+  "title": "dotclaude-sync",
+  "one_liner": "Dnevni backup Claude Code konfiguracije i razgovora u git i privatnu pohranu.",
+  "description": "Skripte koje svaki dan zrcale ~/.claude u lokalni git repozitorij i šalju ga na privatnu udaljenu pohranu preko rclonea. Repozitorij sadrži samo skripte, uz jasno upozorenje da su transkripti osjetljivi.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "claude code",
+    "backup",
+    "rclone",
+    "launchd"
+  ],
+  "aliases": [
+    "dotclaude sync",
+    "dot claude",
+    "dotclaude",
+    "klaud sync",
+    "backup claudea",
+    "backup claude koda"
+  ],
+  "facts": [
+    "Svaki dan rsync, git commit i rclone sync, jednom tjedno git gc.",
+    "Pokreće ga macOS LaunchAgent u zadano vrijeme.",
+    "README počinje upozorenjem o privatnosti: transkripti mogu sadržavati tajne."
+  ],
+  "talk_hooks": [
+    "Svaki razgovor s Claudeom čuvam u gitu, pa je ovo predavanje moglo nastati iz stvarne povijesti svih projekata."
+  ],
+  "stack": [
+    "Bash",
+    "rsync",
+    "git",
+    "rclone",
+    "launchd"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/dotclaude-sync",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Mali alat, ali dobra poveznica s pričom o tome odakle dolaze podaci za predavanje.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-dotclaude-sync.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 98
+}

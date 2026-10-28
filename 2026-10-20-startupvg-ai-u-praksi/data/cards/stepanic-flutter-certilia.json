@@ -1,0 +1,68 @@
+{
+  "id": "stepanic-flutter-certilia",
+  "title": "flutter_certilia",
+  "one_liner": "Open-source Flutter SDK za prijavu e-osobnom iskaznicom preko Certilije.",
+  "description": "Biblioteka koja Flutter aplikacijama na iOS-u, Androidu i webu omogućuje prijavu hrvatskih korisnika e-osobnom, uz priloženi proxy server koji drži OAuth podatke. Kod star osam mjeseci Claude Code je analizirao, refaktorirao u verziju 0.2.0 i dokumentirao dijagramima.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "flutter",
+    "eosobna",
+    "certilia",
+    "nias",
+    "oauth",
+    "open source",
+    "sdk"
+  ],
+  "aliases": [
+    "certilia",
+    "certilija",
+    "certiliju",
+    "certilijom",
+    "flutter certilia",
+    "e-osobna",
+    "eosobna",
+    "e osobna",
+    "prijava e-osobnom",
+    "nias",
+    "sertilija"
+  ],
+  "facts": [
+    "Radi na iOS-u, Androidu i webu.",
+    "Refaktor na verziju 0.2.0 napravljen u jednoj večernjoj sesiji.",
+    "Otvoreni kod pod MIT licencom na GitHubu."
+  ],
+  "talk_hooks": [
+    "Prvi zahtjev Claudeu bio je \"objektivna analiza kvalitete koda\" koji sam napisao osam mjeseci ranije, a završilo je gotovim modulom za prijavu s Certilijom."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "Node.js",
+    "OAuth 2.0"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/flutter_certilia",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Javno, korisno hrvatskoj zajednici i dobra priča o refaktoru starog koda.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-flutter-certilia.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 16
+}

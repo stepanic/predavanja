@@ -1,0 +1,50 @@
+{
+  "id": "repo-stepanic-photobooth",
+  "title": "Photobooth (Dioxus)",
+  "one_liner": "Početni Rust projekt u Dioxusu za photobooth aplikaciju.",
+  "description": "Kostur web aplikacije u Rustu i Dioxusu s Tailwindom, iz ožujka 2025. Ostao je na početnom commitu.",
+  "category": "prototype",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "rust",
+    "dioxus",
+    "tailwind",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "photobooth",
+    "foto booth",
+    "fotobut",
+    "dioxus",
+    "rust photobooth"
+  ],
+  "facts": [
+    "Jedan commit, 7. ožujka 2025.",
+    "Rust, Dioxus i Tailwind CSS s Flowbite komponentama."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Rust",
+    "Dioxus",
+    "Tailwind CSS"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Samo početni kostur projekta; koristan tek kao kontrast prije AI-ja.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-photobooth.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 89
+}

@@ -1,0 +1,59 @@
+{
+  "id": "repo-stepanic-flutter-certilia-docs",
+  "title": "Flutter Certilia dokumentacija",
+  "one_liner": "Početni kostur dokumentacijske stranice za Flutter Certilia paket.",
+  "description": "Statička dokumentacijska stranica na Fumadocsu i Next.js-u, s pretraživanjem preko Orama Clouda. Sadržaj je ostao na početnim primjerima.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "dokumentacija",
+    "next.js",
+    "fumadocs",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "certilia",
+    "certilija",
+    "flutter certilia",
+    "certilia docs",
+    "certilia dokumentacija",
+    "fumadocs"
+  ],
+  "facts": [
+    "4 commita (2025-10-16).",
+    "Pretraživanje preko Orama Clouda, statički hosting."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Next.js",
+    "Fumadocs",
+    "Orama Cloud",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/flutter-certilia-docs",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Nedovršen kostur bez sadržaja.",
+  "related": [
+    "stepanic-flutter-certilia"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-flutter-certilia-docs.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 95
+}

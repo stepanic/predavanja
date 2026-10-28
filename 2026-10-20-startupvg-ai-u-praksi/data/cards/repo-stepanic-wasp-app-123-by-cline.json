@@ -1,0 +1,56 @@
+{
+  "id": "repo-stepanic-wasp-app-123-by-cline",
+  "title": "Wasp aplikacija (Cline)",
+  "one_liner": "Prazna Wasp aplikacija koju je u veljači 2025. inicijalizirao AI agent Cline.",
+  "description": "Jedan commit s osnovnom Wasp aplikacijom koju je postavio Cline, AI agent za programiranje u VS Codeu. Rani eksperiment s agentskim programiranjem prije prelaska na Claude Code.",
+  "category": "prototype",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "wasp",
+    "cline",
+    "ai agent",
+    "eksperiment",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "wasp",
+    "vasp",
+    "cline",
+    "klajn",
+    "wasp app",
+    "wasp aplikacija",
+    "cline agent"
+  ],
+  "facts": [
+    "Jedan commit (2025-02-19): 'Init wasp by Cline'."
+  ],
+  "talk_hooks": [
+    "Prvi pokušaj s AI agentom u veljači 2025. završio je na jednom commitu – usporedite s onim što je nastalo godinu kasnije."
+  ],
+  "stack": [
+    "Wasp",
+    "React",
+    "Prisma"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Zanimljiv samo kao početna točka na vremenskoj crti AI alata.",
+  "related": [
+    "repo-stepanic-mcp-server-wasp"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-wasp-app-123-by-cline.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 99
+}

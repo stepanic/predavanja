@@ -1,0 +1,90 @@
+{
+  "id": "domovinatv-domovina-fiskal",
+  "title": "Domovina Fiskal",
+  "one_liner": "Open-source servis za izdavanje fiskaliziranih računa i eRačuna u Hrvatskoj.",
+  "description": "Multi-tenant backend kojem se pošalje račun u JSON-u, a on ga zapiše, fiskalizira kod Porezne uprave, generira PDF s QR kodom i pošalje e-mailom. Podržava i slanje eRačuna preko posrednika. Zamišljen je kao open-source alternativa zatvorenim servisima za fiskalizaciju, s nadzornom pločom za korisnike. Od listopada pokriva i produkcijsku fiskalizaciju za webshopove, uz storno i alarme.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "fiskalizacija",
+    "eračun",
+    "cloudflare workers",
+    "hono",
+    "d1",
+    "open source",
+    "porezna"
+  ],
+  "aliases": [
+    "domovina fiskal",
+    "fiskal",
+    "fiskala",
+    "fiskalizacija",
+    "fiskalizaciju",
+    "fiskalizacije",
+    "fiskal domovina",
+    "fiskal.domovina.ai",
+    "fiskal app",
+    "eračun",
+    "e račun",
+    "e-račun",
+    "računi",
+    "domovina fiskal — eračun"
+  ],
+  "facts": [
+    "Od praznog repozitorija do prvog fiskaliziranog računa u jednom danu (2026-07-04).",
+    "Faza 4 (produkcijska fiskalizacija za webshopove) puštena je 1. 10. 2026. na test i produkciju: idempotentno izdavanje računa, storno, praćenje isteka certifikata Porezne uprave, alarmi i endpoint zdravlja.",
+    "Prvi put ima automatske testove: 49 testova prolazi, uz lokalnu bazu s migracijama i lažni CIS.",
+    "ZKI/JIR, XML potpis i komunikacija s CIS-om Porezne uprave; podržani FINA i AKD/Certilia certifikati.",
+    "Cijeli ciklus eRačuna u testnom okruženju traje oko 2 sekunde.",
+    "Istraživanje fiskalizacije zapisano je u 18 numeriranih dokumenata znanja kao jedinstveni izvor istine.",
+    "Nadzorna ploča s prijavom e-mailom ili Googleom za više tvrtki.",
+    "Neovisni pregled backenda (2. 10.) našao je 24 nalaza i plan refactora u 9 koraka od oko 10 sati; ovisno o modelu, kôd je pisalo više različitih Claude modela, a pregled nije mijenjao kôd."
+  ],
+  "talk_hooks": [
+    "Fiskalizacija je hrvatska noćna mora; Claude je prvo napisao pravnu i tehničku bazu znanja, a onda u danima napravio ono za što se obično plaća pretplata.",
+    "Jedan model je napisao većinu backenda, drugi dodao produkcijsku fazu i testove, a treći je poslije napravio neovisni pregled s 24 nalaza."
+  ],
+  "stack": [
+    "TypeScript",
+    "Cloudflare Workers",
+    "Hono",
+    "Cloudflare D1",
+    "Next.js",
+    "Cloudflare Pages",
+    "Resend"
+  ],
+  "urls": {
+    "live": [
+      "https://fiskal-app.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-fiskal",
+        "visibility": "public"
+      },
+      {
+        "url": "https://github.com/domovinatv/domovina-fiskal-app",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Konkretan, lokalno relevantan problem riješen brzo i open-source; manje vizualno.",
+  "related": [
+    "domovinatv-domovina-api",
+    "domovinatv-pay-domovina-ai",
+    "stepanic-fira-forms-connector"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-fiskal.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "user"
+    }
+  ],
+  "rank": 12
+}

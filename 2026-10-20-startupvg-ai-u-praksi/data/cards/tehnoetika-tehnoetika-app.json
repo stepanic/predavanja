@@ -1,0 +1,79 @@
+{
+  "id": "tehnoetika-tehnoetika-app",
+  "title": "Tehnoetika platforma",
+  "one_liner": "Open-source alternativa Substacku na Cloudflareu, s više publikacija na jednoj instalaciji.",
+  "description": "Platforma za pisanje i objavljivanje s editorom, pretplatom na e-mail, RSS-om i videom. Svaka publikacija dobiva vlastitu poddomenu. Na njoj rade demo publikacija i institucionalna stranica Savjeta za tehnoetiku.",
+  "category": "web-app",
+  "context": "Tehnoetika",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "substack alternativa",
+    "multitenant",
+    "cloudflare workers",
+    "otvoreni kod",
+    "publishing"
+  ],
+  "aliases": [
+    "tehnoetika",
+    "tehnoetike",
+    "tehnoetiku",
+    "tehnoetici",
+    "tehno etika",
+    "tehnoetika.com",
+    "substack alternativa",
+    "alternativa substacku",
+    "tehnoetika app"
+  ],
+  "facts": [
+    "Demo publikacija ima 486 postova i 408 naslovnih slika uvezenih sa Substacka.",
+    "Poddomena po publikaciji (*.tehnoetika.com) i Domovina SSO prijava.",
+    "Editor s nacrtima, uploadom slika i videa, fusnotama i tablicama.",
+    "Radi na Cloudflare Workersima, D1 i R2; R2 ne naplaćuje promet."
+  ],
+  "talk_hooks": [
+    "Umjesto da čekamo da netko napravi hrvatski Substack, napravili smo open-source verziju koja radi na besplatnom sloju Cloudflarea."
+  ],
+  "stack": [
+    "TypeScript",
+    "Hono",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Cloudflare R2",
+    "Cloudflare KV",
+    "Supabase",
+    "Resend"
+  ],
+  "urls": {
+    "live": [
+      "https://tehnoetika.com",
+      "https://tehnoetika.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/tehnoetika/tehnoetika-app",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živ, javan kod i jasna priča (vlastiti Substack), ali sadržaj na platformi je osjetljiv.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/tehnoetika-tehnoetika-app.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://tehnoetika.com"
+    }
+  ],
+  "embed": {
+    "url": "https://tehnoetika.com",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 18
+}

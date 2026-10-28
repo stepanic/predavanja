@@ -1,0 +1,68 @@
+{
+  "id": "italk-javna-nabava",
+  "title": "Radar javne nabave",
+  "one_liner": "Svaki dan povlači natječaje iz javne nabave, a AI ocjenjuje koji su prilika za softversku tvrtku.",
+  "description": "Alat automatski skuplja nove objave iz Elektroničkog oglasnika javne nabave i daje ih Claudeu da ocijeni koliko odgovaraju softverskom razvoju. Najbolje prilike same odlaze u prodajni CRM.",
+  "category": "automation",
+  "context": "ITalk",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "javna nabava",
+    "eojn",
+    "klasifikacija",
+    "claude cli",
+    "launchd"
+  ],
+  "aliases": [
+    "javna nabava",
+    "javne nabave",
+    "javnu nabavu",
+    "eojn",
+    "e-oglasnik",
+    "natječaji",
+    "natječaja",
+    "radar natječaja",
+    "italk",
+    "aj tok"
+  ],
+  "facts": [
+    "U EOJN-u je oko 145.000 objava, od toga oko 34.000 poziva na nadmetanje.",
+    "Claude ocjenjuje svaki natječaj od 0 do 100, a preporuka kreće od 60.",
+    "Radi svaki dan preko launchd-a na lokalnom računalu.",
+    "Nema nijedne runtime ovisnosti: 21 datoteka i 1.437 linija koda.",
+    "Ocjena odvaja posao od onoga što nije posao: početkom listopada najamna oprema i preprodaja licenci dobili su 8 do 22 boda, a razvoj informacijskog sustava za izvještavanje o tržištu nekretnina 88 od 100.",
+    "Svaki novi natječaj u noćnom prolazu otvara zasebnu Claude sesiju; samo između 1. i 9. 10. 2026. pregledana je desetak objava, a kôd se od kolovoza nije mijenjao.",
+    "Noćni prolaz zakazan je u 00:45 i čeka da se pretplata Claudea ne troši u prozoru u kojem govornik sam radi."
+  ],
+  "talk_hooks": [
+    "Umjesto da netko čita oglasnik, Claude svako jutro pročita nove natječaje i javi samo one vrijedne pažnje."
+  ],
+  "stack": [
+    "Node.js",
+    "Claude CLI",
+    "launchd"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/italkco/javna-nabava",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Praktična AI automatizacija koju publika lako razumije, ali bez vizuala.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/italk-javna-nabava.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 32
+}

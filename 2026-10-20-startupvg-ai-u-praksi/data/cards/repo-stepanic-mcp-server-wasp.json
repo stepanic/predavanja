@@ -1,0 +1,57 @@
+{
+  "id": "repo-stepanic-mcp-server-wasp",
+  "title": "MCP server za Wasp",
+  "one_liner": "MCP server koji AI asistentu daje alate za stvaranje i pokretanje Wasp aplikacija.",
+  "description": "Rani eksperiment s Model Context Protocolom: AI asistent preko alata stvara Wasp projekt, pokreće razvojni server i bazu, radi migracije i build.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "mcp",
+    "wasp",
+    "ai alati",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "mcp server",
+    "em si pi",
+    "mcp wasp",
+    "wasp",
+    "vosp",
+    "wasp server",
+    "model context protocol"
+  ],
+  "facts": [
+    "Nastao 2025-02-19 u 2 commita.",
+    "Commit poruka kaže da je prvu verziju napisao AI agent Cline.",
+    "Alati: create_project, create_ai_project, start_dev, start_db, db_migrate_dev, build."
+  ],
+  "talk_hooks": [
+    "Već u veljači 2025. AI agent je pisao alate za druge AI agente."
+  ],
+  "stack": [
+    "TypeScript",
+    "Node.js",
+    "MCP"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Dobar povijesni kontrast, ali je samo mali eksperiment.",
+  "related": [
+    "repo-stepanic-automated-yt-shorts"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-mcp-server-wasp.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 96
+}

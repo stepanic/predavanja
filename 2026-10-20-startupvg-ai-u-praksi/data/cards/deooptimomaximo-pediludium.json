@@ -1,0 +1,93 @@
+{
+  "id": "deooptimomaximo-pediludium",
+  "title": "Lopta je okrugla — prognoze za SP 2026",
+  "one_liner": "Živa web aplikacija s prognozama i statistikom za Svjetsko prvenstvo 2026.",
+  "description": "Statistički modeli predviđaju ishod svake utakmice Svjetskog prvenstva, a Monte Carlo simulacija računa šanse svake reprezentacije za naslov. Rezultati su se ažurirali uživo tijekom turnira, s ljestvicom točnosti i kosturom nokaut faze.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "nogomet",
+    "svjetsko prvenstvo",
+    "prognoze",
+    "statistika",
+    "monte carlo",
+    "realtime"
+  ],
+  "aliases": [
+    "lopta je okrugla",
+    "nogomet.domovina.ai",
+    "nogomet domovina",
+    "pediludium",
+    "pedi ludium",
+    "svjetsko prvenstvo",
+    "svjetskog prvenstva",
+    "sp 2026",
+    "mundijal",
+    "prognoze",
+    "prognoza utakmica",
+    "world cup"
+  ],
+  "facts": [
+    "Svih 104 utakmice SP-a 2026 objavljeno s prognozama i ishodima.",
+    "Dixon-Coles model treniran na 4.579 povijesnih utakmica 226 reprezentacija; povijest od 10 godina (5.780 utakmica).",
+    "Monte Carlo: 20.000 simulacija cijelog turnira u 1,28 sekundi.",
+    "Kad su izvori podataka blokirali server, podaci su se povlačili preko iPhonea na mobilnoj mreži.",
+    "Usporedba s kladioničarskim i prediction-market kvotama: backtest je pokazao gubitak (ROI −9,3 %) pa ostaje kao analiza."
+  ],
+  "talk_hooks": [
+    "Model je javno objavljivao koliko je točan. Kad kvote nisu donosile zaradu, rezultat backtesta je objavljen bez uljepšavanja.",
+    "Kad me izvor podataka blokirao, AI i ja napravili smo proxy od vlastitog iPhonea."
+  ],
+  "stack": [
+    "TypeScript",
+    "Next.js",
+    "Cloudflare Workers",
+    "KV",
+    "R2",
+    "Supabase",
+    "PostgreSQL",
+    "Playwright"
+  ],
+  "urls": {
+    "live": [
+      "https://nogomet.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/DeoOptimoMaximo/Pediludium",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Živ, vizualan, svi razumiju nogomet, a priča ima sve: modele, simulacije, blokade i iskren rezultat.",
+  "related": [
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/deooptimomaximo-pediludium.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://nogomet.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/deooptimomaximo-pediludium.full.jpg",
+      "width": 2880,
+      "height": 2390,
+      "url": "https://nogomet.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://nogomet.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 1195,
+    "checked": "2026-09-25"
+  },
+  "rank": 14
+}

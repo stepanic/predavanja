@@ -1,0 +1,79 @@
+{
+  "id": "domovinatv-oou-domovina-ai",
+  "title": "Katalog škola i vrtića",
+  "one_liner": "Geolocirani katalog svih odgojno-obrazovnih ustanova u Hrvatskoj na GIS karti.",
+  "description": "Python pipeline koji iz javnih izvora (OpenStreetMap, ministarstvo, skole.hr) slaže katalog vrtića, škola i učeničkih domova te ih precizno geolocira. Rezultat su tri nova sloja na Karti Hrvatske.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "otvoreni podaci",
+    "gis",
+    "škole",
+    "geokodiranje",
+    "python"
+  ],
+  "aliases": [
+    "oou",
+    "o o u",
+    "oou domovina",
+    "oou.domovina.ai",
+    "škole",
+    "vrtići",
+    "katalog škola",
+    "karta škola",
+    "odgojno obrazovne ustanove",
+    "ustanove"
+  ],
+  "facts": [
+    "2241 ustanova: 899 osnovnih, 390 srednjih škola i 681 vrtić.",
+    "99,5 % ustanova ima koordinate, 94,4 % na razini kućnog broja.",
+    "Pipeline od 4534 linije koda s 33 testa, bez ijednog API ključa.",
+    "Tri nova sloja na gis.domovina.ai: Škole, Vrtići, Ustanove."
+  ],
+  "talk_hooks": [
+    "Cijeli katalog nastao je u dva dana iz javnih izvora, a vizualna provjera slojeva na karti odmah je otkrila greške u izvozu."
+  ],
+  "stack": [
+    "Python",
+    "SQLite",
+    "GeoJSON",
+    "MapLibre",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://gis.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/oou.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Vizualno na karti, bezopasna tema, jasne brojke i brza izrada.",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "domovinatv-map-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-oou-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://gis.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://gis.domovina.ai",
+    "frameable": true,
+    "mode": "app",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 43
+}

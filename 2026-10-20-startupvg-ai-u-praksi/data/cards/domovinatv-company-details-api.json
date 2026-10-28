@@ -1,0 +1,75 @@
+{
+  "id": "domovinatv-company-details-api",
+  "title": "Firme – veličina i status tvrtki",
+  "one_liner": "API koji po OIB-u razvrstava hrvatske tvrtke na mikro, male, srednje i velike.",
+  "description": "Servis na firme.domovina.ai koji za popis OIB-a iz javnih izvora dohvaća podatke o tvrtkama i razvrstava ih po veličini prema Zakonu o računovodstvu te bilježi pravni status. Teška obrada radi lokalno, a Cloudflare Worker samo poslužuje rezultate kroz API.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "api",
+    "oib",
+    "otvoreni podaci",
+    "cloudflare workers",
+    "hono",
+    "d1",
+    "fina"
+  ],
+  "aliases": [
+    "firme",
+    "firmi",
+    "firma",
+    "firme domovina",
+    "firme.domovina.ai",
+    "company details",
+    "kompani details",
+    "veličina tvrtke",
+    "oib api",
+    "razvrstavanje tvrtki"
+  ],
+  "facts": [
+    "Indeks od 318.900 subjekata izgrađen iz javnih sitemapova.",
+    "Batch upit do 1000 OIB-a odjednom.",
+    "U prvom prolazu obrađeno 413 pravnih osoba; 206 službeno razvrstano po veličini.",
+    "Napravljeno u dva dana (2026-06-15 i 16)."
+  ],
+  "talk_hooks": [
+    "Claude je prvo isprobao skupe scrapere, a onda pronašao besplatan službeni izvor koji je riješio većinu posla."
+  ],
+  "stack": [
+    "TypeScript",
+    "Node.js",
+    "Cloudflare Workers",
+    "Hono",
+    "Cloudflare D1",
+    "Firecrawl"
+  ],
+  "urls": {
+    "live": [
+      "https://firme.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/company-details-api",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Koristan servis, ali API bez vizualnog dojma.",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "domovinatv-ppk-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-company-details-api.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 56
+}

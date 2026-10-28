@@ -1,0 +1,58 @@
+{
+  "id": "stepanic-citizen-go-feed",
+  "title": "Arhiva kampanja jedne udruge",
+  "one_liner": "Lokalna arhiva i analiza email kampanja i javnih izvještaja jedne međunarodne građanske inicijative.",
+  "description": "Iz vlastitog inboxa i s javnih stranica prikupljeni su emailovi kampanja, stranice peticija, baza pomoći i financijski izvještaji, a zatim analizirano kako su kampanje složene i jesu li tvrdnje u jednoj od njih točne.",
+  "category": "research",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "internal",
+  "tags": [
+    "istraživanje",
+    "provjera činjenica",
+    "scraping",
+    "firecrawl",
+    "gmail mcp",
+    "arhiva"
+  ],
+  "aliases": [
+    "citizengo",
+    "citizen go",
+    "sitizen go",
+    "citizen go feed",
+    "peticije",
+    "arhiva kampanja",
+    "provjera tvrdnji",
+    "fact checking"
+  ],
+  "facts": [
+    "Indeksirano 132 email niza od 2018. do 2026.",
+    "Preuzeto 117 stranica javne baze pomoći i 11 godišnjih financijskih izvještaja.",
+    "Provjera činjenica jedne kampanje napravljena u jednom danu."
+  ],
+  "talk_hooks": [
+    "Claude je kroz Gmail konektor i scraper u jednom danu složio arhivu i provjerio tvrdnje iz jedne kampanje."
+  ],
+  "stack": [
+    "Python",
+    "Firecrawl",
+    "Gmail MCP"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Zanimljiv primjer AI-ja za provjeru činjenica, ali tema je osjetljiva i nema vizualnog proizvoda.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-citizen-go-feed.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 82
+}

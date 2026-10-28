@@ -1,0 +1,43 @@
+{
+  "izvor": "Claude (Opus 5.5) nad Gemini transkriptom; vremena riječi iz Sonioxa, pljesak iz valnog oblika RØDE-a",
+  "markeri": [
+    {
+      "kind": "in",
+      "t": 815.3,
+      "primary": true,
+      "label": "Domagoj: „Evo, dobar dan i dobro nam došli…”",
+      "why": "Prva rečenica službenog početka. Odmah prije je „Ok, dobro” na kraju dogovora da se krene."
+    },
+    {
+      "kind": "in",
+      "t": 809.5,
+      "label": "„A hoćemo mi, Matija, možda onda krenuti…”",
+      "why": "S dogovorom o početku: opušteniji ulaz, 6 s ranije."
+    },
+    {
+      "kind": "in",
+      "t": 958.9,
+      "label": "Matija: „Hvala, Domagoju, na lijepom uvodu”",
+      "why": "Bez Domagojeva uvoda (2 min 24 s). Uvod se može dati kao zaseban isječak ili u opis."
+    },
+    {
+      "kind": "out",
+      "t": 8320.8,
+      "primary": true,
+      "label": "Pljesak nakon „Hvala vam puno”",
+      "why": "„Hvala vam puno” završava na 8314,4 s, pljesak traje do 8320,8 s, kad Domagoj počinje pozivati na kiflice. Rez s fade-outom od ~1,5 s."
+    },
+    {
+      "kind": "out",
+      "t": 8300.0,
+      "label": "„…i vidimo se neki drugi put”",
+      "why": "Kraći kraj: bez poziva na buduće meetupove i bez pljeska."
+    },
+    {
+      "kind": "out",
+      "t": 8327.2,
+      "label": "Domagoj: „…na kiflice i sokove”",
+      "why": "S Domagojevim pozivom; pljesak ispod govora."
+    }
+  ]
+}

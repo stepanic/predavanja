@@ -1,0 +1,89 @@
+{
+  "id": "domovinatv-mpt-landing",
+  "title": "MPT – Mint Pay Transfer",
+  "one_liner": "Landing stranica koja interaktivnom simulacijom objašnjava platni kanal bez naknada.",
+  "description": "Stranica mpt.hr vizualno objašnjava kako novac putuje od banke preko digitalnog eura do primatelja. Interaktivni dijagram toka i šest simulacija pokazuju svaki korak, a kalkulator uspoređuje uštedu s karticama i bankovnim prijenosima.",
+  "category": "landing",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "landing",
+    "plaćanja",
+    "simulacija",
+    "react flow",
+    "next.js",
+    "cloudflare workers",
+    "stablecoin"
+  ],
+  "aliases": [
+    "mpt",
+    "m p t",
+    "em pe te",
+    "mpt.hr",
+    "mint pay transfer",
+    "mint pej",
+    "mint pay",
+    "platni kanal",
+    "plaćanje bez naknade",
+    "nula posto naknade",
+    "kalkulator uštede"
+  ],
+  "facts": [
+    "Stroj stanja toka novca: 10 čvorova i 16 prijelaza, pokriven s 35 testova.",
+    "6 interaktivnih scenarija simulacije, u svima korisnik plaća 0,00 € naknade.",
+    "Kalkulator uspoređuje s karticama (1,5 % + 0,25 €) i SEPA prijenosom (0,25–0,45 €).",
+    "Stranica je izašla i dobila potpuni redizajn u jednom danu (2026-07-17)."
+  ],
+  "talk_hooks": [
+    "Umjesto slajdova s objašnjenjem, Claude je napravio živu simulaciju koju posjetitelj sam klikće korak po korak."
+  ],
+  "stack": [
+    "Next.js",
+    "React Flow",
+    "Mermaid",
+    "Tailwind",
+    "Vitest",
+    "Cloudflare Workers"
+  ],
+  "urls": {
+    "live": [
+      "https://mpt.hr"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/mpt-landing",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Interaktivna, vizualna stranica napravljena u danu; financijska tema traži kratko objašnjenje.",
+  "related": [
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-mpt-landing.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://mpt.hr"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-mpt-landing.full.jpg",
+      "width": 2880,
+      "height": 11862,
+      "url": "https://mpt.hr"
+    }
+  ],
+  "embed": {
+    "url": "https://mpt.hr",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 5931,
+    "checked": "2026-09-25"
+  },
+  "rank": 28
+}

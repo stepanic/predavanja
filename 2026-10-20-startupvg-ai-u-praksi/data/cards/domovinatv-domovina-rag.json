@@ -1,0 +1,102 @@
+{
+  "id": "domovinatv-domovina-rag",
+  "title": "DOMOVINA RAG i podcast pretraga",
+  "one_liner": "Semantička pretraga hrvatskih podcasta s MCP konektorom za Claude i 3D kartom tema.",
+  "description": "Samostalno hostan RAG sustav nad korpusom hrvatskih podcasta: semantička i tekstualna pretraga, stranice osoba s poveznicama na točan trenutak u epizodi i statistika korpusa. Preko MCP servera korpus se može pretraživati izravno iz Claudea, ChatGPT-a ili Cursora.",
+  "category": "ai-agent",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "rag",
+    "mcp",
+    "semantička pretraga",
+    "clickhouse",
+    "podcasti",
+    "umap"
+  ],
+  "aliases": [
+    "domovina rag",
+    "domovina reg",
+    "rag",
+    "mcp domovina",
+    "mcp.domovina.ai",
+    "stats.domovina.ai",
+    "domovina ai mcp",
+    "podcast pretraga",
+    "pretraga podcasta",
+    "karta tema",
+    "umap karta",
+    "domovina a i",
+    "pretraga transkripta",
+    "find in transcript"
+  ],
+  "facts": [
+    "Korpus: 3008 epizoda, 44 kanala, 2853 sata i 136.954 tekstualna isječka.",
+    "WebGL UMAP karta sa 136 tisuća točaka grupiranih u 57 glavnih i 240 podtema.",
+    "MCP server nudi alate poput search_podcasts i get_person, s OAuth 2.1 prijavom.",
+    "Stranice osoba: 2363 govornika i 39.796 spomena s poveznicama na trenutak u epizodi.",
+    "Tekstualna pretraga (Meilisearch) odgovara za manje od 5 ms.",
+    "Novi alat find_in_transcript traži u sirovom transkriptu: 1,42 milijuna segmenata iz 3366 epizoda, odgovor ~120 ms, točna sekunda."
+  ],
+  "talk_hooks": [
+    "Cijeli korpus podcasta spojio sam na Claude kao konektor, pa ga mogu pitati tko je o čemu govorio i dobiti link na točnu sekundu.",
+    "Karta tema nastala je tako da je Gemini imenovao klastere koje je izračunao algoritam."
+  ],
+  "stack": [
+    "Python",
+    "TypeScript",
+    "ClickHouse",
+    "PostgreSQL",
+    "Meilisearch",
+    "bge-m3",
+    "MCP",
+    "Coolify",
+    "Cloudflare"
+  ],
+  "urls": {
+    "live": [
+      "https://mcp.domovina.ai",
+      "https://stats.domovina.ai",
+      "https://stats.domovina.ai/map"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-rag",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Živ, vizualno upečatljiv (3D karta tema), izravno pokazuje MCP i RAG; jaka priča o AI-ju.",
+  "related": [
+    "domovinatv-fetch-domovina-tv",
+    "domovinatv-dataset-domovina-tv",
+    "domovinatv-domovina-stats",
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-rag.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://mcp.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-domovina-rag.full.jpg",
+      "width": 2880,
+      "height": 3840,
+      "url": "https://mcp.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://mcp.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 1920,
+    "checked": "2026-09-25"
+  },
+  "rank": 4
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ss-ff-landing",
+  "title": "FootballFans (ff.hr)",
+  "one_liner": "Landing stranica FootballFansa, novčanika za amaterske nogometne klubove, s pravim grbovima 763 kluba.",
+  "description": "Landing stranica za FootballFans, multitenant novčanik u kojem klub i navijači sami drže svoj novac (članarine, donacije, klupski fondovi, ulaznice). Gumb za nasumični klub otvara novčanik tog kluba na vlastitoj poddomeni, npr. lom.ff.hr.",
+  "category": "landing",
+  "context": "FootballFans",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "nogomet",
+    "landing",
+    "multitenant",
+    "cloudflare pages"
+  ],
+  "aliases": [
+    "footballfans",
+    "football fans",
+    "futbol fans",
+    "ff.hr",
+    "ff hr",
+    "ef ef",
+    "efef",
+    "football fansa",
+    "ff landing",
+    "ff landing stranica"
+  ],
+  "facts": [
+    "Pravi grbovi 763 kluba iz kataloga od 1.014, uz gumb za nasumični klub.",
+    "U Hrvatskoj je 1.452 kluba na popisu HNS-a i 111.210 igrača.",
+    "Čisti HTML i CSS bez build koraka, s hrvatskom i engleskom verzijom.",
+    "Kontakt obrazac sprema upite u Cloudflare KV i šalje e-mail preko Resenda."
+  ],
+  "talk_hooks": [
+    "Kliknite „nasumični klub” na ff.hr: svaki od 1.014 klubova odmah dobije svoj novčanik sa svojim grbom i bojama."
+  ],
+  "stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Cloudflare Pages",
+    "Cloudflare KV",
+    "Resend"
+  ],
+  "urls": {
+    "live": [
+      "https://ff.hr"
+    ],
+    "repos": []
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Vizualno efektno (stotine pravih grbova) i vezano uz nogomet, no dio sadržaja je fundraising.",
+  "related": [
+    "novcanik-prototipovi",
+    "pinka-finance-landing",
+    "repo-stepanic-croatia-amateur-sport",
+    "ss-hrvatski-amaterski-nogometni-klubovi",
+    "ss-ss-novcanik-prototip"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/ss-ff-landing.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://ff.hr"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/ss-ff-landing.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://ff.hr"
+    }
+  ],
+  "embed": {
+    "url": "https://ff.hr",
+    "frameable": false,
+    "mode": "page",
+    "page_height": 13033,
+    "checked": "2026-10-19"
+  },
+  "rank": 34
+}

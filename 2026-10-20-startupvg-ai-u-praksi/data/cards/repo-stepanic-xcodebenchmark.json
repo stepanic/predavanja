@@ -1,0 +1,53 @@
+{
+  "id": "repo-stepanic-xcodebenchmark",
+  "title": "XcodeBenchmark (doprinos)",
+  "one_liner": "Fork javnog benchmarka brzine Xcode kompilacije s dodanim rezultatom za Mac mini M4 Pro.",
+  "description": "XcodeBenchmark mjeri koliko brzo različiti Macovi kompiliraju veliki projekt. Matija je dodao rezultate za Mac mini M4 Pro.",
+  "category": "other",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "xcode",
+    "benchmark",
+    "mac",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "xcode benchmark",
+    "xcodebenchmark",
+    "x code benchmark",
+    "benchmark",
+    "mac mini m4"
+  ],
+  "facts": [
+    "Mac mini M4 Pro (12 jezgri, 24 GB) kompilirao je projekt za 103 sekunde.",
+    "2 vlastita commita u studenom 2024. u repozitoriju s 556 commitova."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Xcode"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/XcodeBenchmark",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Sitan doprinos tuđem projektu, bez veze s AI-jem.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-xcodebenchmark.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 83
+}

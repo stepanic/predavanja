@@ -1,0 +1,56 @@
+{
+  "id": "repo-stepanic-docx-to-latex",
+  "title": "DOCX u LaTeX",
+  "one_liner": "Node.js skripta koja Word dokument pretvara u LaTeX i BibTeX za znanstveni rad.",
+  "description": "Mali alat koji iz .docx datoteke izvuče naslov, poglavlja, tablice i literaturu te napravi .tex i .bib datoteke spremne za Overleaf. Napravljen u ožujku 2025. uz pomoć Claudea, prije Claude Codea.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "latex",
+    "word",
+    "node.js",
+    "akademski rad",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "docx to latex",
+    "docx u latex",
+    "word u latex",
+    "latex",
+    "lateks",
+    "overleaf",
+    "bibtex"
+  ],
+  "facts": [
+    "Jedan commit (2025-03-21).",
+    "Izlaz: .tex dokument i zasebna bibliografija u BibTeX-u.",
+    "README navodi da je alat nastao uz pomoć Claudea."
+  ],
+  "talk_hooks": [
+    "Ovako je izgledao rad s AI-jem u ožujku 2025.: jedna skripta iz chata, jedan commit."
+  ],
+  "stack": [
+    "Node.js",
+    "mammoth",
+    "cheerio"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali alat, zanimljiv samo kao rana točka na vremenskoj crti.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-docx-to-latex.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 93
+}

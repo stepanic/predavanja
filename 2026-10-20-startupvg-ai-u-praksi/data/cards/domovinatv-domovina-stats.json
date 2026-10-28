@@ -1,0 +1,92 @@
+{
+  "id": "domovinatv-domovina-stats",
+  "title": "Domovina Stats",
+  "one_liner": "Javna statistika i semantičke karte hrvatskih podcasta: tri tisuće epizoda i 2.698 govornika.",
+  "description": "Javna nadzorna ploča za korpus podcasta DOMOVINA.ai. Uz brojke i grafove nudi interaktivne karte na kojima su teme i ljudi raspoređeni po sličnosti, uz pretraživanje. Sve se osvježava automatski iz pipelinea za obradu podcasta.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "vizualizacija",
+    "embeddinzi",
+    "webgl",
+    "podcasti",
+    "semantička karta",
+    "otvoreni podaci"
+  ],
+  "aliases": [
+    "domovina stats",
+    "stats.domovina.ai",
+    "statistika",
+    "statistike",
+    "statistiku",
+    "semantička karta",
+    "semantičku kartu",
+    "karta ljudi",
+    "karta tema",
+    "domovina statistika",
+    "stats domovina"
+  ],
+  "facts": [
+    "3.157 epizoda, 143.574 isječaka, 2.989 sati, 48 kanala i 2.698 govornika.",
+    "Karta tema u WebGL2 prikazuje svih 143.574 isječaka kao točke.",
+    "Karta ljudi: 2.426 osoba u 45 imenovanih skupina.",
+    "Cijela aplikacija ima 11,5 kB JavaScripta (gzip).",
+    "Embeddinzi bge-m3, raspored UMAP, skupine HDBSCAN, a imena skupinama daje LLM."
+  ],
+  "talk_hooks": [
+    "Tri tisuće sati hrvatskih podcasta na jednoj karti: svaka točka je isječak razgovora, a slični razgovori su blizu jedan drugome."
+  ],
+  "stack": [
+    "TypeScript",
+    "Vite",
+    "WebGL2",
+    "Cloudflare Pages",
+    "ClickHouse",
+    "bge-m3",
+    "UMAP",
+    "HDBSCAN",
+    "Gemini"
+  ],
+  "urls": {
+    "live": [
+      "https://stats.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-stats",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Živo, javno i vizualno upečatljivo: interaktivna karta cijelog korpusa hrvatskih podcasta.",
+  "related": [
+    "domovinatv-domovina-wsrv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-stats.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://stats.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-domovina-stats.full.jpg",
+      "width": 2880,
+      "height": 4252,
+      "url": "https://stats.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://stats.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 2126,
+    "checked": "2026-09-25"
+  },
+  "rank": 33
+}

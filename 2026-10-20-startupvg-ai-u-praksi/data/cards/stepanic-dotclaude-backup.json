@@ -1,0 +1,61 @@
+{
+  "id": "stepanic-dotclaude-backup",
+  "title": "Backup Claude memorije",
+  "one_liner": "Svakodnevna verzionirana kopija Claude Code postavki, memorije i transkripata.",
+  "description": "Skripta koja svaku noć kopira ~/.claude direktorij, bilježi razlike u gitu i šalje ih u privatnu pohranu. Ako se računalo pokvari, sve memorije koje je Claude skupio mogu se vratiti na novom računalu.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "backup",
+    "claude code",
+    "launchd",
+    "rclone",
+    "git"
+  ],
+  "aliases": [
+    "dotclaude",
+    "dot claude",
+    "dot klod",
+    "claude backup",
+    "backup claudea",
+    "bekap",
+    ".claude backup",
+    "backup memorije"
+  ],
+  "facts": [
+    "Svaku noć u 03:30 pokreće ga LaunchAgent.",
+    "132 dnevna commita (stanje 2026-09-24).",
+    "rsync, git commit i rclone na Google Drive."
+  ],
+  "talk_hooks": [
+    "Najvrjedniji dio mog rada s Claudeom nije kod nego memorija koju je skupio o mojim projektima, pa se ona svaku noć sprema."
+  ],
+  "stack": [
+    "Bash",
+    "rsync",
+    "git",
+    "rclone",
+    "launchd"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Mali alat, ali dobra poanta o tome da je memorija AI-ja vrijedna imovina.",
+  "related": [
+    "stepanic-launchd-menubar"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-dotclaude-backup.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 78
+}

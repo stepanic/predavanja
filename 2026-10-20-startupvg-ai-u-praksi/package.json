@@ -1,0 +1,14 @@
+{
+  "name": "realtime-presentation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node tools/catalog/capture.mjs",
+    "stage": "node app/server.mjs",
+    "build": "python3 tools/deploy/build.py",
+    "deploy": "python3 tools/deploy/build.py && npx wrangler deploy"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}

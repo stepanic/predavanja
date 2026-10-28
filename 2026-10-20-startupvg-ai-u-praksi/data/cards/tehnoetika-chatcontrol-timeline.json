@@ -1,0 +1,85 @@
+{
+  "id": "tehnoetika-chatcontrol-timeline",
+  "title": "ChatControl vremenska crta",
+  "one_liner": "Vremenska crta EU regulative ChatControl od 2021. do 2026. prema hrvatskim medijima i službenim izvorima.",
+  "description": "Web stranica na kojoj su kronološki poredani svi važni događaji oko prijedloga EU uredbe o skeniranju privatnih poruka. Uključuje filtere po vrsti izvora, slike uz događaje i pregled glasanja hrvatskih eurozastupnika.",
+  "category": "web-app",
+  "context": "Tehnoetika",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "chatcontrol",
+    "eu",
+    "privatnost",
+    "vremenska crta",
+    "otvoreni izvori",
+    "firecrawl"
+  ],
+  "aliases": [
+    "chatcontrol",
+    "chat control",
+    "čet kontrol",
+    "chatcontrol.domovina.ai",
+    "vremenska crta",
+    "timeline",
+    "tajmlajn",
+    "uredba o skeniranju poruka",
+    "tehnoetika"
+  ],
+  "facts": [
+    "107 događaja od 2021. do 2026., od toga 37 iz hrvatskih medija.",
+    "105 od 107 događaja provjereno je automatski usporedbom s izvornim tekstom.",
+    "91 događaj ima sliku iz izvornog članka.",
+    "Nastalo je u dva sessiona sa samo 7 promptova."
+  ],
+  "talk_hooks": [
+    "Sedam poruka AI-ju i nastala je provjerena vremenska crta od 107 događaja s izvorima."
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "TypeScript",
+    "Tailwind",
+    "Python",
+    "Firecrawl",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://chatcontrol.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/tehnoetika/chatcontrol-timeline",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živo, vizualno, s javnim repom i odličnim omjerom truda i rezultata, ali je tema politički osjetljiva.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/tehnoetika-chatcontrol-timeline.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://chatcontrol.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/tehnoetika-chatcontrol-timeline.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://chatcontrol.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://chatcontrol.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 27047,
+    "checked": "2026-09-25"
+  },
+  "rank": 41
+}

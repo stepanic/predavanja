@@ -1,0 +1,61 @@
+{
+  "id": "domovinatv-domovina-ota",
+  "title": "Domovina OTA server",
+  "one_liner": "Vlastiti server za potpisana ažuriranja mobilne aplikacije Domovina novčanika.",
+  "description": "Vlastiti poslužitelj OTA ažuriranja za Expo aplikaciju: Cloudflare Worker poslužuje potpisane manifeste i datoteke, a skripte omogućuju objavu i vraćanje na prethodnu verziju.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "ota",
+    "expo",
+    "cloudflare workers",
+    "mobilna aplikacija",
+    "potpisivanje",
+    "novčanik"
+  ],
+  "aliases": [
+    "ota",
+    "o t a",
+    "ota server",
+    "domovina ota",
+    "ota.domovina.ai",
+    "over the air",
+    "ažuriranja aplikacije",
+    "update server"
+  ],
+  "facts": [
+    "13 automatskih testova, uključujući provjeru potpisa.",
+    "Objava i rollback po platformi jednom naredbom.",
+    "Cijeli sustav implementiran i provjeren od početka do kraja u jednom danu."
+  ],
+  "talk_hooks": [
+    "AI je u jednoj sesiji napisao vlastiti server za ažuriranja aplikacije, s kriptografskim potpisom i testovima."
+  ],
+  "stack": [
+    "TypeScript",
+    "Cloudflare Workers",
+    "Cloudflare R2",
+    "Cloudflare KV",
+    "Expo Updates",
+    "Vitest"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Tehnički zanimljivo, ali nevidljivo publici.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-ota.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 61
+}

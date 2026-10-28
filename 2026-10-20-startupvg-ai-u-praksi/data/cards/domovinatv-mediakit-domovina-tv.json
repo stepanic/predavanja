@@ -1,0 +1,67 @@
+{
+  "id": "domovinatv-mediakit-domovina-tv",
+  "title": "DOMOVINA mediakit i animirani logo",
+  "one_liner": "Brand materijali za DOMOVINA-u i animirani logo koji je iz koda renderiran u video.",
+  "description": "Repozitorij s izvornim brand materijalima. Najnoviji dodatak je šestosekundna animacija logotipa DOMOVINA AI, napisana kao HTML i GSAP animacija i renderirana u MP4 alatom HyperFrames.",
+  "category": "other",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "brand",
+    "video",
+    "animacija",
+    "hyperframes",
+    "gsap"
+  ],
+  "aliases": [
+    "mediakit",
+    "media kit",
+    "medija kit",
+    "mediakit.domovina.tv",
+    "animirani logo",
+    "logo animacija",
+    "hyperframes",
+    "hajper frejms",
+    "brand"
+  ],
+  "facts": [
+    "Animacija traje 6 sekundi, u 1920×1080 i 30 fps.",
+    "Render je trajao 7,8 sekundi, a video ima 1,7 MB.",
+    "Kontrast prolazi WCAG AA provjeru (24/24).",
+    "Logo se iscrtava vlastitom SVG draw-on animacijom, slovo po slovo."
+  ],
+  "talk_hooks": [
+    "Video bez video-editora: AI je napisao animaciju kao web stranicu i renderirao je u MP4."
+  ],
+  "stack": [
+    "HyperFrames",
+    "GSAP",
+    "JavaScript",
+    "FFmpeg"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/mediakit.domovina.tv",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Vizualno upečatljivo i kratko za pokazati, ali je projekt malen.",
+  "related": [
+    "domovinatv-domovina-storage"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-mediakit-domovina-tv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 53
+}

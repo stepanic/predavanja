@@ -1,0 +1,66 @@
+{
+  "id": "tehnoetika-lika-odlagaliste-timeline",
+  "title": "Lika: vremenska crta odlagališta otpada",
+  "one_liner": "Kronologija slučaja nezakonitog odlaganja opasnog otpada u Lici: 70 događaja na jednom mjestu.",
+  "description": "Web aplikacija koja slaže događaje iz slučaja odlagališta opasnog otpada kod Gospića na vremensku crtu. Događaji se filtriraju po mjestu i vrsti, a uz njih je panel s ključnim brojkama. Svaki događaj ima izvor, a dio je neovisno provjeren.",
+  "category": "research",
+  "context": "Tehnoetika",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "vremenska crta",
+    "okoliš",
+    "istraživanje",
+    "otvoreni podaci",
+    "react"
+  ],
+  "aliases": [
+    "lika",
+    "odlagalište",
+    "odlagališta",
+    "lika odlagalište",
+    "odlagalište u lici",
+    "opasni otpad",
+    "gospić otpad",
+    "vremenska crta",
+    "timeline",
+    "štikada"
+  ],
+  "facts": [
+    "70 događaja od 2021. do 2026., od toga 42 neovisno provjerena.",
+    "Oko 37.000 tona opasnog otpada, od čega je oko 33.000 tona zakopano.",
+    "PFAS u podzemnoj vodi na lokaciji: 200,5 ng/L.",
+    "Brojač dana otkako javnost zna za slučaj.",
+    "Napravljeno u jednom sessionu."
+  ],
+  "talk_hooks": [
+    "AI je od razbacanih novinskih članaka napravio provjerljivu kronologiju, i to uz izvor za svaki događaj."
+  ],
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Python",
+    "Firecrawl"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Snažna priča o AI-ju kao alatu za istraživačko novinarstvo, ali tema je osjetljiva.",
+  "related": [
+    "tehnoetika-tehnoetika-app"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/tehnoetika-lika-odlagaliste-timeline.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 58
+}

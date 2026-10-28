@@ -1,0 +1,66 @@
+{
+  "id": "repo-spremni-za-screenshot",
+  "title": "Za Screenshot",
+  "one_liner": "macOS aplikacija koja hvata HD screenshotove iz YouTube videa u zadanim trenucima.",
+  "description": "Flutter desktop aplikacija koja iz JSON popisa vremenskih oznaka automatski snima kadrove YouTube videa u rezoluciji do 1920x1080. Podržava serijsku obradu, pauzu i lokalno preuzimanje videa za brže premotavanje.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "macos",
+    "youtube",
+    "screenshotovi",
+    "yt-dlp"
+  ],
+  "aliases": [
+    "za screenshot",
+    "screenshot",
+    "skrinšot",
+    "skrinšotovi",
+    "screenshotovi",
+    "spremni",
+    "youtube screenshot",
+    "snimanje kadrova"
+  ],
+  "facts": [
+    "Screenshotovi do 1920x1080 iz YouTube videa.",
+    "Serijsko snimanje prema JSON manifestu.",
+    "Nastalo u dva dana u prosincu 2025., uz commitove označene kao generirane s Claude Codeom."
+  ],
+  "talk_hooks": [
+    "Rani alat iz prosinca 2025. koji rješava isti problem koji je kasnije postao dio Domovina pipelinea: screenshot za svaku sekciju epizode."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "macOS",
+    "yt-dlp",
+    "FFmpeg"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/spremni/za-screenshot",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Javni, jednostavan alat; zanimljiv kao preteča kasnijeg pipelinea.",
+  "related": [
+    "domovinatv-fetch-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-za-screenshot.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 84
+}

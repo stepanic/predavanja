@@ -1,0 +1,67 @@
+{
+  "id": "repo-stepanic-transkripcija-m4a-hrvatski",
+  "title": "Transkripcija hrvatskog audija",
+  "one_liner": "Pipeline za transkripciju i prepoznavanje govornika u hrvatskim audio snimkama.",
+  "description": "Alat za masovnu obradu m4a i wav datoteka: pretvorba FFmpegom, transkripcija lokalno s whisper.cpp ili na Colabu s NVIDIA Canary modelom te diarizacija s pyannote. Isti koraci kasnije se pojavljuju u Domovina pipelineu.",
+  "category": "data-pipeline",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "transkripcija",
+    "diarizacija",
+    "whisper",
+    "canary",
+    "pyannote",
+    "hrvatski jezik",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "transkripcija",
+    "transkripcije",
+    "transkripciju",
+    "transkripcija m4a",
+    "hrvatski audio",
+    "whisper",
+    "visper",
+    "canary",
+    "kanari",
+    "diarizacija"
+  ],
+  "facts": [
+    "13 commitova u jednom danu, 2026-03-12.",
+    "Dva pogona: whisper.cpp na Apple Siliconu i NVIDIA Canary na besplatnom Colab GPU-u.",
+    "Lokalni LLM iz naziva datoteke sastavlja kontekst za Whisper."
+  ],
+  "talk_hooks": [
+    "Početna točka: skripte iz ožujka 2026. (convert_to_wav, Whisper prompt, Canary) istog su imena i u današnjem Domovina pipelineu."
+  ],
+  "stack": [
+    "Node.js",
+    "Python",
+    "whisper.cpp",
+    "NVIDIA Canary",
+    "pyannote",
+    "Google Colab",
+    "FFmpeg"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Nije vizualno, ali je dobar početak priče o Domovina pipelineu.",
+  "related": [
+    "domovinatv-fetch-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-transkripcija-m4a-hrvatski.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 72
+}

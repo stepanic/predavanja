@@ -1,0 +1,57 @@
+{
+  "id": "repo-stepanic-croatia-amateur-sport",
+  "title": "Popis amaterskih nogometnih klubova",
+  "one_liner": "Skripta koja skuplja popis hrvatskih amaterskih nogometnih momčadi po ligama.",
+  "description": "TypeScript skripta prolazi kroz lige i sezone te sprema momčadi u JSON i CSV. Rađena je ručno, prije Claude Codea.",
+  "category": "data-pipeline",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "nogomet",
+    "scraping",
+    "typescript",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "amaterski sport",
+    "amaterski nogomet",
+    "amaterskih klubova",
+    "popis klubova",
+    "nogometni klubovi",
+    "croatia amateur sport",
+    "amaterske lige"
+  ],
+  "facts": [
+    "Oko 4.700 redaka momčadi u izlaznom CSV-u.",
+    "11 commita u jednom danu (2025-02-24)."
+  ],
+  "talk_hooks": [
+    "Veljača 2025., prije Claude Codea: dan rada za jednu tablicu. Danas isti posao traje nekoliko minuta."
+  ],
+  "stack": [
+    "TypeScript",
+    "Node.js",
+    "axios"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mala skripta; vrijedi samo kao kontrast prije i poslije.",
+  "related": [
+    "ss-ff-landing",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-croatia-amateur-sport.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 97
+}

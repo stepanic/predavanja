@@ -1,0 +1,64 @@
+{
+  "id": "lomnica-lomnica-50-godina-zupe",
+  "title": "50 godina župe — organizacija proslave",
+  "one_liner": "Aplikacija za organizaciju proslave 50. obljetnice župe: zadaci, plan prostora i odbrojavanje.",
+  "description": "Mobilna web aplikacija za odbor koji priprema proslavu. Ima Kanban zadatke po kategorijama, plan dvorišta po zonama, plan B za loše vrijeme i odbrojavanje do dana proslave. Nastala je u jednom danu.",
+  "category": "web-app",
+  "context": "lokalna zajednica",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "pwa",
+    "kanban",
+    "organizacija događaja",
+    "cloudflare workers",
+    "d1"
+  ],
+  "aliases": [
+    "lomnica",
+    "lomnici",
+    "donja lomnica",
+    "župa",
+    "župe",
+    "50 godina župe",
+    "sveta tri kralja",
+    "obljetnica župe",
+    "lomnica 50"
+  ],
+  "facts": [
+    "47 zadataka u 10 kategorija, s Kanbanom i povlačenjem mišem.",
+    "Plan župnog dvorišta ima legendu od 17 zona.",
+    "Od prve verzije do v0.13.0 u jednom sessionu i 17 promptova.",
+    "PWA se sama nudi za instalaciju na iOS-u i Androidu."
+  ],
+  "talk_hooks": [
+    "U jednom poslijepodnevu, s 17 poruka AI-ju, lokalni odbor dobio je aplikaciju za organizaciju proslave."
+  ],
+  "stack": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "PWA"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Odlična priča o tome kako AI pomaže lokalnoj zajednici u jednom danu, ali je tema osjetljiva.",
+  "related": [
+    "stepanic-hr-site-starter"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/lomnica-lomnica-50-godina-zupe.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "repo"
+    }
+  ],
+  "rank": 57
+}

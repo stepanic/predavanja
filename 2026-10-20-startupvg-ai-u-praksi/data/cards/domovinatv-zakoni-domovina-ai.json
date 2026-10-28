@@ -1,0 +1,87 @@
+{
+  "id": "domovinatv-zakoni-domovina-ai",
+  "title": "Zakoni (Narodne novine)",
+  "one_liner": "Otvoreni, pretraživi katalog svih propisa iz Narodnih novina od 1990. do danas.",
+  "description": "Automatski proces preuzima akte iz službenog dijela Narodnih novina, sprema ih u bazu s punotekstnim pretraživanjem i objavljuje kao brzu statičku stranicu. Cilj je otvorena baza svih zakona, uredbi i pravilnika s filtriranjem po vrsti akta i kasnije semantičkom pretragom.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "otvoreni podaci",
+    "narodne novine",
+    "zakoni",
+    "sqlite",
+    "fts5",
+    "python",
+    "scraping",
+    "cloudflare pages",
+    "react"
+  ],
+  "aliases": [
+    "zakoni",
+    "zakoni domovina",
+    "zakoni.domovina.ai",
+    "narodne novine",
+    "nn.hr",
+    "katalog zakona",
+    "baza zakona",
+    "zakona",
+    "zakonima",
+    "propisi",
+    "narodnih novina"
+  ],
+  "facts": [
+    "Katalog 97 561 propisa iz 5077 izdanja Narodnih novina (1990.–2026.), dobiven u samo 37 zahtjeva.",
+    "Puni tekst obrađen za 2024., 2025. i 2026.: 5917 akata, bez grešaka.",
+    "Jedna godina propisa preuzme se za oko 56 minuta uz pristojno ograničenje brzine.",
+    "Cijela stranica ima 69 KB (gzip)."
+  ],
+  "talk_hooks": [
+    "Za manje od jednog dana od ideje do žive stranice s tri godine zakona, a usput je Claude pronašao službeni katalog i API Narodnih novina pa sam cijeli arhiv popisao u 37 zahtjeva.",
+    "Svaka faza projekta napisana je kao prompt koji AI agent može sam izvesti."
+  ],
+  "stack": [
+    "Python",
+    "uv",
+    "SQLite FTS5",
+    "Vite",
+    "React",
+    "Tailwind",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://zakoni.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/zakoni.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Javno koristan, živ i lako razumljiv (svi znaju za Narodne novine), s impresivnim brojkama i pričom o brzini.",
+  "related": [
+    "domovinatv-domovina-rag",
+    "domovinatv-karta-hrvatske"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-zakoni-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://zakoni.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://zakoni.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 25
+}

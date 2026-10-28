@@ -1,0 +1,71 @@
+{
+  "id": "repo-podcasterium-podcasterium-landing",
+  "title": "Podcasterium landing",
+  "one_liner": "Statične stranice Roadmap i Features na podcasterium.com, odvojene od aplikacije.",
+  "description": "Dvije statične stranice izgrađene Astrom i posluživane iz zasebnog Cloudflare Workera, tako da pokvaren build stranica ne može srušiti aplikaciju. README precizno opisuje pravila rutiranja.",
+  "category": "landing",
+  "context": "Podcasterium",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "astro",
+    "cloudflare workers",
+    "landing",
+    "podcasti"
+  ],
+  "aliases": [
+    "podcasterium",
+    "podkasterium",
+    "podcasteriuma",
+    "podcasteriumu",
+    "podcasterium.com",
+    "podkasterijum",
+    "podcasterium landing",
+    "roadmap"
+  ],
+  "facts": [
+    "Dvije stranice, /roadmap i /features, na vlastitom Workeru.",
+    "Svaka stranica ima dva uzorka rute kako bi nepoznate putanje i dalje stizale do aplikacije."
+  ],
+  "talk_hooks": [
+    "Mala stvar, ali pokazuje kako AI piše dokumentaciju s izmjerenim ponašanjem, a ne samo kod."
+  ],
+  "stack": [
+    "Astro",
+    "Cloudflare Workers"
+  ],
+  "urls": {
+    "live": [
+      "https://podcasterium.com/roadmap",
+      "https://podcasterium.com/features"
+    ],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali landing bez vlastite priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-podcasterium-podcasterium-landing.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://podcasterium.com/roadmap"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/repo-podcasterium-podcasterium-landing.full.jpg",
+      "width": 2880,
+      "height": 2386,
+      "url": "https://podcasterium.com/roadmap"
+    }
+  ],
+  "embed": {
+    "url": "https://podcasterium.com/roadmap",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 1193,
+    "checked": "2026-09-25"
+  },
+  "rank": 94
+}

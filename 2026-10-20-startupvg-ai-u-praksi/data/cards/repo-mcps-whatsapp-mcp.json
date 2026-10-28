@@ -1,0 +1,67 @@
+{
+  "id": "repo-mcps-whatsapp-mcp",
+  "title": "WhatsApp MCP",
+  "one_liner": "Open-source MCP server koji Claudeu daje pristup vlastitom WhatsAppu, s govornikovim doradama.",
+  "description": "Tuđi open-source projekt koji povezuje osobni WhatsApp s AI asistentom: pretraga poruka i kontakata te slanje poruka i datoteka, a sve se čuva lokalno. Govornik ga je u rujnu 2026. dorađivao: citiranje poruka, opisi uz slike, pregled linkova, popis grupa i ispravno slanje PDF-ova.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "mcp",
+    "whatsapp",
+    "open source",
+    "fork",
+    "go",
+    "python"
+  ],
+  "aliases": [
+    "whatsapp mcp",
+    "whatsapp",
+    "wotsap",
+    "vocap",
+    "vacap",
+    "whatsappa",
+    "whatsappu",
+    "mcp server",
+    "em si pi",
+    "wa mcp"
+  ],
+  "facts": [
+    "Fork javnog projekta: 32 commita, od toga 5 govornikovih (rujan 2026.).",
+    "Poruke se spremaju lokalno u SQLite i do modela idu samo kad ih agent zatraži.",
+    "Dodano: citiranje, opisi uz medije, pregled linkova, popis grupa i PDF s pregledom prve stranice."
+  ],
+  "talk_hooks": [
+    "Moj AI asistent čita i šalje WhatsApp poruke, ali to nosi pravi rizik: prompt injection može izvući privatne podatke. Zato sve ostaje lokalno."
+  ],
+  "stack": [
+    "Go",
+    "whatsmeow",
+    "Python",
+    "SQLite",
+    "MCP"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/whatsapp-mcp",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Publika lako razumije 'AI čita moj WhatsApp', ali je tuđi projekt s malim doprinosom i nema Claude sesija.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-mcps-whatsapp-mcp.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "repo"
+    }
+  ],
+  "rank": 69
+}

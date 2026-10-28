@@ -1,0 +1,62 @@
+{
+  "id": "domovinatv",
+  "title": "Coolify u Domovina bojama",
+  "one_liner": "Brendiranje vlastitog Coolify panela preko Cloudflare Workera, bez forka izvornog koda.",
+  "description": "Sesije iz korijenske mape Domovina projekata. U prvoj je Cloudflare Worker 'presreo' sučelje samostalno hostanog Coolify panela i ubacio Domovina boje, logo i trobojnicu u zaglavlje, bez mijenjanja izvornog koda. U drugoj je nastala ideja za vlastiti lagani macOS preglednik, koji je zatim razvijen u zasebnom repozitoriju.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "internal",
+  "tags": [
+    "coolify",
+    "cloudflare workers",
+    "branding",
+    "css injection",
+    "self-hosting"
+  ],
+  "aliases": [
+    "coolify",
+    "kulifaj",
+    "coolify branding",
+    "domovina coolify",
+    "brendiranje coolifyja",
+    "cloudflare worker",
+    "domovinatv",
+    "domovina tv"
+  ],
+  "facts": [
+    "Sučelje tuđeg open-source alata prebrendirano bez forka, samo Workerom koji mijenja CSS i ikone.",
+    "Logo za Coolify generiran iz postojećeg Domovina media kita.",
+    "Iz iste mape pokrenuta je izrada vlastitog macOS preglednika s najviše 7 kartica."
+  ],
+  "talk_hooks": [
+    "Pitao sam treba li forkati Coolify da ga obojim u svoje boje, a Claude je predložio Worker koji to radi u letu, bez diranja koda."
+  ],
+  "stack": [
+    "Cloudflare Workers",
+    "Wrangler",
+    "CSS",
+    "Coolify"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Simpatičan trik, ali interni i nevidljiv publici; preglednik ima vlastitu karticu.",
+  "related": [
+    "domovinatv-domovina-browser",
+    "domovinatv-mediakit-domovina-tv",
+    "domovinatv-domovina-infra"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 70
+}

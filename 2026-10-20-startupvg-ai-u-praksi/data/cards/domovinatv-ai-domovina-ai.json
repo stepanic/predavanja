@@ -1,0 +1,63 @@
+{
+  "id": "domovinatv-ai-domovina-ai",
+  "title": "Domovina Čitaonica",
+  "one_liner": "Brzi web čitač koji podcast epizodu prikazuje kao magazin, carousel ili Instagram priče.",
+  "description": "Web aplikacija za publiku koja radije čita nego gleda: ista epizoda iz domovina.ai kataloga prikazuje se kroz screenshotove i tekst u tri formata. Čisti HTML i JavaScript bez build koraka, podaci dolaze izravno s CDN-a, a linkovi imaju pregled za dijeljenje.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "podcasti",
+    "čitanje",
+    "web app",
+    "carousel",
+    "stories",
+    "vanilla js"
+  ],
+  "aliases": [
+    "čitaonica",
+    "čitaonicu",
+    "čitaonici",
+    "citaonica",
+    "domovina čitaonica",
+    "ai.domovina.ai",
+    "reader",
+    "čitač epizoda",
+    "instagram priče",
+    "carousel epizode"
+  ],
+  "facts": [
+    "Tri formata prikaza iste epizode: magazin, carousel i priče.",
+    "Radi za bilo koju epizodu s CDN-a, parametrizirano po ID-u epizode.",
+    "Bez frameworka i build koraka: statički HTML i ES moduli.",
+    "Epizode bez videa dobivaju poseban prikaz \"Samo zvuk\"."
+  ],
+  "talk_hooks": [
+    "Zadatak je bio samo \"budi kreativan\", a u jednoj sesiji nastala su tri potpuno različita načina čitanja podcasta."
+  ],
+  "stack": [
+    "HTML",
+    "JavaScript",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Vizualno zanimljivo i lako za demo, ali prototip bez potvrđenog deploya.",
+  "related": [
+    "domovinatv-fetch-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-ai-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 74
+}

@@ -1,0 +1,61 @@
+{
+  "id": "repo-stepanic",
+  "title": "MyGLS Shopify aplikacija",
+  "one_liner": "Shopify aplikacija koja nakon narudžbe sama kreira GLS pošiljku i ažurira status dostave.",
+  "description": "Open-source integracija web trgovine na Shopifyju s hrvatskim GLS-om: nakon narudžbe automatski se kreira pošiljka i ispisuje naljepnica, a kad paket stigne, status narudžbe se sam ažurira. Podržava pouzeće i paketomate.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "shopify",
+    "gls",
+    "dostava",
+    "node.js",
+    "express",
+    "webhookovi",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "mygls",
+    "my gls",
+    "gls",
+    "gls shopify",
+    "shopify aplikacija",
+    "shopify app",
+    "dostava gls",
+    "pošiljke",
+    "naljepnice"
+  ],
+  "facts": [
+    "Jedan commit, 17. listopada 2025.: 24 datoteke i oko 14 700 linija.",
+    "Dvosmjerni webhookovi: Shopify → GLS pri narudžbi, GLS → Shopify pri dostavi.",
+    "Nema zabilježenih Claude Code sesija."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Node.js",
+    "Express",
+    "React",
+    "SQLite",
+    "Shopify API",
+    "MyGLS API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Nedovršena integracija u jednom commitu, bez priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 87
+}

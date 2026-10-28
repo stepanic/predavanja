@@ -1,0 +1,49 @@
+{
+  "id": "repo-stepanic-qr-code-reader",
+  "title": "QR code reader",
+  "one_liner": "Mala Flutter aplikacija za čitanje QR kodova.",
+  "description": "Kratki eksperiment iz veljače 2025.: Flutter aplikacija za skeniranje QR kodova, s dozvolama za kameru na iOS-u.",
+  "category": "prototype",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "qr",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "qr code reader",
+    "qr čitač",
+    "qr kod",
+    "ku er kod",
+    "qr reader",
+    "skener qr koda"
+  ],
+  "facts": [
+    "7 commitova u jednom danu (2025-02-20).",
+    "Jedan commit zove se 'Chnage by Sonet': izmjenu je napisao Claude Sonnet."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Flutter",
+    "Dart"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali eksperiment bez priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-qr-code-reader.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 91
+}

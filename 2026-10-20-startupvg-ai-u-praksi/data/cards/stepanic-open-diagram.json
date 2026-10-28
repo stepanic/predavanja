@@ -1,0 +1,79 @@
+{
+  "id": "stepanic-open-diagram",
+  "title": "Open Diagram",
+  "one_liner": "Offline crtač DBML shema baze podataka u jednom index.html, kompatibilan s dbdiagram.io.",
+  "description": "Shema baze se piše kao tekst (DBML, isti jezik kao dbdiagram.io), a Open Diagram je crta u pregledniku bez servera i bez mreže. Ima četiri automatska rasporeda, provjeru čestih grešaka u shemi i izvoz u Mermaid, Markdown i SQL. Dijagram se dijeli linkom ili ugrađuje u drugu stranicu jednim <script> tagom.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "dbml",
+    "baze podataka",
+    "dijagrami",
+    "svg",
+    "open source"
+  ],
+  "aliases": [
+    "open diagram",
+    "open dijagram",
+    "opendiagram",
+    "dbml",
+    "dbdiagram",
+    "dijagram baze",
+    "dijagrame baze",
+    "shema baze",
+    "er dijagram",
+    "stepanic.github.io/open-diagram"
+  ],
+  "facts": [
+    "Cijeli alat je jedan index.html koji radi i s file://, bez servera i bez mreže.",
+    "Čita današnji DBML (TablePartial, DiagramView, Dep), koji drawDB sa starim parserom 3.x ne razumije.",
+    "Četiri auto-layouta: Left-right, Pipeline, Snowflake i Compact.",
+    "Panel s problemima nalazi što parser ne javlja: tablice bez primarnog ključa, strane ključeve bez indeksa, nekorištene enume.",
+    "Izvoz u Mermaid erDiagram, Markdown dokumentaciju i SQL za PostgreSQL, MySQL, SQL Server i Oracle.",
+    "35 commitova u tri dana (17.–19. 10. 2026.), 81/81 smoke testova."
+  ],
+  "talk_hooks": [
+    "dbdiagram.io je zatvoren i samo online, otvoren mu je samo parser. Za vikend je oko tog parsera nastao cijeli offline alat s vlastitim SVG crtačem."
+  ],
+  "stack": [
+    "JavaScript",
+    "SVG",
+    "@dbml/core",
+    "ELK",
+    "esbuild",
+    "GitHub Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://stepanic.github.io/open-diagram/"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/open-diagram",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Vizualan, živ, otvoren kod, napravljen u tri dana; dobar primjer alata koji zamjenjuje zatvoreni SaaS.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-open-diagram.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://stepanic.github.io/open-diagram/"
+    }
+  ],
+  "rank": 36,
+  "embed": {
+    "url": "https://stepanic.github.io/open-diagram/",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-10-19"
+  }
+}

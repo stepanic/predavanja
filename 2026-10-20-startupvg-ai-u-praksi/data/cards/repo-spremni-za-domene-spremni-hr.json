@@ -1,0 +1,63 @@
+{
+  "id": "repo-spremni-za-domene-spremni-hr",
+  "title": "za.domene.spremni.hr",
+  "one_liner": "Servis za besplatne poddomene oblika za.{ime}.spremni.hr, s upravljanjem DNS-om.",
+  "description": "Full-stack aplikacija za registraciju besplatnih poddomena: prijava, organizacije i uređivanje DNS zapisa. Backend radi na Cloudflare Workersima, a frontend je u Flutter Webu.",
+  "category": "web-app",
+  "context": "Spremni",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "dns",
+    "poddomene",
+    "cloudflare workers",
+    "flutter web",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "spremni",
+    "spremni.hr",
+    "za domene",
+    "za.domene.spremni.hr",
+    "poddomene",
+    "besplatne poddomene",
+    "subdomena"
+  ],
+  "facts": [
+    "Cijeli projekt je u jednom commitu iz rujna 2025.",
+    "DNS radi u dva načina: vlastiti nameserveri ili izravno uređivanje zapisa (A, AAAA, CNAME, MX, TXT, NS, CAA).",
+    "Rate limiting preko Durable Objectsa, podrška za hrvatski i engleski."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Cloudflare Workers",
+    "Hono",
+    "D1",
+    "KV",
+    "Durable Objects",
+    "Flutter Web",
+    "Riverpod"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/spremni/za.domene.spremni.hr",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Zanimljiva ideja, ali bez poznatog live URL-a i bez priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-za-domene-spremni-hr.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 101
+}

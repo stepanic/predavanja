@@ -1,0 +1,86 @@
+{
+  "id": "domovinatv-pipeline-domovina-ai",
+  "title": "Pipeline za video u članak",
+  "one_liner": "Red obrade koji YouTube video pretvara u transkript, članak i slike, s API ključevima i kreditima.",
+  "description": "Servis na Cloudflareu u koji se ubaci YouTube link, a lokalni pipeline na Mac Miniju video skine, transkribira, prepozna govornike i AI-jem napiše članak s ilustracijama. Ima admin i korisničku ploču, API s kreditima, prioritetni red i izbor jezičnog modela po videu.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "youtube",
+    "transkripcija",
+    "llm",
+    "cloudflare workers",
+    "d1",
+    "r2",
+    "api",
+    "modal"
+  ],
+  "aliases": [
+    "pipeline",
+    "pajplajn",
+    "pipeline domovina",
+    "pipeline.domovina.ai",
+    "video u članak",
+    "video u tekst",
+    "obrada videa",
+    "red obrade",
+    "domovina pipeline",
+    "transkripcija videa"
+  ],
+  "facts": [
+    "Faze posla: u redu, preuzimanje, transkripcija, obrada, gotovo.",
+    "Prioritetni red košta 3 kredita umjesto 1 i koristi GPU na Modalu.",
+    "Članak iz videa od 68 minuta s Gemini Flashom procijenjeno stoji oko 0,48 $, s Claude Opusom oko 2,54 $ za 87 minuta.",
+    "Claude Opus postao je zadani model za članke jer je točnije pripisivao izjave govornicima.",
+    "Verzija v0.17.0 do 8. 10. 2026.",
+    "Ponovna obrada gotovog videa iz admina: izbor transkripcije (Speechmatics ili Canary), modela za članak i Magisteriuma.",
+    "Prioritetni poslovi koriste Speechmatics transkripciju, a samo za taj video."
+  ],
+  "talk_hooks": [
+    "Oblak drži samo red, a teški posao radi Mac Mini kod kuće – Claude je predložio pull model koji radi iza NAT-a bez ikakvog otvaranja portova.",
+    "Usporedba modela na istim videima pokazala je da jeftiniji model izmišlja tko je što rekao."
+  ],
+  "stack": [
+    "TypeScript",
+    "Cloudflare Workers",
+    "Hono",
+    "Cloudflare D1",
+    "Cloudflare R2",
+    "yt-dlp",
+    "ffmpeg",
+    "Modal",
+    "Claude",
+    "Gemini"
+  ],
+  "urls": {
+    "live": [
+      "https://pipeline.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/pipeline.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Pravi AI pipeline od videa do članka s mjerljivim troškovima i usporedbom modela.",
+  "related": [
+    "domovinatv-fetch-domovina-tv",
+    "domovinatv-domovina-ai",
+    "domovinatv-producer-domovina-tv",
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-pipeline-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "user"
+    }
+  ],
+  "rank": 23
+}

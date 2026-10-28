@@ -1,0 +1,84 @@
+{
+  "id": "ss-hrvatski-amaterski-nogometni-klubovi",
+  "title": "Klubovi — imenik hrvatskih nogometnih klubova",
+  "one_liner": "Karta i imenik 1.014 hrvatskih nogometnih klubova s grbovima i podacima iz službenih registara.",
+  "description": "Za svaki klub postoji stranica s grbom, lokacijom na karti, ligom i pravnim statusom. Podaci su skupljeni automatski i provjereni u službenim hrvatskim registrima. Uključuje ženske, futsal i omladinske klubove.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "nogomet",
+    "klubovi",
+    "otvoreni podaci",
+    "geokodiranje",
+    "scraping",
+    "karta"
+  ],
+  "aliases": [
+    "klubovi",
+    "klubova",
+    "klubovi.domovina.ai",
+    "klubovi domovina",
+    "nogometni klubovi",
+    "amaterski klubovi",
+    "imenik klubova",
+    "karta klubova",
+    "amaterski nogomet"
+  ],
+  "facts": [
+    "1.014 klubova, svaki s provjerenim koordinatama i grbom.",
+    "Generirano je 2.028 kvadratnih ikona (obična i maskable verzija za svaki klub).",
+    "Podaci obogaćeni iz Registra neprofitnih organizacija i Sudskog registra.",
+    "Automatski je otkriveno 154 kluba s pomiješanim podacima istoimenih klubova, pa su takvi podaci stavljeni u karantenu.",
+    "69 testova provjerava kvalitetu podataka."
+  ],
+  "talk_hooks": [
+    "Najteži dio nije bio web nego čišćenje podataka. AI je pomogao otkriti da se podaci dvaju istoimenih klubova miješaju."
+  ],
+  "stack": [
+    "Python",
+    "React",
+    "TypeScript",
+    "SQLite",
+    "Cloudflare Pages",
+    "Nominatim",
+    "Google Maps API",
+    "Firecrawl"
+  ],
+  "urls": {
+    "live": [
+      "https://klubovi.domovina.ai"
+    ],
+    "repos": []
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živ, lokalan i vizualan (karta, grbovi). Dobra priča o skupljanju otvorenih podataka uz AI.",
+  "related": [
+    "deooptimomaximo-pediludium"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/ss-hrvatski-amaterski-nogometni-klubovi.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://klubovi.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/ss-hrvatski-amaterski-nogometni-klubovi.full.jpg",
+      "width": 2880,
+      "height": 6796,
+      "url": "https://klubovi.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://klubovi.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 3398,
+    "checked": "2026-09-25"
+  },
+  "rank": 37
+}

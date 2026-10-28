@@ -1,0 +1,59 @@
+{
+  "id": "repo-stepanic-flutter-reusable-youtube-player",
+  "title": "Flutter YouTube player",
+  "one_liner": "Višekratno upotrebljiv YouTube player za Flutter, kompatibilan s FlutterFlowom.",
+  "description": "Flutter paket s YouTube playerom koji zamjenjuje FlutterFlowov prilagođeni player: bez beskonačnog učitavanja, s vlastitim kontrolama i povratnim pozivima za trajanje i trenutačno vrijeme.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "flutterflow",
+    "youtube",
+    "paket",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "youtube player",
+    "flutter youtube player",
+    "reusable youtube player",
+    "ju tjub plejer",
+    "flutterflow player"
+  ],
+  "facts": [
+    "Zamjena za FlutterFlowov YouTube player s istim API-jem.",
+    "Koristi vlastiti fork paketa youtube_player_flutter s CSS injekcijom za skrivanje kontrola.",
+    "13 commitova u studenom 2025."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "FlutterFlow"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/flutter_reusable_youtube_player",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Koristan paket, ali bez priče za širu publiku.",
+  "related": [
+    "repo-spremni-ultra-za-stablecoin-spremni-hr"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-flutter-reusable-youtube-player.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 67
+}

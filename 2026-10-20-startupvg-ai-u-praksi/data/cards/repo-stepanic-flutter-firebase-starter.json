@@ -1,0 +1,64 @@
+{
+  "id": "repo-stepanic-flutter-firebase-starter",
+  "title": "Flutter Firebase Starter",
+  "one_liner": "Skripte koje automatski postavljaju Flutter projekt s tri Firebase okruženja, infrastrukturom kao kodom i CI/CD-om.",
+  "description": "Alat za pokretanje novih Flutter projekata: automatski stvara dev, staging i prod Firebase okruženja, Terraform i Pulumi module te GitHub Actions workflowe s upravljanjem tajnama.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "firebase",
+    "pulumi",
+    "terraform",
+    "ci/cd",
+    "starter"
+  ],
+  "aliases": [
+    "flutter firebase starter",
+    "firebase starter",
+    "flater",
+    "flutter starter",
+    "starter",
+    "pulumi",
+    "firebase okruženja"
+  ],
+  "facts": [
+    "Tri Firebase okruženja (dev, staging, prod) stvorena automatski.",
+    "18 commitova u jednom danu (2025-10-16), većina označena kao generirana s Claude Codeom."
+  ],
+  "talk_hooks": [
+    "Infrastruktura kao kod napisana u jednom danu: AI je iterirao kroz greške Pulumi API-ja commit po commit."
+  ],
+  "stack": [
+    "Flutter",
+    "Firebase",
+    "Pulumi",
+    "Terraform",
+    "TypeScript",
+    "GitHub Actions"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/flutter-firebase-starter",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Javan i koristan alat, ali bez vizualnog efekta.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-flutter-firebase-starter.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 71
+}

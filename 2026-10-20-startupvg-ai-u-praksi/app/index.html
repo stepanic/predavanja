@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekti · Matija Stepanić</title>
+<meta name="description" content="Projekti napravljeni s Claude Codeom: web aplikacije, podatkovni pipelineovi, alati i prototipovi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #07080c;
+    --tile: #10131c;
+    --line: #22283a;
+    --ink: #f4f5f8;
+    --muted: #a3a8b8;
+    --dim: #6b7186;
+    --accent: #ff3b3b;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); color-scheme: dark; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+
+  header { position: sticky; top: 0; z-index: 5; background: rgba(7, 8, 12, 0.92); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line); padding: 14px 24px 12px; }
+  .top { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  h1 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+  h1 span { color: var(--accent); }
+  .count { color: var(--muted); font-size: 14px; }
+  .search { margin-left: auto; position: relative; }
+  .search input { width: min(320px, 70vw); font: inherit; font-size: 15px; padding: 8px 12px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--tile); color: var(--ink); outline: none; }
+  .search input:focus { border-color: #3a4260; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .chip { font: inherit; font-size: 13px; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line);
+    background: transparent; color: var(--muted); cursor: pointer; white-space: nowrap; flex: none; }
+  .chip:hover { color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .chip small { opacity: 0.6; margin-left: 4px; }
+
+  main { padding: 20px 24px 60px; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .tile { position: relative; display: flex; flex-direction: column; background: var(--tile); border: 1px solid var(--line);
+    border-radius: 10px; overflow: hidden; transition: transform 150ms, border-color 150ms; }
+  .tile:hover, .tile:has(.open:focus-visible) { transform: translateY(-2px); border-color: #3a4260; }
+  /* Cijela pločica otvara projektor, a linkovi na repoe leže iznad tog sloja. */
+  .open { color: inherit; text-decoration: none; outline: none; }
+  .open::after { content: ""; position: absolute; inset: 0; }
+  .repos { position: relative; display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; }
+  .repos a { color: var(--muted); text-decoration: none; }
+  .repos a:hover { color: var(--ink); text-decoration: underline; }
+  .tile.flash { border-color: var(--accent); }
+  .thumb { aspect-ratio: 16 / 9; background: radial-gradient(120% 90% at 10% 0%, #1b2140 0%, #0b0d14 70%);
+    position: relative; overflow: hidden; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .thumb .ph { position: absolute; inset: 0; display: flex; align-items: flex-end; padding: 14px 16px;
+    font-weight: 800; font-size: 20px; letter-spacing: -0.02em; line-height: 1.15; }
+  .badge { position: absolute; top: 8px; right: 8px; font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+    text-transform: uppercase; padding: 3px 7px; border-radius: 4px; background: rgba(7, 8, 12, 0.8); color: var(--muted); }
+  .badge.live { color: #fff; background: var(--accent); }
+  .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .title { font-weight: 600; font-size: 16px; line-height: 1.25; }
+  .one { color: var(--muted); font-size: 14px; line-height: 1.4; }
+  .meta { margin-top: auto; padding-top: 6px; display: flex; gap: 10px; color: var(--dim); font-size: 12px; flex-wrap: wrap; }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+
+  footer { color: var(--dim); font-size: 13px; padding: 0 24px 32px; }
+
+  @media (max-width: 600px) {
+    header { padding: 12px 16px 10px; }
+    main { padding: 16px 16px 48px; }
+    footer { padding: 0 16px 28px; }
+    .search { margin-left: 0; width: 100%; }
+    .search input { width: 100%; }
+    .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1>Projekti<span>.</span></h1>
+    <div class="count" id="count"></div>
+    <label class="search"><input id="q" type="search" placeholder="Traži projekt…  ( / )" autocomplete="off" aria-label="Traži projekt"></label>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Kontekst"></div>
+</header>
+<main><div id="grid"></div></main>
+<footer>Matija Stepanić · projekti napravljeni s Claude Codeom · klik otvara projektor (← → za sljedeći, Esc natrag)</footer>
+<script type="module">
+const params = new URLSearchParams(location.search);
+const includeReview = params.has("all");
+const catalog = await (await fetch("/data/catalog.json")).json();
+const cards = catalog.filter((c) => c.visibility === "public" || (includeReview && c.visibility === "review"));
+
+const grid = document.getElementById("grid");
+const q = document.getElementById("q");
+const chipsEl = document.getElementById("chips");
+let ctx = "";
+
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[ch]);
+const norm = (s) => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
+const host = (u) => (u || "").replace(/^https?:\/\//, "").replace(/\/$/, "");
+
+// Konteksti s jednim projektom idu pod "ostalo", da traka ostane kratka.
+const counts = {};
+for (const c of cards) counts[c.context || "ostalo"] = (counts[c.context || "ostalo"] || 0) + 1;
+const ctxOf = (c) => (counts[c.context] > 1 ? c.context : "ostalo");
+const ctxCounts = {};
+for (const c of cards) ctxCounts[ctxOf(c)] = (ctxCounts[ctxOf(c)] || 0) + 1;
+const contexts = Object.entries(ctxCounts).sort((a, b) => (a[0] === "ostalo") - (b[0] === "ostalo") || b[1] - a[1]);
+chipsEl.innerHTML = [["", cards.length], ...contexts]
+  .map(([k, n]) => `<button class="chip" data-ctx="${esc(k)}" aria-pressed="${k === ctx}">${esc(k || "Sve")}<small>${n}</small></button>`)
+  .join("");
+chipsEl.addEventListener("click", (e) => {
+  const b = e.target.closest(".chip");
+  if (!b) return;
+  ctx = b.dataset.ctx;
+  for (const x of chipsEl.children) x.setAttribute("aria-pressed", x === b);
+  render();
+});
+
+function thumbFor(c) {
+  const shot = c.media?.find((m) => m.type === "screenshot");
+  if (!shot) return `<div class="ph">${esc(c.title)}</div>`;
+  const thumb = `/data/thumbs/${c.id}.jpg`;
+  return `<img src="${thumb}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='/data/${esc(shot.src)}'">`;
+}
+
+function tileHtml(c) {
+  const live = c.embed?.frameable;
+  const url = host(c.urls?.live?.[0]);
+  const badge = live ? `<span class="badge live">live</span>` : c.status && c.status !== "live" ? `<span class="badge">${esc(c.status)}</span>` : "";
+  const repos = (c.urls?.repos || []).filter((r) => r.visibility === "public")
+    .map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener">GitHub: ${esc(r.url.replace("https://github.com/", ""))}</a>`)
+    .join("");
+  return `<div class="tile" id="t-${esc(c.id)}">
+    <div class="thumb">${thumbFor(c)}${badge}</div>
+    <div class="body">
+      <a class="title open" href="stage.html${location.search}#${encodeURIComponent(c.id)}">${esc(c.title)}</a>
+      <div class="one">${esc(c.one_liner)}</div>
+      <div class="meta">${url ? `<span>${esc(url)}</span>` : ""}<span>${esc(c.context || "")}</span></div>
+      ${repos ? `<div class="repos">${repos}</div>` : ""}
+    </div></div>`;
+}
+
+function render() {
+  const nq = norm(q.value.trim());
+  const shown = cards.filter((c) => {
+    if (ctx && ctxOf(c) !== ctx) return false;
+    if (!nq) return true;
+    return [c.title, c.one_liner, c.description, c.id, ...(c.aliases || []), ...(c.tags || [])].some((h) => h && norm(h).includes(nq));
+  });
+  grid.innerHTML = shown.length ? shown.map(tileHtml).join("") : `<div class="empty">Nema projekta za „${esc(q.value)}”.</div>`;
+  document.getElementById("count").textContent = `${shown.length} od ${cards.length}`;
+}
+
+q.addEventListener("input", render);
+q.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") { q.value = ""; render(); q.blur(); }
+  if (e.key === "Enter") grid.querySelector(".tile .open")?.click();
+});
+addEventListener("keydown", (e) => {
+  if (e.key === "/" && document.activeElement !== q) { q.focus(); e.preventDefault(); }
+});
+
+render();
+// Povratak iz projektora: skrolaj do projekta s kojeg smo došli.
+const back = document.getElementById(`t-${decodeURIComponent(location.hash.slice(1))}`);
+if (back) {
+  back.scrollIntoView({ block: "center" });
+  back.classList.add("flash");
+  back.querySelector(".open").focus({ preventScroll: true });
+  setTimeout(() => back.classList.remove("flash"), 1500);
+}
+</script>
+<script type="module" src="wa.js"></script>
+</body>
+</html>

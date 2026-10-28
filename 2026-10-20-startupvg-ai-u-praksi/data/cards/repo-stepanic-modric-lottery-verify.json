@@ -1,0 +1,92 @@
+{
+  "id": "repo-stepanic-modric-lottery-verify",
+  "title": "$MODRIC lutrija: nezavisna provjera",
+  "one_liner": "Nezavisna kriptografska provjera tri nagradna izvlačenja za potpisane dresove Luke Modrića.",
+  "description": "Alat koji na Solani provjerava izvlačenja $MODRIC tokena: VRF slučajnost, transakciju i algoritam odabira, prenesen iz javnog koda organizatora. Radi iz komandne linije i u pregledniku.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "solana",
+    "vrf",
+    "verifikacija",
+    "blockchain",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "modrić",
+    "modric",
+    "modrića",
+    "modrić lutrija",
+    "modric lottery",
+    "lutrija",
+    "trendex",
+    "dres modrića",
+    "modrićev dres",
+    "modric token",
+    "lucky draw",
+    "trendexgg",
+    "vrf",
+    "orao vrf",
+    "provjerljiva lutrija",
+    "provjerljiva lutrija na solani"
+  ],
+  "facts": [
+    "Provjerena su sva tri izvlačenja (listopad 2025. – siječanj 2026.).",
+    "U glavnom izvlačenju sudjelovalo je 140 najvećih vlasnika tokena.",
+    "Slučajnost se provjerava izravno na lancu (Orao VRF).",
+    "14 commita u dva dana (2026-03-02 i 2026-03-03)."
+  ],
+  "talk_hooks": [
+    "Umjesto da vjerujem organizatoru, sam sam provjerio izvlačenje: kod, slučajnost i transakcija su javni."
+  ],
+  "stack": [
+    "Node.js",
+    "JavaScript",
+    "Solana",
+    "Orao VRF"
+  ],
+  "urls": {
+    "live": [
+      "https://kapetan-luka-onchain.domovina.ai/"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/modric-lottery-verify",
+        "visibility": "public"
+      },
+      {
+        "url": "https://github.com/stepanic/trendexgg",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Poznato ime i jasna poanta o provjerljivosti; vizualno skromno.",
+  "related": [],
+  "media": [
+    {
+      "type": "fullpage",
+      "src": "media/repo-stepanic-modric-lottery-verify.full.jpg",
+      "width": 2880,
+      "height": 3216,
+      "url": "https://kapetan-luka-onchain.domovina.ai/"
+    },
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-modric-lottery-verify.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "user"
+    }
+  ],
+  "rank": 52,
+  "embed": {
+    "url": "https://kapetan-luka-onchain.domovina.ai/",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 1608,
+    "checked": "2026-10-19"
+  }
+}

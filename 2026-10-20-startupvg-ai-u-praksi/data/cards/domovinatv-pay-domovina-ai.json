@@ -1,0 +1,96 @@
+{
+  "id": "domovinatv-pay-domovina-ai",
+  "title": "DOMOVINA Pay i Wallet",
+  "one_liner": "Plaćanja u eurima preko hrvatskih uplatnica i on-chain eura, s novčanikom koji se otključava passkeyem.",
+  "description": "Iz jedne forme nastaju SEPA QR, hrvatski HUB3 barkod i kripto-QR za euro stablecoin. Uz to ide DOMOVINA Wallet: novčanik bez lozinke koji se otključava licem ili otiskom prsta, a transakcije za korisnika plaća sustav.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "plaćanja",
+    "stablecoin",
+    "passkey",
+    "novčanik",
+    "gnosis chain",
+    "monerium",
+    "sepa",
+    "hub3",
+    "shopify",
+    "sigurnosni review",
+    "ci"
+  ],
+  "aliases": [
+    "domovina pay",
+    "pay domovina",
+    "pay.domovina.ai",
+    "domovina wallet",
+    "wallet.domovina.ai",
+    "domovina novčanik",
+    "novčanik",
+    "novčanika",
+    "novčaniku",
+    "pej domovina",
+    "passkey novčanik",
+    "uplatnica",
+    "uplatnice",
+    "e-euro"
+  ],
+  "facts": [
+    "Jedna forma daje tri formata: SEPA EPC QR, HUB3 PDF417 za hrvatske banke i EIP-681 QR za Web3 novčanike.",
+    "Novčanik je Safe pametni račun na Gnosis Chainu, a otključava se passkeyem (Face ID ili otisak prsta).",
+    "Svaki novčanik ima 5 besplatnih transakcija dnevno jer gas plaća backend relay.",
+    "Redizajn novčanika: 31 spojen PR u 8 faza, 15 osnovnih UI komponenti.",
+    "Ista baza koda pokreće novčanike za 3 različita brenda (white-label).",
+    "Od 49 produkcijskih uplata, 44 s poznatog IBAN-a postale su on-chain euro za oko 9 sekundi; zato checkout sad potvrđuje uplatu čim je zaprimljena, kao kod kartice.",
+    "Stray resolver: uplata bez reference povezuje se s narudžbom po iznosu i vremenu; prva takva prošla je do \"plaćeno\" za oko 12 s.",
+    "Detektor krađe diže alarm za svaki izlaz eura iz Safea koji nije naš forward.",
+    "Ručni način plaćanja za Shopify trgovine (app s QR-om za uplatu).",
+    "Nezavisni review (Fable 5.1) pregledao je 40 commitova; nalazi su popravljeni isti dan, backend testova 413 (prije 321), uz GitHub Actions CI.",
+    "Admin je iza Cloudflare Accessa i passkeya umjesto Basic autha."
+  ],
+  "talk_hooks": [
+    "Počelo je kao generator uplatnica, a za pet mjeseci s Claude Codeom preraslo u novčanik s passkeyem, pametnim ugovorima i relayem.",
+    "Na Revolutu skeniraš QR i novac stigne kao on-chain euro. Klasično bankarstvo i Web3 spojeni su u jednom ekranu.",
+    "Jedan model je napisao kod, a drugi ga je nezavisno pregledao i našao sigurnosne propuste; popravci su stigli u istom danu."
+  ],
+  "stack": [
+    "Flutter",
+    "React",
+    "Vite",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Solidity",
+    "Safe",
+    "Gnosis Chain",
+    "Monerium"
+  ],
+  "urls": {
+    "live": [
+      "https://pay.domovina.ai",
+      "https://wallet.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/pay.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živ, konkretan i povezuje bankarstvo s kriptom. Tehnički je impresivan, ali publika ne mora razumjeti blockchain da bi shvatila demo.",
+  "related": [
+    "domovinatv-sms-domovina-ai",
+    "domovinatv-domovina-blockchain"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-pay-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "user"
+    }
+  ],
+  "rank": 3
+}

@@ -1,0 +1,67 @@
+{
+  "id": "lojtrica-oscope",
+  "title": "Osciloskop u pregledniku",
+  "one_liner": "PWA osciloskop koji uživo crta valni oblik zvuka s mikrofona.",
+  "description": "Web aplikacija koja mobitel ili laptop pretvara u osciloskop: crta signal s mikrofona uživo, s podesivim pojačanjem i vremenskom bazom te efektom fosfora kao na pravom ekranu. Radi i offline, kao instalirana aplikacija.",
+  "category": "web-app",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "web audio",
+    "pwa",
+    "osciloskop",
+    "zvuk"
+  ],
+  "aliases": [
+    "oscope",
+    "osciloskop",
+    "osciloskopa",
+    "oscilloscope",
+    "oscope.domovina.ai",
+    "valni oblik",
+    "mikrofon"
+  ],
+  "facts": [
+    "Pojačanje od −20 do +40 dB, vremenska baza od 0,5 do 50 ms po podjeli.",
+    "Efekt fosfora, prikaz sirovog signala, zamrzavanje slike i cijeli zaslon.",
+    "Okidanje (trigger) da valni oblik stoji na mjestu.",
+    "Napravljen u jednoj večeri (7. 10. 2026.), samo index.html, service worker i ikona."
+  ],
+  "talk_hooks": [
+    "Otvorite oscope.domovina.ai na mobitelu i pjevajte: vidjet ćete svoj glas kao valni oblik."
+  ],
+  "stack": [
+    "JavaScript",
+    "Web Audio API",
+    "Canvas",
+    "PWA",
+    "Cloudflare Workers"
+  ],
+  "urls": {
+    "live": [
+      "https://oscope.domovina.ai"
+    ],
+    "repos": []
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Publika ga može isprobati odmah na mobitelu; malo i zabavno.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/lojtrica-oscope.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://oscope.domovina.ai"
+    }
+  ],
+  "rank": 62,
+  "embed": {
+    "url": "https://oscope.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-10-19"
+  }
+}

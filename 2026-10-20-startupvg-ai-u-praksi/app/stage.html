@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekti · Matija Stepanić</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #07080c;
+    --ink: #f4f5f8;
+    --muted: #a3a8b8;
+    --accent: #ff3b3b;
+    --panel: rgba(8, 10, 16, 0.78);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+    font-family: Inter, system-ui, sans-serif; overflow: hidden; }
+  #stage { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    overflow: hidden; background: #000; outline: none; }
+  .layer { position: absolute; inset: 0; opacity: 0; transition: opacity 600ms ease; }
+  .layer.on { opacity: 1; }
+  .content { position: absolute; left: 0; top: 0; width: 1440px; transform-origin: 0 0;
+    will-change: transform; border: 0; background: #fff; }
+  .content.animate { transition: transform var(--dur, 900ms) cubic-bezier(.2,.7,.2,1); }
+  iframe.content { pointer-events: none; }
+  body.interactive iframe.content { pointer-events: auto; }
+  img.content { display: block; }
+
+  .textcard { position: absolute; inset: 0; padding: 7% 8%; display: flex; flex-direction: column;
+    justify-content: center; gap: 1.2em; background: radial-gradient(120% 90% at 10% 0%, #1b2140 0%, #07080c 60%);
+    font-size: calc(var(--u) * 1.6); }
+  .textcard h1 { font-size: 2.6em; margin: 0; font-weight: 800; letter-spacing: -0.02em; }
+  .textcard p { font-size: 1.15em; color: var(--muted); margin: 0; max-width: 32em; line-height: 1.4; }
+  .textcard ul { margin: 0.4em 0 0; padding: 0; list-style: none; display: grid; gap: 0.55em; max-width: 36em; }
+  .textcard li { padding-left: 1.1em; position: relative; line-height: 1.35; }
+  .textcard li::before { content: ""; position: absolute; left: 0; top: 0.5em; width: 0.45em; height: 0.45em;
+    border-radius: 50%; background: var(--accent); }
+
+  #lower { position: absolute; left: 3%; bottom: 4%; max-width: 62%; padding: 0.9em 1.2em;
+    background: var(--panel); backdrop-filter: blur(8px); border-left: 0.3em solid var(--accent);
+    border-radius: 0.3em; font-size: calc(var(--u) * 1.15); transition: opacity 400ms, transform 400ms; }
+  #lower.hidden { opacity: 0; transform: translateY(0.6em); }
+  #lower .t { font-weight: 800; font-size: 1.25em; }
+  #lower .d { color: var(--muted); margin-top: 0.2em; line-height: 1.35; }
+  #lower .u { color: var(--accent); font-size: 0.8em; margin-top: 0.35em; letter-spacing: 0.02em; }
+
+  #ticker { position: absolute; right: 2%; bottom: 3%; max-width: 30%; font-size: calc(var(--u) * 0.8);
+    color: var(--muted); background: var(--panel); padding: 0.5em 0.8em; border-radius: 0.3em;
+    opacity: 0; transition: opacity 400ms; }
+  #ticker.on { opacity: 1; }
+  #ticker b { color: var(--ink); }
+
+  #search { position: fixed; left: 50%; top: 12%; transform: translateX(-50%); width: min(640px, 90vw);
+    background: #11141d; border: 1px solid #2a3042; border-radius: 10px; padding: 10px; display: none; z-index: 10; }
+  #search.on { display: block; }
+  #search input { width: 100%; font: inherit; font-size: 18px; padding: 10px 12px; border-radius: 8px;
+    border: 1px solid #2a3042; background: #07080c; color: var(--ink); outline: none; }
+  #search ol { list-style: none; margin: 8px 0 0; padding: 0; max-height: 50vh; overflow: auto; }
+  #search li { padding: 8px 10px; border-radius: 6px; cursor: pointer; display: flex; justify-content: space-between; gap: 1em; }
+  #search li.sel, #search li:hover { background: #1c2233; }
+  #search li small { color: var(--muted); }
+
+  #back { position: fixed; left: 12px; top: 12px; z-index: 5; font-size: 13px; color: #8b91a5; text-decoration: none;
+    background: var(--panel); padding: 6px 10px; border-radius: 6px; opacity: 0.35; transition: opacity 200ms; }
+  #back:hover, #back:focus-visible { opacity: 1; color: var(--ink); }
+  /* Izvan #stage i pozicioniran iz layout(): na mobitelu ne smije pasti ispod čitljive veličine,
+     a u portretu ide ispod slajda gdje ima mjesta. */
+  #bar { position: fixed; z-index: 4; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center;
+    gap: 0.5em; font-size: max(14px, calc(var(--u) * 0.85)); }
+  #bar a, #bar button { font: inherit; color: var(--ink); background: var(--panel); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.14); border-radius: 0.35em; padding: 0.35em 0.75em; text-decoration: none;
+    cursor: pointer; white-space: nowrap; }
+  #links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.5em; }
+  #bar details { position: relative; }
+  #bar summary { list-style: none; color: var(--ink); background: var(--panel); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.14); border-radius: 0.35em; padding: 0.35em 0.75em; cursor: pointer; white-space: nowrap; }
+  #bar summary::-webkit-details-marker { display: none; }
+  #bar details[open] summary { border-color: var(--accent); }
+  #bar details > div { position: absolute; right: 0; top: calc(100% + 0.4em); display: grid; gap: 0.3em;
+    max-height: 60vh; overflow: auto; padding: 0.4em; background: #11141d; border: 1px solid #2a3042; border-radius: 0.4em; }
+  #bar a:hover, #bar button:hover { border-color: var(--accent); }
+  #bar .count { position: relative; overflow: hidden; font-variant-numeric: tabular-nums; min-width: 4.6em; text-align: center; }
+  /* Poveznica i gumb za kopiranje URL-a spojeni u jedan gumb. */
+  #bar .pair { display: inline-flex; }
+  #bar .pair a { border-top-right-radius: 0; border-bottom-right-radius: 0; flex: 1; }
+  #bar .pair .copy { border-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; color: var(--muted); min-width: 2.2em; }
+  #bar .copy.done { color: #4ade80; }
+  #bar .nav { display: inline-flex; gap: 0.5em; }
+  #prev, #next { font-weight: 800; min-width: 2.4em; }
+  #bar .count.off { color: var(--muted); }
+  #bar .count i { position: absolute; left: 0; bottom: 0; height: 2px; width: 0; background: var(--accent); }
+  #help { position: fixed; right: 12px; top: 12px; font-size: 12px; color: #596079; z-index: 5; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="lower" class="hidden"><div class="t"></div><div class="d"></div><div class="u"></div></div>
+  <div id="ticker"></div>
+</div>
+<div id="bar"><span id="links"></span><span class="nav"><button id="prev" title="Prethodni projekt (←)" aria-label="Prethodni projekt">‹</button><button class="count" id="count" title="Auto-slide svakih 20 s (a)"><span></span><i></i></button><button id="next" title="Sljedeći projekt (→)" aria-label="Sljedeći projekt">›</button></span></div>
+<div id="search"><input placeholder="Projekt…" autocomplete="off"><ol></ol></div>
+<div id="help" hidden>← → projekt · ↑ ↓ scroll · + − zoom · 0 reset · razmak auto-scroll · a auto-slide · / traži · i info · e interakcija · f fullscreen · w WhatsApp QR · h pomoć · Esc katalog</div>
+<a id="back" href="./" title="Natrag na katalog (Esc)">← katalog</a>
+<script type="module" src="stage.js"></script>
+<script type="module" src="wa.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "id": "repo-stepanic-ff-mac-setup",
+  "title": "FlutterFlow Mac setup",
+  "one_liner": "Upute za postavljanje novog Maca za FlutterFlow razvoj, kao TODO lista u GitHub issueu.",
+  "description": "Javni repozitorij s predloškom GitHub issuea: novi developer otvori issue i prolazi kroz checklistu dok sve nije postavljeno.",
+  "category": "tool",
+  "context": "FlutterFlow",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutterflow",
+    "mac",
+    "onboarding",
+    "checklist",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "ff mac setup",
+    "flutterflow mac setup",
+    "flutterflow",
+    "flater flou",
+    "mac setup",
+    "postavljanje maca"
+  ],
+  "facts": [
+    "28 commitova u dva dana, studeni 2024.",
+    "Checklista je predložak GitHub issuea."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "GitHub Issues",
+    "Markdown"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/ff-mac-setup",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Jednostavna checklista, bez AI priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-ff-mac-setup.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 100
+}

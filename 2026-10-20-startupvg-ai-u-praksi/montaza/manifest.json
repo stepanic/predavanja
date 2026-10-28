@@ -1,0 +1,1533 @@
+{
+  "version": 1,
+  "title": "AI u praksi — StartupVG, 20. 10. 2026.",
+  "rawDir": "/Volumes/DOMOVINA2TB/ai_edukacija_startupvg_20261020_raw_montaza",
+  "model": "t_timeline = offsetSeconds + scale * t_izvor (sekunde); t_timeline = 0 je prvi uzorak RØDE snimke",
+  "timelineZeroWallClock": "2026-10-20T17:49:19.827+02:00",
+  "timelineEndSeconds": 8641.857,
+  "tracks": [
+    {
+      "id": "rode",
+      "label": "RØDE Connect (mikrofon)",
+      "kind": "audio",
+      "file": "Recording 6.wav",
+      "media": "PCM 24-bit 48 kHz stereo",
+      "durationSeconds": 8333.34,
+      "offsetSeconds": 0.0,
+      "scale": 1.0,
+      "audioProxy": "proxy/rode_audio.m4a",
+      "sync": {
+        "method": "master",
+        "note": "referentni zvuk vremenske crte"
+      },
+      "nudgeSeconds": 0.0
+    },
+    {
+      "id": "lumix",
+      "label": "LUMIX (kamera)",
+      "kind": "av",
+      "file": "P1400725.MP4",
+      "media": "H.264 3840×2160 25p + AAC 48 kHz stereo",
+      "durationSeconds": 4779.84,
+      "offsetSeconds": 683.2358,
+      "scale": 1.000007225329397,
+      "videoProxy": "proxy/lumix.mp4",
+      "audioProxy": "proxy/lumix_audio.m4a",
+      "sync": {
+        "method": "audio GCC-PHAT, prozori 20 s",
+        "driftPPM": 7.23,
+        "residualRmsMs": 4.545,
+        "residualMaxMs": 13.486,
+        "medianPSR": 10.876,
+        "windowsUsed": 59,
+        "windows": 80
+      },
+      "nudgeSeconds": 0.0
+    },
+    {
+      "id": "moto",
+      "label": "moto g86 (mobitel)",
+      "kind": "av",
+      "file": "VID_20261020_174551574.mp4",
+      "media": "H.264 3840×2160 ~30p VFR + AAC 48 kHz stereo",
+      "durationSeconds": 8850.176,
+      "offsetSeconds": -208.2538,
+      "scale": 0.9999926564079752,
+      "videoProxy": "proxy/moto.mp4",
+      "audioProxy": "proxy/moto_audio.m4a",
+      "sync": {
+        "method": "audio GCC-PHAT, prozori 20 s",
+        "driftPPM": -7.34,
+        "residualRmsMs": 24.795,
+        "residualMaxMs": 54.817,
+        "medianPSR": 10.735,
+        "windowsUsed": 69,
+        "windows": 78,
+        "note": "mobitel je daleko od govornika, jeka diže rezidual; i dalje ispod jednog framea"
+      },
+      "nudgeSeconds": 0.0
+    },
+    {
+      "id": "m4a",
+      "label": "Snimka zvuka (m4a s Drivea)",
+      "kind": "audio",
+      "file": "StartupVG AI radionica 2026-10-20.m4a",
+      "media": "AAC 48 kHz mono",
+      "durationSeconds": 7105.6,
+      "offsetSeconds": 733.0421,
+      "scale": 0.999974259296957,
+      "audioProxy": "proxy/m4a_audio.m4a",
+      "sync": {
+        "method": "audio GCC-PHAT (sync_cameras.py)",
+        "driftPPM": -25.74,
+        "residualRmsMs": 3.11,
+        "residualMaxMs": 6.119,
+        "medianPSR": 9.588,
+        "windowsUsed": 25,
+        "windows": 61
+      },
+      "nudgeSeconds": 0.0
+    },
+    {
+      "id": "screen",
+      "label": "Screenshare (Windows)",
+      "kind": "video",
+      "file": "20261020-1601-22.4383047.mp4",
+      "media": "H.264 1920×1200 30p, bez zvuka",
+      "durationSeconds": 7151.7333,
+      "offsetSeconds": 725.615,
+      "scale": 1.0,
+      "videoProxy": "proxy/screen.mp4",
+      "sync": {
+        "method": "zidni sat",
+        "uncertaintySeconds": 0.5,
+        "note": "nema zvuka; početak 18:01:25,45 iz promjena minute na Windows satu, preveden na vremensku crtu preko sata moto mobitela (ime fajla). Provjeri na promjeni slajda i fino pomakni."
+      },
+      "nudgeSeconds": 0.0
+    }
+  ],
+  "edit": {
+    "inSeconds": 809.5,
+    "outSeconds": 8327.2,
+    "notes": "",
+    "cuts": [
+      {
+        "t": 809.5,
+        "video": "lumix",
+        "audio": "rode"
+      },
+      {
+        "t": 959.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 988.89,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1043.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1088.91,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1103.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1122.69,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1136.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1144.56,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1276.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1312.83,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1506.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1525.62,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1533.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1558.44,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1590.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1602.27,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1646.807,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 1654.62,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1707.36,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 1717.2,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1767.45,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 1776.18,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1842.06,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 1851.18,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1916.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1938.09,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1945.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 1956.48,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 1975.71,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 1983.87,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2035.02,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2044.47,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2095.92,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2103.75,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2153.97,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2165.19,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2194.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2213.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2283.21,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2291.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2342.49,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2352.33,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2403.78,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2411.16,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2448.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2472.72,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2502.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2545.86,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2563.26,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2572.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2630.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2656.74,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2719.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2734.56,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2791.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 2809.47,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2869.95,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2879.82,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 2960.52,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 2968.65,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3037.08,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3046.29,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3097.68,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3106.98,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3146.07,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 3157.14,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3176.28,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3186.15,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3219.72,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 3253.86,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3271.2,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3281.76,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3350.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 3360.27,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3425.46,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 3433.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3451.92,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3462.24,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3663.3,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 3671.07,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3698.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 3708.72,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3838.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 3843.75,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 3864.15,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 3996.84,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4005.21,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4039.14,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 4067.04,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4084.98,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4094.1,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4113.6,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 4116.84,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4133.79,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 4239.33,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4258.44,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4266.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4317.63,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4326.9,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4377.54,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4386.12,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4454.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 4490.1,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4529.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 4544.58,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4561.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 4571.4,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4700.25,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4709.7,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4779.84,
+        "video": "lumix",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4790.07,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4812.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 4824.03,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4883.52,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 4892.04,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4961.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 4987.47,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 4996.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5013.6,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5030.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5039.94,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5070.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5085.9,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5100.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5110.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5134.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5187.6,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5196.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5241.09,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5252.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5265.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5314.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5392.8,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5447.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5470.77,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5486.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5578.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5617.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5643.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5658.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5683.17,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5699.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5708.52,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5731.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5742.3,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5795.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5803.41,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5810.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5824.98,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5846.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 5861.94,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 5893.74,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5911.89,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 5920.71,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 5971.89,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 5979.9,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6048.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6091.92,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6129.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6139.29,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6155.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6168.6,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6195.6,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 6204.9,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6252.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6274.56,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 6310.68,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6321.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6335.97,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6353.52,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 6362.31,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6381.6,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 6396.72,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6420.45,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 6424.307,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6441.39,
+        "video": "moto",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 6451.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 6463.807,
+        "video": "moto",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 6509.88,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6541.89,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 6571.26,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6589.29,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 6598.62,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6638.52,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 6796.68,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6813.87,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 6823.307,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 6956.19,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7001.37,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7020.45,
+        "video": "moto",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 7031.01,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7052.04,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 7060.807,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7132.23,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7157.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7165.89,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7186.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7211.79,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7234.62,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7245.9,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7290.18,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7309.44,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7317.87,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7335.99,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7353.42,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 7363.32,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7401.36,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7415.37,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7431.807,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7439.94,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7457.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7464.12,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7491.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7499.04,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7508.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7527.72,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7624.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7652.28,
+        "video": "moto",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 7688.7,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7708.74,
+        "video": "moto",
+        "audio": "rode",
+        "why": "predavač je otišao do ekrana"
+      },
+      {
+        "t": 7718.88,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7737.03,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 7746.48,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7797.45,
+        "video": "moto",
+        "audio": "rode",
+        "why": "ekran miruje, kadar kamere radi dinamike"
+      },
+      {
+        "t": 7805.82,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7834.92,
+        "video": "moto",
+        "audio": "rode",
+        "why": "pitanje iz publike"
+      },
+      {
+        "t": 7856.307,
+        "video": "screen",
+        "audio": "rode",
+        "why": "promjena u kutu ekrana, izrez bi je prekrio"
+      },
+      {
+        "t": 7868.88,
+        "video": "pip-moto",
+        "audio": "rode",
+        "why": "osnovni kadar"
+      },
+      {
+        "t": 7877.348,
+        "video": "moto",
+        "audio": "rode"
+      }
+    ]
+  },
+  "rev": 40,
+  "layouts": [
+    {
+      "id": "pip-moto",
+      "label": "Screen + moto 9:16",
+      "screen": "screen",
+      "cam": "moto",
+      "screenCrop": [
+        0,
+        72,
+        1920,
+        1080
+      ],
+      "pip": {
+        "w": 360,
+        "h": 640,
+        "margin": 24,
+        "border": 4
+      }
+    },
+    {
+      "id": "pip-lumix",
+      "label": "Screen + LUMIX 9:16",
+      "screen": "screen",
+      "cam": "lumix",
+      "screenCrop": [
+        0,
+        72,
+        1920,
+        1080
+      ],
+      "pip": {
+        "w": 360,
+        "h": 640,
+        "margin": 24,
+        "border": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "repo-stepanic-ms-ff-hr-next",
+  "title": "ms-ff-hr Next.js",
+  "one_liner": "Početni Next.js projekt s jednim od najranijih commitova napravljenih Claude Codeom.",
+  "description": "Standardni Next.js predložak s nekoliko izmjena zaglavlja. Zanimljiv je zbog CLAUDE.md datoteke commitane 26. veljače 2025. s oznakom \"Generated with Claude Code\".",
+  "category": "prototype",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "next.js",
+    "tailwind",
+    "claude code",
+    "povijest"
+  ],
+  "aliases": [
+    "ms ff hr",
+    "ms.ff.hr",
+    "ff hr",
+    "next app",
+    "next.js",
+    "nekst",
+    "prvi claude code"
+  ],
+  "facts": [
+    "Commit s CLAUDE.md i oznakom \"Generated with Claude Code\" datiran 2025-02-26.",
+    "6 commitova u dva dana."
+  ],
+  "talk_hooks": [
+    "Moj najraniji trag Claude Codea: CLAUDE.md iz veljače 2025., više od godinu dana prije nego što je postao glavni alat."
+  ],
+  "stack": [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Sam projekt je predložak, ali datum prvog Claude Code commita je dobra točka na vremenskoj crti.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-ms-ff-hr-next.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 88
+}

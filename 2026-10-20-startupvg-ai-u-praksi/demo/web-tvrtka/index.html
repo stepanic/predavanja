@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stolarija Lipa — Velika Gorica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top__row">
+      <a class="logo" href="#">🌳 Stolarija Lipa</a>
+      <nav class="nav">
+        <a href="#usluge">Usluge</a>
+        <a href="#o-nama">O nama</a>
+        <a href="#kontakt" class="btn btn--small">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Velika Gorica · od 1998.</p>
+        <h1>Namještaj po mjeri,<br>izrađen s ljubavlju prema drvu</h1>
+        <p class="lead">Kuhinje, ormari i stolovi od masivnog drva. Dolazimo na izmjeru, crtamo s vama i montiramo.</p>
+        <div class="hero__cta">
+          <a href="#kontakt" class="btn">Zatražite ponudu</a>
+          <a href="#usluge" class="btn btn--ghost">Pogledajte usluge</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="usluge" class="section">
+      <div class="wrap">
+        <h2>Usluge</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">🍳</div>
+            <h3>Kuhinje po mjeri</h3>
+            <p>Od izmjere do montaže. Masivno drvo, furnir ili lakirane fronte, kako vam odgovara.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🚪</div>
+            <h3>Ormari i garderobe</h3>
+            <p>Ugradbeni ormari koji iskoriste svaki centimetar, i ispod kosog krova.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">🪑</div>
+            <h3>Stolovi i stolice</h3>
+            <p>Blagovaonski stolovi od hrasta i oraha koji traju generacijama.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-nama" class="section section--alt">
+      <div class="wrap about">
+        <div>
+          <h2>O nama</h2>
+          <p>Obiteljska stolarija iz Velike Gorice. Drvo biramo sami, iz hrvatskih šuma, i svaki komad radimo u vlastitoj radionici.</p>
+          <p>Ne radimo serijski namještaj. Svaki projekt počinje razgovorom s vama.</p>
+        </div>
+        <ul class="stats">
+          <li><strong>25+</strong> godina iskustva</li>
+          <li><strong>1.200</strong> izrađenih kuhinja</li>
+          <li><strong>5 god.</strong> jamstva</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="wrap contact">
+        <div>
+          <h2>Kontakt</h2>
+          <p>Pošaljite upit i javimo se u roku od jednog radnog dana.</p>
+          <ul class="contact__info">
+            <li>📍 Ulica Lipa 12, 10410 Velika Gorica</li>
+            <li>📞 01 234 5678</li>
+            <li>✉️ info@stolarija-lipa.hr</li>
+            <li>🕗 pon–pet 8–16 h</li>
+          </ul>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <label>Ime i prezime
+            <input name="ime" type="text" required placeholder="Ana Horvat">
+            <span class="error">Upišite ime i prezime.</span>
+          </label>
+          <label>E-mail
+            <input name="email" type="email" required placeholder="ana@primjer.hr">
+            <span class="error">Upišite ispravnu e-mail adresu.</span>
+          </label>
+          <label>Što vas zanima?
+            <select name="usluga">
+              <option>Kuhinja po mjeri</option>
+              <option>Ormar ili garderoba</option>
+              <option>Stol i stolice</option>
+              <option>Nešto drugo</option>
+            </select>
+          </label>
+          <label>Poruka
+            <textarea name="poruka" rows="4" required placeholder="Opišite ukratko što trebate…"></textarea>
+            <span class="error">Napišite kratku poruku.</span>
+          </label>
+          <button class="btn" type="submit">Pošalji upit</button>
+          <p class="form__ok" hidden>✅ Hvala! Upit je zaprimljen, javit ćemo vam se uskoro.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© 2026 Stolarija Lipa d.o.o. · Ulica Lipa 12, 10410 Velika Gorica · Izmišljena tvrtka za demo</p>
+    </div>
+  </footer>
+
+  <script>
+    // Samo UI: provjera polja i poruka o uspjehu, ništa se ne šalje na server.
+    const form = document.getElementById('contact-form');
+    form.addEventListener('input', (e) => {
+      e.target.closest('label')?.classList.remove('invalid');
+      form.querySelector('.form__ok').hidden = true;
+    });
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let ok = true;
+      for (const field of form.querySelectorAll('[required]')) {
+        const valid = field.value.trim() !== '' && field.checkValidity();
+        field.closest('label').classList.toggle('invalid', !valid);
+        if (!valid) ok = false;
+      }
+      if (!ok) return;
+      form.reset();
+      form.querySelector('.form__ok').hidden = false;
+    });
+  </script>
+</body>
+</html>

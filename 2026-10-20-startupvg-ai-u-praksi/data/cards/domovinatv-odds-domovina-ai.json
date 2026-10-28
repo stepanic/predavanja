@@ -1,0 +1,92 @@
+{
+  "id": "domovinatv-odds-domovina-ai",
+  "title": "Od danas do sutra (odds)",
+  "one_liner": "Blueprint i video o dva hrvatska problema: nerazmjeran izborni sustav i pristup likvidnosti, s prijedlogom rješenja.",
+  "description": "Javni dokument i landing stranica koji korak po korak opisuju lanac moći (birači → Sabor → Savjet HNB-a → licence banaka) i lanac novca (porezi → depoziti → strane banke → dobit). Prijedlog je 1 osoba = 1 glas i P2P likvidnost kao javna infrastruktura. Na stranici je 92-sekundni video napravljen kao HyperFrames kompozicija.",
+  "category": "research",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "izborni sustav",
+    "banke",
+    "p2p",
+    "javna infrastruktura",
+    "video",
+    "hyperframes"
+  ],
+  "aliases": [
+    "odds",
+    "odds domovina",
+    "odds.domovina.ai",
+    "od danas do sutra",
+    "blueprint",
+    "jedna osoba jedan glas",
+    "1 osoba 1 glas",
+    "p2p likvidnost",
+    "p2p banka",
+    "lanac novca",
+    "lanac moći"
+  ],
+  "facts": [
+    "7 dokumenata (~4.600 riječi) i 10 Mermaid dijagrama.",
+    "Izbori 2024.: HDZ je s 20,7 % birača dobio 40,4 % mandata; 236.881 izgubljen glas, Gallagherov indeks 7,04.",
+    "Banke u Hrvatskoj su oko 90 % u stranom vlasništvu, a 2023. su imale 1,36 mlrd. € dobiti.",
+    "Narodna obveznica 2023.: 44.843 građana posudilo je državi 1,335 mlrd. €.",
+    "Video od 92 s (1920×1080) složen iz 8 HTML kadrova koje su napravili Sonnet agenti."
+  ],
+  "talk_hooks": [
+    "Video na stranici nije montiran u video editoru: svaki kadar je HTML stranica s animacijom, a render je napravio HyperFrames."
+  ],
+  "stack": [
+    "HTML",
+    "JavaScript",
+    "Markdown",
+    "Mermaid",
+    "HyperFrames",
+    "GSAP",
+    "Cloudflare Workers",
+    "Cloudflare R2"
+  ],
+  "urls": {
+    "live": [
+      "https://odds.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/odds.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živa stranica s videom, jaka tema i brojke; napravljeno u jednom danu.",
+  "related": [
+    "domovinatv-hyperframes-domovina-ai",
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-odds-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://odds.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-odds-domovina-ai.full.jpg",
+      "width": 2880,
+      "height": 9960,
+      "url": "https://odds.domovina.ai"
+    }
+  ],
+  "rank": 27,
+  "embed": {
+    "url": "https://odds.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 4980,
+    "checked": "2026-10-19"
+  }
+}

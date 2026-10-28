@@ -1,0 +1,13 @@
+{
+ "key": "809.5-8327.2|pan=stereo|c0=c0|c1=c0,volume=30dB,highpass=f=80,afftdn=nr=8:nf=-40:tn=1|I=-14:TP=-1:LRA=11",
+ "input_i": "-18.79",
+ "input_tp": "17.04",
+ "input_lra": "7.00",
+ "input_thresh": "-29.28",
+ "output_i": "-14.48",
+ "output_tp": "-1.00",
+ "output_lra": "6.50",
+ "output_thresh": "-24.91",
+ "normalization_type": "dynamic",
+ "target_offset": "0.48"
+}

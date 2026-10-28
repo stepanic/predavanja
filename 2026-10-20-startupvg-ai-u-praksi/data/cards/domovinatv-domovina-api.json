@@ -1,0 +1,77 @@
+{
+  "id": "domovinatv-domovina-api",
+  "title": "Domovina API",
+  "one_liner": "Zajednički backend i jedinstvena prijava za sve Domovina aplikacije, na vlastitom Supabaseu.",
+  "description": "Jedan centralni API i sustav prijave za domovina.ai i sve buduće aplikacije pod tim brendom. Radi na vlastitom poslužitelju sa samostalno hostanim Supabaseom, a sve je opisano kao kod: migracije baze, funkcije, skripte za deploy i dnevnik svakog deploya.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "supabase",
+    "self-hosted",
+    "coolify",
+    "sso",
+    "postgresql",
+    "edge functions",
+    "infrastruktura kao kod"
+  ],
+  "aliases": [
+    "domovina api",
+    "api domovina",
+    "domovina a p i",
+    "domovinin api",
+    "backend domovine",
+    "domovina backend",
+    "api.domovina.ai",
+    "supabase",
+    "jedinstvena prijava",
+    "sso"
+  ],
+  "facts": [
+    "13 kontejnera samostalno hostanog Supabasea na jednom poslužitelju.",
+    "56 migracija baze i 24 edge funkcije.",
+    "Jedna prijava za sve aplikacije: Google, anonimno, passkey i eOsobna (Certilia).",
+    "Svaki deploy se automatski bilježi u dnevnik s oznakom commita.",
+    "Backend za sponzorske trenutke (samoposlužni slotovi, fakture, moderacija) i gostujuću donaciju bez prijave, na produkciji od 8. 10. 2026."
+  ],
+  "talk_hooks": [
+    "Umjesto plaćenog clouda, Claude mi je pomogao postaviti i održavati cijeli Supabase na vlastitom poslužitelju.",
+    "AI je napravio i reviziju vlastitog backenda i pronašao sigurnosne propuste prije nego što su postali problem."
+  ],
+  "stack": [
+    "Supabase",
+    "PostgreSQL",
+    "PostgREST",
+    "Deno",
+    "Coolify",
+    "Cloudflare Tunnel",
+    "Resend"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-api",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Važna infrastruktura iza Domovina.ai, ali nevidljiva publici i bez vizualne priče.",
+  "related": [
+    "domovinatv-domovina-ai",
+    "domovinatv-domovina-infra",
+    "domovinatv-domovina-storage"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-api.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 10
+}

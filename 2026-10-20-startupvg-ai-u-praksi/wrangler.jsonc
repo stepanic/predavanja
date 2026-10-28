@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "projekti-domovina-ai",
+  "compatibility_date": "2026-09-01",
+  // D.O.M. račun, isti kao podcast.domovina.ai.
+  "account_id": "<CLOUDFLARE_ACCOUNT_ID>",
+
+  // Samo statika iz tools/deploy/build.py, bez Worker koda.
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash"
+  },
+
+  "routes": [
+    { "pattern": "projekti.domovina.ai", "custom_domain": true }
+  ]
+}

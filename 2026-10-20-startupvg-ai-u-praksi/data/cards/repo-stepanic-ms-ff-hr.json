@@ -1,0 +1,55 @@
+{
+  "id": "repo-stepanic-ms-ff-hr",
+  "title": "ms.ff.hr (prva verzija)",
+  "one_liner": "Početni Astro i Tailwind predložak za osobnu stranicu iz 2024.",
+  "description": "Prva verzija osobne stranice postavljena iz gotovog Astro i Tailwind predloška, s dva commita u listopadu 2024. Vlastitog sadržaja gotovo nema.",
+  "category": "landing",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "astro",
+    "tailwind",
+    "osobna stranica",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "ms.ff.hr",
+    "ms ff hr",
+    "em es ef ef",
+    "osobna stranica",
+    "osobni web"
+  ],
+  "facts": [
+    "Dva commita u jednom danu (2024-10-03)."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Astro",
+    "Tailwind CSS"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/ms.ff.hr",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Samo predložak, bez vlastitog rada.",
+  "related": [
+    "repo-stepanic-ms-ff-hr-next"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-ms-ff-hr.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 92
+}

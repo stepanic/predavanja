@@ -1,0 +1,67 @@
+{
+  "id": "domovinatv-dataset-domovina-tv",
+  "title": "DOMOVINA dataset podcasta",
+  "one_liner": "Otvoreni tekstualni dataset hrvatskih podcasta: transkripti, govornici, sažeci i članci.",
+  "description": "Javni repozitorij u koji se sinkroniziraju svi tekstualni rezultati obrade hrvatskih YouTube podcasta i emisija. Služi kao izvor za pretragu i analize, a za vanjske analitičare pripremljen je i uzorak s videom.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "dataset",
+    "transkripti",
+    "podcasti",
+    "otvoreni podaci",
+    "r2"
+  ],
+  "aliases": [
+    "dataset",
+    "dataset domovina",
+    "dataset.domovina.tv",
+    "domovina tv dataset",
+    "dejtaset",
+    "skup podataka",
+    "transkripti podcasta"
+  ],
+  "facts": [
+    "Stanje 10. 10. 2026.: 52 kanala i 86.708 datoteka u repozitoriju, uz stalni dotok novih epizoda.",
+    "Repo ima 71.358 git commita (snapshot iz lipnja imao je 28.394), a sinkronizacija svake noći dodaje desetke do stotine commitova po kanalu.",
+    "Uzorak od 43 obrađene epizode (5,15 GB) objavljen za vanjsku analizu.",
+    "Od 6. 10. uz svaki transkript stiže i .segments.jsonl: titlovi s imenom govornika, redak po redak, za pretragu preko epizoda.",
+    "Popravljeno je noćno prepisivanje: manifesti za 2.416 epizoda mijenjali su se svake noći samo zbog vremenske oznake, pa se sad prepisuju samo kad se sadržaj stvarno promijeni."
+  ],
+  "talk_hooks": [
+    "Ovaj repo toliko je commitova stvorio automatski da me izbacio na prvo mjesto hrvatske ljestvice GitHub aktivnosti, pa sam ga morao isključiti."
+  ],
+  "stack": [
+    "Bash",
+    "Git",
+    "Cloudflare R2"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/dataset.domovina.tv",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Impresivne brojke i veza s pričom o committers.top; sam po sebi nije vizualan.",
+  "related": [
+    "domovinatv-fetch-domovina-tv",
+    "domovinatv-domovina-rag",
+    "stepanic-committers-top"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-dataset-domovina-tv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 19
+}

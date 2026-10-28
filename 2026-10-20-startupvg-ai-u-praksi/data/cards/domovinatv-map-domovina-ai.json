@@ -1,0 +1,54 @@
+{
+  "id": "domovinatv-map-domovina-ai",
+  "title": "Flutter karta Hrvatske",
+  "one_liner": "Pokušaj iste karte Hrvatske u Flutteru za web, iOS i Android, s MapLibreom.",
+  "description": "Flutter verzija interaktivne karte gradova, općina i naselja, usklađena s podacima web nacrta. Test je pokazao da na mobitelima radi dobro, a na webu je puno sporija od čiste WebGL verzije, pa je odlučeno imati dvije implementacije. U svibnju 2026. spojena je u monorepo Karte Hrvatske.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "maplibre",
+    "gis",
+    "karta",
+    "ios",
+    "android",
+    "eksperiment"
+  ],
+  "aliases": [
+    "map domovina",
+    "map.domovina.ai",
+    "flutter karta",
+    "flutter maplibre",
+    "karta u flutteru",
+    "mobilna karta",
+    "domovina map",
+    "mapa domovina"
+  ],
+  "facts": [
+    "Jedan kod za web, iOS i Android; karta zaključana na 2D pogled sjever–jug bez rotacije.",
+    "Flutter web se pokazao presporim u usporedbi s čistom WebGL kartom, pa je taj pokušaj ostavljen kao dokumentirani mrtvi kod.",
+    "16. svibnja 2026. spojeno u monorepo Karte Hrvatske."
+  ],
+  "talk_hooks": [
+    "S AI-jem si možete priuštiti da isprobate dvije tehnologije do kraja i odlučite na temelju mjerenja, a ne pretpostavke."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "MapLibre"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Prethodnik Karte Hrvatske; zanimljiv samo kao primjer odluke donesene eksperimentom.",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "domovina-draft-karta-rh"
+  ],
+  "media": [],
+  "duplicate_of": "domovinatv-karta-hrvatske"
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Montaža — AI u praksi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 id="title">Montaža</h1>
+  <div id="save-state" class="muted"></div>
+</header>
+
+<section id="monitors"></section>
+
+<section id="transport">
+  <div class="time">
+    <div id="tc">00:00:00.000</div>
+    <div id="wall" class="muted"></div>
+  </div>
+  <div class="buttons">
+    <button data-step="-10" title="Shift+←">−10 s</button>
+    <button data-step="-1" title="←">−1 s</button>
+    <button data-step="-0.04" title=",">−1 fr</button>
+    <button id="play" class="primary" title="Space">▶︎ Play</button>
+    <button data-step="0.04" title=".">+1 fr</button>
+    <button data-step="1" title="→">+1 s</button>
+    <button data-step="10" title="Shift+→">+10 s</button>
+    <select id="rate" title="Brzina">
+      <option value="1">1×</option><option value="1.5">1,5×</option><option value="2">2×</option><option value="4">4×</option>
+    </select>
+    <input id="goto" placeholder="skoči na 0:12:34" size="11">
+  </div>
+  <div class="inout">
+    <button id="set-in" title="I">⟦ Početak = ovdje</button>
+    <button id="go-in" title="Shift+I">→ početak</button>
+    <span id="inout-info" class="muted"></span>
+    <button id="go-out" title="Shift+O">→ kraj</button>
+    <button id="set-out" title="O">Kraj = ovdje ⟧</button>
+  </div>
+</section>
+
+<section id="timeline-wrap">
+  <div id="lanes-labels"></div>
+  <canvas id="timeline"></canvas>
+</section>
+<p class="muted hint">Klik na vremensku crtu = premotaj · kotačić = zoom · Shift+kotačić / povlačenje = pomak ·
+  Space play · ←/→ 1 s · Shift 10 s · ,/. frame · I/O početak/kraj · P točka reza · 1–4 slušaj trag</p>
+
+<section id="program">
+  <div class="tr-head">
+    <h2>Program <span class="muted">· točke reza: od točke do iduće vrijede ova slika i ovaj zvuk</span></h2>
+    <span id="program-now" class="muted"></span>
+    <label class="muted"><input type="checkbox" id="program-follow" checked> slušaj program</label>
+    <button id="cut-add" class="primary" title="P">+ točka ovdje</button>
+  </div>
+  <div id="cuts-list"></div>
+</section>
+
+<section id="suggest" hidden>
+  <div class="tr-head">
+    <h2>Prijedlog početka i kraja <span class="muted">· iz transkripta, isprekidane crte na vremenskoj crti</span></h2>
+    <button id="suggest-accept" class="primary">Prihvati prijedlog</button>
+  </div>
+  <div id="suggest-list"></div>
+</section>
+
+<section id="transcript-wrap">
+  <div class="tr-head">
+    <h2>Transkript <span id="tr-source" class="muted"></span></h2>
+    <label class="muted"><input type="checkbox" id="tr-follow" checked> prati reprodukciju</label>
+    <input id="tr-search" placeholder="traži u transkriptu…" size="24">
+  </div>
+  <div id="transcript"></div>
+</section>
+
+<section id="tracks"></section>
+
+<section id="notes-wrap">
+  <h2>Bilješke za montažu</h2>
+  <textarea id="notes" rows="4" placeholder="npr. 0:14:20 kašalj, izrezati; LUMIX staje na 1:31:03…"></textarea>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

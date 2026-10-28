@@ -1,0 +1,112 @@
+{
+  "id": "domovinatv-karta-hrvatske",
+  "title": "Karta Hrvatske",
+  "one_liner": "Interaktivna GIS karta Hrvatske s javnim podacima i generatorom plakata 'Anatomija grada'.",
+  "description": "Web karta na gis.domovina.ai koja na jednom mjestu prikazuje općine, naselja, nogometne klubove, igrališta, aerodrome, kvartove, crkve i poduzetničku infrastrukturu. Podaci dolaze iz Python pipelinea koji obrađuje državne i otvorene izvore. Generator plakata 'Anatomija grada' iz istih podataka crta tiskane karte gradova.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "gis",
+    "maplibre",
+    "otvoreni podaci",
+    "react",
+    "cloudflare pages",
+    "python",
+    "plakati"
+  ],
+  "aliases": [
+    "karta hrvatske",
+    "karte hrvatske",
+    "karti hrvatske",
+    "kartu hrvatske",
+    "kartom",
+    "gis domovina",
+    "gis.domovina.ai",
+    "gis domovina ai",
+    "karta rh",
+    "anatomija grada",
+    "plakat",
+    "plakati",
+    "džis",
+    "geo karta",
+    "draft karta",
+    "nacrt karte",
+    "karta općina",
+    "karta gradova i općina",
+    "jls karta",
+    "jls",
+    "naselja",
+    "hrvatska full",
+    "karti rh",
+    "karta rh (prvi nacrt)",
+    "map domovina",
+    "map.domovina.ai",
+    "flutter karta",
+    "flutter maplibre",
+    "karta u flutteru",
+    "mobilna karta",
+    "domovina map",
+    "mapa domovina",
+    "flutter karta hrvatske"
+  ],
+  "facts": [
+    "1014 nogometnih klubova, 7163 igrališta i 452 stadiona na karti.",
+    "556 jedinica lokalne samouprave i 6759 naselja.",
+    "243 poligona kvartova Zagreba i Velike Gorice, službenih i kolokvijalnih.",
+    "Generator 'Anatomija grada' ima 18 plakata s 1296 automatski smještenih natpisa.",
+    "82 inkubatora geokodirana sa 100 % preciznosti adrese.",
+    "Harvester za data.zagreb.hr: 33 skupa podataka, 5354 točke."
+  ],
+  "talk_hooks": [
+    "Od skripte u Pythonu do žive karte s tisućama točaka i tiskanim plakatima – sve kroz razgovor s Claude Codeom.",
+    "Claude je smislio i deterministički algoritam koji natpise kvartova smješta unutar poligona na plakatu."
+  ],
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "MapLibre GL",
+    "Tailwind",
+    "Python",
+    "Cloudflare Pages",
+    "Cloudflare Workers"
+  ],
+  "urls": {
+    "live": [
+      "https://gis.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/karta-hrvatske",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Vizualno upečatljiva, živa karta s bogatim podacima i plakatima – idealna za projektor.",
+  "related": [
+    "domovinatv-crkve-domovina-ai",
+    "domovinatv-oou-domovina-ai",
+    "pinka-finance-app",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-karta-hrvatske.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://gis.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://gis.domovina.ai",
+    "frameable": true,
+    "mode": "app",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 9
+}

@@ -1,0 +1,73 @@
+{
+  "id": "domovinatv-bank-push-gateway",
+  "title": "Bank Push Gateway",
+  "one_liner": "Android telefon pretvara push obavijest banke o uplati u webhook.",
+  "description": "Nijedna hrvatska banka pravnoj osobi ne daje IBAN s webhookom za dolazne uplate, a PSD2 pristup računu kasni nekoliko sati. Gateway zato sluša obavijesti bankovnih aplikacija na namjenskom Android telefonu i šalje ih na Cloudflare Worker. Cilj je trenutna potvrda donacija; za sada je u fazi samo bilježenja.",
+  "category": "automation",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "cloudflare",
+    "android",
+    "kotlin",
+    "webhook",
+    "donacije",
+    "open-source"
+  ],
+  "aliases": [
+    "bank push gateway",
+    "bank push getvej",
+    "bank push",
+    "bankovni push",
+    "push gateway",
+    "gateway za uplate",
+    "bank-push-gateway",
+    "webhook za uplate",
+    "push notifikacije banke",
+    "kolektor obavijesti"
+  ],
+  "facts": [
+    "Android kolektor (Kotlin) radi na dva fizička telefona, s Androidom 15 i 16.",
+    "Od telefona do Workera oko 20 ms, do admin sučelja oko 0,2 s.",
+    "Admin sučelje u Hono JSX-u prikazuje događaje uživo preko WebSocketa i Durable Objecta.",
+    "Prijava putem Cloudflare Accessa ili passkeya.",
+    "48 automatskih testova na Workeru.",
+    "Javni repo s MIT licencom; podaci o računima nisu u repou."
+  ],
+  "talk_hooks": [
+    "Banke ne nude webhook za uplate, ali njihove aplikacije šalju push u sekundi, pa sam taj push pretvorio u webhook.",
+    "Od ideje do radnog sustava s admin sučeljem u uživo prikazom prošlo je jedno poslijepodne."
+  ],
+  "stack": [
+    "Kotlin",
+    "TypeScript",
+    "Hono",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Durable Objects",
+    "Cloudflare Access"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/bank-push-gateway",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Pametno zaobilaženje stvarnog problema, hardver i softver zajedno, uživo prikaz; dobra priča u jednom danu.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-bank-push-gateway.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 42
+}

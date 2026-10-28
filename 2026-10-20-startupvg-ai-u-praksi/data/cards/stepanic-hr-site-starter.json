@@ -1,0 +1,60 @@
+{
+  "id": "stepanic-hr-site-starter",
+  "title": "HR site starter",
+  "one_liner": "GitHub predložak za nove klijentske web stranice i AI skill koji iz njega sam otvori projekt.",
+  "description": "Zajednička osnova za nove web stranice klijenata. Claude skill /new-project iz predloška napravi novi repozitorij, postavi ga i provjeri da build prolazi, pa se odmah može krenuti s prikupljanjem zahtjeva.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "predložak",
+    "template",
+    "claude skill",
+    "automatizacija",
+    "web"
+  ],
+  "aliases": [
+    "hr site starter",
+    "site starter",
+    "sajt starter",
+    "predložak",
+    "template",
+    "new project",
+    "novi projekt"
+  ],
+  "facts": [
+    "Skill /new-project ima 117 linija uputa i sam stvara GitHub repozitorij iz predloška.",
+    "Novi projekt odmah prolazi typecheck, build i lint.",
+    "Zaštita u CLAUDE.md sprječava da se sam predložak slučajno pretvori u projekt."
+  ],
+  "talk_hooks": [
+    "Ponavljajući posao pretvorio sam u skill: jedna naredba i novi klijentski projekt je spreman."
+  ],
+  "stack": [
+    "Bun",
+    "TypeScript",
+    "React",
+    "shadcn/ui",
+    "Claude Code skills"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Koristan alat, ali bez vizuala i priče za publiku.",
+  "related": [
+    "lomnica-lomnica-50-godina-zupe"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-hr-site-starter.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 59
+}

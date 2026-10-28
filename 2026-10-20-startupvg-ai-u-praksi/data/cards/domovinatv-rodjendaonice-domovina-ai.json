@@ -1,0 +1,91 @@
+{
+  "id": "domovinatv-rodjendaonice-domovina-ai",
+  "title": "Rođendaonice",
+  "one_liner": "Karta i booking marketplace za sve dječje rođendaonice u Hrvatskoj.",
+  "description": "Na jednom mjestu okupljene su gotovo sve igraonice i prostori za dječje rođendane u Hrvatskoj, na interaktivnoj karti uz vrtiće i škole. Roditelj može filtrirati po gradu i slobodnim terminima i rezervirati termin s plaćanjem, a vlasnik prostora ima svoj partnerski portal.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "marketplace",
+    "booking",
+    "maplibre",
+    "karta",
+    "cloudflare workers",
+    "d1",
+    "stripe connect",
+    "fiskalizacija",
+    "scraping",
+    "python"
+  ],
+  "aliases": [
+    "rođendaonice",
+    "rodjendaonice",
+    "rođendaonica",
+    "rođendaonicama",
+    "rođendaonici",
+    "rodendaonice",
+    "rođendanske igraonice",
+    "igraonice",
+    "dječji rođendani",
+    "rodjendaonice.domovina.ai",
+    "bimbo",
+    "booking rođendana"
+  ],
+  "facts": [
+    "1874 rođendaonice pronađene i geokodirane u 20 od 21 županije.",
+    "834 prostora vidljiva na živom marketplaceu, uz 813 vrtića i 2354 osnovne škole na karti.",
+    "AI je kvalificirao svih 1874 potencijalnih partnera i razvrstao ih u razrede A–D.",
+    "337 automatskih testova; rezervacije, plaćanje, otkazivanje i fiskalizacija računa.",
+    "Od prvog istraživanja tržišta do živog marketplacea za manje od mjesec dana."
+  ],
+  "talk_hooks": [
+    "Prvu bazu rođendaonica napunili su Claudeovi subagenti pretražujući web i društvene mreže, prije nego što sam uopće imao API ključ.",
+    "Tržište je imalo samo imenike i kontakt-forme; za mjesec dana imali smo pravi booking s plaćanjem i fiskalizacijom."
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "TypeScript",
+    "MapLibre GL",
+    "Cloudflare Workers",
+    "Cloudflare D1",
+    "Cloudflare R2",
+    "Stripe Connect",
+    "Python",
+    "Firecrawl",
+    "Google Places",
+    "Gemini"
+  ],
+  "urls": {
+    "live": [
+      "https://rodjendaonice.domovina.ai"
+    ],
+    "repos": []
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Vizualna karta cijele Hrvatske, živ proizvod, konkretne brojke i dobra priča o brzini (istraživanje → marketplace u mjesec dana).",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "domovinatv-domovina-fiskal",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-rodjendaonice-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://rodjendaonice.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://rodjendaonice.domovina.ai",
+    "frameable": true,
+    "mode": "app",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 13
+}

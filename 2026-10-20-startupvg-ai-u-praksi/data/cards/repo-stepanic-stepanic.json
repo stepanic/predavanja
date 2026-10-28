@@ -1,0 +1,51 @@
+{
+  "id": "repo-stepanic-stepanic",
+  "title": "GitHub profil (stepanic)",
+  "one_liner": "Profilni README na GitHubu, ostao na početnom predlošku.",
+  "description": "Poseban repozitorij čiji se README prikazuje na GitHub profilu. Ima samo početni commit s predloškom.",
+  "category": "other",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "github",
+    "profil",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "github profil",
+    "stepanic github",
+    "profil na githubu",
+    "stepanić",
+    "github"
+  ],
+  "facts": [
+    "Jedan commit (2025-03-17), GitHub predložak."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Markdown"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/stepanic",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Prazan predložak, nema priče.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-stepanic.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 102
+}

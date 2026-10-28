@@ -1,0 +1,95 @@
+{
+  "id": "podcasterium-podcasterium-app",
+  "title": "Podcasterium",
+  "one_liner": "Otvorena, globalna verzija Domovina.ai: gledaj, slušaj i čitaj bilo koji podcast uz AI članke po poglavljima.",
+  "description": "Podcasterium je isti proizvod kao Domovina.ai, ali bez hrvatskog konteksta, pod novim brendom i za cijeli svijet. Kod je izdvojen u zajedničku jezgru, a aplikacija je tanka ljuska s vlastitim brendom. Otvorenog je koda (MIT) i prijavljena je na natjecanje RevenueCat Shipaton 2026.",
+  "category": "mobile-app",
+  "context": "Podcasterium",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "flutter",
+    "white-label",
+    "open source",
+    "podcasti",
+    "ios",
+    "android",
+    "android tv",
+    "revenuecat",
+    "shipaton"
+  ],
+  "aliases": [
+    "podcasterium",
+    "podkasterijum",
+    "podcasterijum",
+    "podkasterium",
+    "podcasterium.com",
+    "podcasteriuma",
+    "podcasteriumu",
+    "podcasterium app",
+    "shipaton",
+    "globalna domovina"
+  ],
+  "facts": [
+    "Repo otvoren 10. rujna 2026.; 24. 9. aplikacija je poslana na pregled u App Store i Google Play, a na Google Playu je objavljena oko 2.–3. listopada.",
+    "Dijeli jezgru s Domovina.ai: ~74 000 linija Dart koda i 443 testa.",
+    "Na početku 49 kanala, 3237 epizoda i oko 3100 sati sadržaja.",
+    "Otvoreni kod pod MIT licencom, dostupno u 177 zemalja.",
+    "Prijava na RevenueCat Shipaton 2026.",
+    "Prva nadogradnja na noviju Domovina.ai: 16 upstream commitova spojeno u build 1.0.2 u jednoj sesiji.",
+    "Apple je 30. 9. odbio prvu verziju (1.0.0) zbog tri stvari: brisanje računa i kupnja Plusa bili su skriveni iza prijave, a treća primjedba odnosila se na prava za sadržaj trećih strana.",
+    "Ispravak i ponovno slanje (verzija 1.0.3) napravljeni su 1. 10. kroz App Store Connect API, bez weba trgovine; 10. 10. 1.0.3 je još čekala pregled.",
+    "Za odvajanje brenda svi backend nazivi dobili su podcasterium.com imena preko jednog Cloudflare Workera koji prosljeđuje na postojeći backend Domovine.",
+    "Plan sinkronizacije: 58 novih commitova Domovina.ai čeka spajanje u zajedničku jezgru, a pravila natjecanja Shipaton 2026 do 13. 10. dopuštaju samo odobrenje već poslane verzije."
+  ],
+  "talk_hooks": [
+    "Od gotovog hrvatskog proizvoda do globalne aplikacije u trgovinama za dva tjedna – bez prepisivanja, AI je izdvojio jezgru i napravio novi brend.",
+    "Claude je popunio metapodatke za App Store i Google Play preko API-ja, uključujući upitnike o privatnosti.",
+    "Screenshotove za trgovine sad radi skripta na iOS i Android simulatorima, bez da mi AI preuzme miš.",
+    "Apple je prvu verziju odbio jer nije mogao pronaći gumb za brisanje računa; Claude je sam složio cijeli slijed za ponovno slanje preko App Store Connect API-ja, uključujući korak koji se skriva iza opće greške 409."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "Cloudflare Pages",
+    "Cloudflare Workers",
+    "Supabase",
+    "RevenueCat",
+    "SwiftUI (prototip)"
+  ],
+  "urls": {
+    "live": [
+      "https://podcasterium.com"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/podcasterium/podcasterium-app",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Svjež, javan i open-source, s jakom pričom o brzini (dva tjedna do trgovina) i natjecanjem u tijeku.",
+  "related": [
+    "domovinatv-domovina-ai",
+    "podcasterium-podcasterium-registry",
+    "repo-podcasterium-podcasterium-landing"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/podcasterium-podcasterium-app.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://podcasterium.com"
+    }
+  ],
+  "embed": {
+    "url": "https://podcasterium.com",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 7
+}

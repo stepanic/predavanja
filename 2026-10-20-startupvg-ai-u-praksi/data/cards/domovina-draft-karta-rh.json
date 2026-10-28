@@ -1,0 +1,59 @@
+{
+  "id": "domovina-draft-karta-rh",
+  "title": "Karta RH (prvi nacrt)",
+  "one_liner": "Prvi WebGL nacrt interaktivne karte svih gradova, općina i naselja u Hrvatskoj.",
+  "description": "Jedna HTML stranica s MapLibre kartom poligona svih jedinica lokalne samouprave i naselja, s fokusom na odabranu općinu, pretragom i svijetlom/tamnom temom. Uz kartu su iterativno provjeravani podaci: koja je jedinica grad, a koja općina, i je li u ispravnoj županiji. Nacrt je u svibnju 2026. spojen u monorepo Karte Hrvatske.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "maplibre",
+    "webgl",
+    "gis",
+    "karta",
+    "jls",
+    "naselja",
+    "otvoreni podaci"
+  ],
+  "aliases": [
+    "karta rh",
+    "karta hrvatske",
+    "draft karta",
+    "nacrt karte",
+    "karta općina",
+    "karta gradova i općina",
+    "jls karta",
+    "jls",
+    "naselja",
+    "hrvatska full",
+    "karti rh"
+  ],
+  "facts": [
+    "Provjera podataka prema službenom broju: 128 gradova i 428 općina.",
+    "Klik na općinu fokusira kartu i prikazuje samo njezina naselja; pretraga i po naseljima.",
+    "WebGL karta bila je toliko brža od Flutter web verzije da je ostala zasebna implementacija za web.",
+    "16. svibnja 2026. spojeno u monorepo Karte Hrvatske."
+  ],
+  "talk_hooks": [
+    "AI je pronašao greške u podacima, poput općina upisanih u krivu županiju, dok smo gradili kartu."
+  ],
+  "stack": [
+    "HTML",
+    "JavaScript",
+    "MapLibre GL",
+    "Python"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Prethodnik Karte Hrvatske; priča je bolja na kartici završnog projekta.",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "domovinatv-map-domovina-ai"
+  ],
+  "media": [],
+  "duplicate_of": "domovinatv-karta-hrvatske"
+}

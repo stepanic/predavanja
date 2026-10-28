@@ -1,0 +1,89 @@
+{
+  "id": "domovinatv-izbori-domovina-ai",
+  "title": "Izbori u brojkama",
+  "one_liner": "Rezultati hrvatskih izbora, analiza pravednosti sustava i simulator raspodjele mandata.",
+  "description": "Web platforma s rezultatima devet izbornih ciklusa preuzetih iz javne arhive DIP-a. Prikazuje koliko je glasova propalo, koliko je sustav razmjeran i omogućuje simulaciju raspodjele mandata s vlastitim parametrima.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "izbori",
+    "otvoreni podaci",
+    "simulator",
+    "vizualizacija",
+    "next.js"
+  ],
+  "aliases": [
+    "izbori",
+    "izbora",
+    "izborima",
+    "izbori domovina",
+    "izbori.domovina.ai",
+    "izbori domovina ai",
+    "izborni simulator",
+    "simulator izbora",
+    "pravednost u brojkama",
+    "dip",
+    "rezultati izbora"
+  ],
+  "facts": [
+    "Baza od 1,06 GB: 137.886 indeksiranih datoteka i 8,17 milijuna redaka o kandidatima.",
+    "Na izborima 2024. ispod praga je ostalo 236.881 glasova, 11,39 % važećih.",
+    "Deterministički simulator izbora 2020. i 2024. računa mandate u stvarnom vremenu.",
+    "Karta po županijama s ulaskom do gradova i općina; LCP na mobitelu 1,42 s.",
+    "Kod pod MIT licencom, podaci pod CC BY 4.0."
+  ],
+  "talk_hooks": [
+    "Službena arhiva izbora nema API, pa je Claude napisao skripte koje prolaze kroz cijelu hijerarhiju od države do biračkog mjesta i sve spremaju u SQLite."
+  ],
+  "stack": [
+    "Python",
+    "SQLite",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Cloudflare Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://izbori.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/izbori.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Živa, vizualna, s mnogo brojki i interaktivnim simulatorom; jaka priča o otvorenim podacima.",
+  "related": [
+    "domovinatv-stranke-domovina-ai",
+    "domovinatv-karta-hrvatske"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-izbori-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://izbori.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-izbori-domovina-ai.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://izbori.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://izbori.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 18703,
+    "checked": "2026-09-25"
+  },
+  "rank": 15
+}

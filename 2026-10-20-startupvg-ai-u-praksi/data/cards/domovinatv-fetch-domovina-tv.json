@@ -1,0 +1,114 @@
+{
+  "id": "domovinatv-fetch-domovina-tv",
+  "title": "Domovina pipeline (fetch.domovina.tv)",
+  "one_liner": "Automatizirani AI pipeline koji hrvatske podcaste pretvara u transkripte, sažetke, članke i prijevode.",
+  "description": "Noćni pipeline koji skida epizode hrvatskih podcasta i YouTube kanala, transkribira ih, prepoznaje govornike te generira sažetke, članke, engleske prijevode, screenshotove i e-knjige za domovina.ai. Radi na Cloudflareu uz serverless GPU-ove i više LLM-ova, a vodi i javni registar podcasta.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "podcasti",
+    "transkripcija",
+    "diarizacija",
+    "gemini",
+    "claude",
+    "cloudflare",
+    "hrvatski jezik",
+    "llm pipeline",
+    "reels",
+    "episode.json"
+  ],
+  "aliases": [
+    "fetch domovina",
+    "fetch.domovina.tv",
+    "domovina pipeline",
+    "pipeline domovina",
+    "pajplajn",
+    "pipelajn",
+    "podcast pipeline",
+    "podcast registar",
+    "podcast registry",
+    "registar podcasta",
+    "domovina tv",
+    "domovina ai pipeline",
+    "fetch domovina tv"
+  ],
+  "facts": [
+    "Svih 3379 epizoda ima episode.json paket na CDN-u (backfill 9 min 39 s, 394 MB, oko 0,02 $).",
+    "Noćni pipeline ubrzan s 5 h 53 min na 18 minuta.",
+    "Prelazak na H.264 prepolovio CDN: s 604 GB na 299 GB (2696 videa).",
+    "Javni registar podcasta u jednom je tjednu narastao s 291 na 516 unosa; noćni watch prati 406 kanala, a kanali se rangiraju po stvarnoj aktivnosti.",
+    "Oko 160 000 objekata na CDN-u, 62 308 screenshotova, 3277 e-knjiga.",
+    "Transkripcija na serverless GPU-u (Modal) oko 1 cent po epizodi.",
+    "Točni datumi objave preko YouTube Data API-ja, s dubokim backfillom do 2005.",
+    "Reels: skripta render_reel.py pretvara 16:9 epizodu u 9:16 reel s titlom riječ po riječ, oko 35 s po reelu (PoC).",
+    "Ponovna obrada objavljene epizode iz pipeline.domovina.ai, s novim prijepisom.",
+    "Prijepis po cue-ovima s imenom govornika (segments.jsonl) hrani novu pretragu transkripta."
+  ],
+  "talk_hooks": [
+    "Najveći projekt godine: više od 250 Claude Code sessiona i oko 750 commitova, od skripte na laptopu do noćnog sustava koji sam obrađuje tisuće epizoda.",
+    "Claude Code nije samo pisao kod nego je postao i jedan od LLM backenda pipelinea za kvalitetnije članke.",
+    "Isti pipeline pretvorio je 80 minuta snimljenog razgovora u gotov članak za oko 25 minuta i nekih 1,5 dolara."
+  ],
+  "stack": [
+    "Node.js",
+    "Python",
+    "Cloudflare Workers",
+    "Cloudflare R2",
+    "Cloudflare D1",
+    "Hono",
+    "Gemini",
+    "Claude",
+    "NVIDIA Canary",
+    "pyannote",
+    "Speechmatics",
+    "Modal",
+    "FFmpeg",
+    "yt-dlp"
+  ],
+  "urls": {
+    "live": [
+      "https://podcast-registry.domovina.ai",
+      "https://stats.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/fetch.domovina.tv",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Najveći i najduži projekt s brojnim mjerljivim rezultatima i jasnom pričom o AI-ju koji gradi AI sustav.",
+  "related": [
+    "domovinatv-domovina-cutter",
+    "domovinatv-ai-domovina-ai",
+    "repo-stepanic-transkripcija-m4a-hrvatski",
+    "repo-spremni-za-screenshot"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-fetch-domovina-tv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://podcast-registry.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-fetch-domovina-tv.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://podcast-registry.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://podcast-registry.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 27596,
+    "checked": "2026-09-25"
+  },
+  "rank": 1
+}

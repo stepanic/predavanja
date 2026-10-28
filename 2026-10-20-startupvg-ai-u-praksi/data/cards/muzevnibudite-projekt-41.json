@@ -1,0 +1,84 @@
+{
+  "id": "muzevnibudite-projekt-41",
+  "title": "Projekt 41",
+  "one_liner": "Web aplikacija za 41-dnevni program udruge, sa svakodnevnim otvaranjem sadržaja i pozivnim kodovima.",
+  "description": "Svaki dan sudionicima se otvara novo poglavlje programa, a uz njega idu komentari, činjenice, novosti i svjedočanstva. Pristup ide preko pozivnih kodova s ulogama, a organizatori imaju panel za moderiranje. Aplikacija je u produkciji tijekom trajanja programa.",
+  "category": "web-app",
+  "context": "klijent",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "django",
+    "drip sadržaj",
+    "zajednica",
+    "coolify",
+    "cloudflare tunnel"
+  ],
+  "aliases": [
+    "projekt 41",
+    "projekta 41",
+    "projektu 41",
+    "projekt četrdeset i jedan",
+    "p41",
+    "p 41",
+    "p41.domovina.ai",
+    "muževni budite",
+    "muzevni budite"
+  ],
+  "facts": [
+    "Priručnik od 208 stranica razbijen je na 42 dana sadržaja.",
+    "81 činjenica s 92 izvora u posebnoj rubrici.",
+    "139 end-to-end provjera i 55 pytest testova.",
+    "Django i PostgreSQL na Coolifyju, izloženo preko Cloudflare Tunnela; deploy traje 50–110 sekundi.",
+    "Od 2026-09-15 u logovima nema nijedne greške (stanje na dan 2026-09-23).",
+    "Kad sudionik nije mogao ući, Claude je iz poruke administratora i server logova pronašao račun te dodao u upravu privremenu lozinku, s 9 novih testova."
+  ],
+  "talk_hooks": [
+    "Od PDF priručnika do aplikacije koja svaki dan otvara novo poglavlje: Claude je izvukao sadržaj, a ja sam se bavio programom.",
+    "Administrator javi problem na WhatsApp, Claude pročita poruku, nađe korisnika u logovima, doda funkciju u upravu i pošalje upute natrag."
+  ],
+  "stack": [
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "django-unfold",
+    "htmx",
+    "Alpine.js",
+    "Coolify",
+    "Cloudflare Tunnel",
+    "Oracle Cloud"
+  ],
+  "urls": {
+    "live": [
+      "https://p41.domovina.ai"
+    ],
+    "repos": []
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Živa aplikacija sa stvarnim korisnicima i dobrom pričom od PDF-a do aplikacije, ali klijentska i vjerske tematike.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/muzevnibudite-projekt-41.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://p41.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/muzevnibudite-projekt-41.full.jpg",
+      "width": 2880,
+      "height": 11842,
+      "url": "https://p41.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://p41.domovina.ai",
+    "frameable": false,
+    "mode": "page",
+    "page_height": 5921,
+    "checked": "2026-09-25"
+  },
+  "rank": 24
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "predavanje-ai-vg",
+  "compatibility_date": "2026-10-01",
+  // D.O.M. račun, isti kao projekti.domovina.ai.
+  "account_id": "<CLOUDFLARE_ACCOUNT_ID>",
+
+  // Samo statika iz ove mape (demo s predavanja), bez Worker koda.
+  // Bez .assetsignore bi se wrangler.jsonc objavio kao datoteka.
+  "assets": { "directory": "." },
+
+  "routes": [
+    { "pattern": "predavanje-ai-vg.domovina.ai", "custom_domain": true }
+  ]
+}

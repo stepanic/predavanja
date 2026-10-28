@@ -1,0 +1,93 @@
+{
+  "id": "domovinatv-crkve-domovina-ai",
+  "title": "Katalog crkava u Hrvatskoj",
+  "one_liner": "Otvoreni katalog svih crkava i vjerskih pravnih osoba u Hrvatskoj s kartom.",
+  "description": "Podatkovni projekt koji iz javnih izvora (OpenStreetMap, data.gov.hr, Wikidata) gradi jedan katalog svih crkava, kapela i drugih vjerskih objekata s koordinatama te vjerskih pravnih osoba. Rezultat je web katalog na crkve.domovina.ai i slojevi na Karti Hrvatske.",
+  "category": "data-pipeline",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "otvoreni podaci",
+    "gis",
+    "openstreetmap",
+    "wikidata",
+    "python",
+    "tanstack start",
+    "maplibre"
+  ],
+  "aliases": [
+    "crkve",
+    "crkava",
+    "crkvama",
+    "katalog crkava",
+    "crkve domovina",
+    "crkve.domovina.ai",
+    "župe",
+    "župa",
+    "biskupije",
+    "biskupija",
+    "zupe"
+  ],
+  "facts": [
+    "6966 građevina, 100 % geokodirano.",
+    "2979 vjerskih pravnih osoba iz državnih evidencija.",
+    "15 izvedenih granica biskupija s 96,9–99,3 % podudarnosti s OpenStreetMapom.",
+    "Cijeli pipeline se iz predmemoriranih izvora ponovno izgradi za oko 5 sekundi; 126 testova.",
+    "Web katalog ima 9401 generiranu stranicu."
+  ],
+  "talk_hooks": [
+    "Na pitanje 'koje sve crkve postoje u Hrvatskoj' nije postojao jedan odgovor – Claude je spojio pet javnih izvora u katalog u par dana."
+  ],
+  "stack": [
+    "Python",
+    "SQLite",
+    "TanStack Start",
+    "React",
+    "Tailwind",
+    "MapLibre GL",
+    "Cloudflare Workers"
+  ],
+  "urls": {
+    "live": [
+      "https://crkve.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/crkve.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Impresivne brojke i živa karta, ali vjerska tema traži odluku govornika.",
+  "related": [
+    "domovinatv-karta-hrvatske",
+    "podcasterium-podcasterium-registry",
+    "ss-hrvatski-amaterski-nogometni-klubovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-crkve-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://crkve.domovina.ai"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/domovinatv-crkve-domovina-ai.full.jpg",
+      "width": 2880,
+      "height": 3826,
+      "url": "https://crkve.domovina.ai"
+    }
+  ],
+  "embed": {
+    "url": "https://crkve.domovina.ai",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 1913,
+    "checked": "2026-09-25"
+  },
+  "rank": 35
+}

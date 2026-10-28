@@ -1,0 +1,68 @@
+{
+  "id": "domovinatv-domovina-wsrv",
+  "title": "WebP optimizacija sličica",
+  "one_liner": "Optimizacija slika i cache pravila za Domovinu: popis epizoda sa 13,7 MB na 0,19 MB.",
+  "description": "Repozitorij je napušten, a posao je prebačen u postojeći pipeline: za svaku epizodu generiraju se WebP sličice u više veličina, a aplikacija bira pravu prema ekranu. Uz to su postavljena cache pravila na Cloudflareu.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "webp",
+    "performanse",
+    "cdn",
+    "cloudflare r2",
+    "flutter"
+  ],
+  "aliases": [
+    "wsrv",
+    "w srv",
+    "domovina wsrv",
+    "webp",
+    "web p",
+    "sličice",
+    "thumbnailovi",
+    "optimizacija slika",
+    "slike epizoda"
+  ],
+  "facts": [
+    "73 puta manje podataka za popis od 20 epizoda: 13,73 MB → 0,19 MB.",
+    "Naknadno obrađeno 3.016 epizoda, 9.042 WebP varijante.",
+    "Sve varijante zauzimaju oko 7 % besplatnog R2 prostora.",
+    "13 testova za odabir veličine sličice u aplikaciji."
+  ],
+  "talk_hooks": [
+    "Jedan jutarnji session i aplikacija skida 73 puta manje podataka."
+  ],
+  "stack": [
+    "JavaScript",
+    "Bash",
+    "Flutter",
+    "Cloudflare R2",
+    "Cloudflare Cache Rules"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-wsrv",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Dobra brojka (73×), ali infrastrukturni posao bez vizuala.",
+  "related": [
+    "domovinatv-domovina-stats"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-wsrv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 79
+}

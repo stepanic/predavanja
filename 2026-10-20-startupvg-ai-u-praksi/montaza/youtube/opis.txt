@@ -1,0 +1,47 @@
+Dva sata Claude Codea uživo, bez slajdova. Matija Stepanić u StartupVG poduzetničkom inkubatoru u Velikoj Gorici pokazuje kako svakodnevno radi s AI agentima: pitanja stižu u WhatsApp grupu, Claude ih čita i odgovara, gradi web-stranicu tvrtke, sam je provjerava u pregledniku i objavljuje je na Cloudflare, a izmjene za pravog klijenta radi iz njegovih WhatsApp poruka. Drugi sat čine pitanja publike: hrvatski ili engleski u promptu, Claude Code ili Cursor, veliki projekti i kontekst, halucinacije, lokalni modeli i kineski modeli.
+
+StartupVG Masterclass, utorak 20. 10. 2026.
+
+0:00 Uvod: Domagoj Ilečić, StartupVG
+2:29 Tko sam i kako radim s AI-jem
+5:08 Zašto je AI danas toliko jeftin
+9:27 WhatsApp grupa predavanja i MCP
+11:36 Moja statistika i Claude Max pretplata
+13:27 Claude Code u terminalu: što smije raditi na računalu
+15:57 Alat koji radi alate
+18:38 Lovable, posrednici i zašto mi treba samo Claude Code
+23:02 WhatsApp bridge, MCP-ovi i pretraga podcasta
+27:00 Uživo: Claude odgovara publici u WhatsApp grupi
+29:22 Demo: web-stranica tvrtke s kontakt-formom
+33:31 Claude in Chrome: AI sam provjerava što je napravio
+35:19 Git i zašto Claude Code pustim da radi bez pitanja
+38:49 Pitanje: prompt na hrvatskom ili engleskom?
+41:38 Duljina konteksta i /wrap-up handoff
+44:55 Pravi klijent: izmjene weba iz WhatsApp poruka
+50:31 Pitanje: Claude Code ili Cursor?
+55:24 Priča iz publike: ChatGPT i reklamacija kauča
+57:09 Gmail MCP, AI agenti i potrošnja struje
+59:40 Demo: objava na Cloudflare i link u WhatsApp grupu
+1:04:23 Kolike zadatke dati AI-ju
+1:05:57 Glas u tekst: Wispr Flow i Soniox
+1:10:14 Pregled projekata
+1:24:13 Pitanje: od čega živiš?
+1:26:29 Demo: plaćanje EPC QR kodom, Monerium i Gnosis
+1:31:05 Pitanje: zašto ne potpuno samostalni agent?
+1:37:09 Pitanje: veliki projekti, kontekst i Git kao memorija
+1:42:26 Pitanje: halucinacije i rizik na produkciji
+1:45:23 Pitanje: terminal ili Claude aplikacija?
+1:48:36 Pitanje: AI za call centre
+1:49:53 Mac mini, RustDesk i Antigravity
+1:53:18 Tjedni limit: Opus i Fable za sigurnosnu provjeru
+1:57:05 Pitanje: lokalni modeli i LM Studio
+2:01:23 Pitanje: Claude Code i Gemini zajedno
+2:02:36 Pitanje: kineski modeli
+2:04:33 Kraj
+
+Projekti s predavanja (100+, većina s javnim kodom): https://projekti.domovina.ai
+Matija Stepanić: https://stepanic.domovina.ai
+Domovina AI, pretraga hrvatskih podcasta: https://domovina.ai
+StartupVG poduzetnički inkubator: https://startupvg.hr
+
+#ClaudeCode #AI #StartupVG

@@ -1,0 +1,60 @@
+{
+  "id": "repo-spremni-za-inventuru-app",
+  "title": "Inventura",
+  "one_liner": "Flutter aplikacija za inventuru: skeniraš barkod, upišeš količinu, a podaci idu u Google Sheets.",
+  "description": "Mobilna aplikacija za brzu inventuru na hrvatskom: kamera skenira EAN barkod, unese se količina, a zapis se sinkronizira u Google tablicu. Radi i bez interneta i šalje podatke kad se veza vrati.",
+  "category": "mobile-app",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "flutter",
+    "barkod",
+    "google sheets",
+    "offline",
+    "inventura",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "inventura",
+    "inventuru",
+    "inventure",
+    "aplikacija za inventuru",
+    "za inventuru",
+    "spremni za inventuru",
+    "skener barkoda",
+    "barkod",
+    "google sheets"
+  ],
+  "facts": [
+    "Napravljeno u jednom danu, 21. prosinca 2025., u 8 commitova.",
+    "Offline red čekanja: skeniranja se sinkroniziraju kad se veza vrati.",
+    "Nema zabilježenih Claude Code sesija za ovaj repo."
+  ],
+  "talk_hooks": [
+    "Primjer iz vremena prije nego što sam svakodnevno radio s Claude Codeom: mala korisna aplikacija za jedan dan."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "Provider",
+    "Google Sheets API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali alat bez zabilježene AI priče; koristan samo kao kontrast 'prije'.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-za-inventuru-app.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 86
+}

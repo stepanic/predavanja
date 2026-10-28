@@ -1,0 +1,72 @@
+{
+  "id": "domovinatv-cal-domovina-ai",
+  "title": "Cal.domovina.ai",
+  "one_liner": "Vlastita, brendirana instanca Cal.com za rezerviranje razgovora s osnivačem.",
+  "description": "Self-hosted Cal.com za rezervaciju 15-minutnih razgovora, pripremljen za vlastiti server iza Cloudflare tunela. Repozitorij sadrži pinanu verziju Cal.coma, ARM Docker build s brendiranjem i skripte koje preko API-ja postavljaju i pokreću deploy.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "cal.com",
+    "self-hosting",
+    "coolify",
+    "docker",
+    "cloudflare tunnel",
+    "open source"
+  ],
+  "aliases": [
+    "cal",
+    "kal",
+    "cal domovina",
+    "cal.domovina.ai",
+    "cal.com",
+    "kalendar",
+    "rezervacija termina",
+    "razgovor s osnivačem",
+    "booking"
+  ],
+  "facts": [
+    "Cal.com v6.2.0 kao git subtree.",
+    "Dockerfile s 15 koraka za ARM64 build.",
+    "Konfiguracija preko 20 varijabli okruženja, deploy preko Coolify REST API-ja."
+  ],
+  "talk_hooks": [
+    "Umjesto Googleova alata bez API-ja, Claude je u jednom danu pripremio vlastiti Cal.com pod našim brendom."
+  ],
+  "stack": [
+    "Cal.com",
+    "Next.js",
+    "PostgreSQL",
+    "Docker",
+    "Coolify",
+    "Cloudflare Tunnel"
+  ],
+  "urls": {
+    "live": [
+      "https://cal.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/cal.domovina.ai",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Infrastrukturni posao bez vlastitog proizvoda i priče.",
+  "related": [
+    "domovinatv-domovina-infra",
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-cal-domovina-ai.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 85
+}

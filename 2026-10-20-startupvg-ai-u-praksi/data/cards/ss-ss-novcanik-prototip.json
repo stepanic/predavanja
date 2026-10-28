@@ -1,0 +1,83 @@
+{
+  "id": "ss-ss-novcanik-prototip",
+  "title": "Klupski novčanik (lom.ff.hr)",
+  "one_liner": "Jedan prototip novčanika koji se sam brendira za svih 1.014 hrvatskih nogometnih klubova, po poddomeni.",
+  "description": "Self-custody novčanik za nogometne klubove: članarine, donacije, klupski fondovi, bodovi za volontere i godišnja ulaznica s QR kodom. Isti kod poslužuje svaki klub na njegovoj poddomeni (lom.ff.hr, luk.ff.hr …) s njegovim grbom, bojama i ikonom aplikacije. Dizajn-prototip s ilustrativnim podacima, bez stvarnog novca.",
+  "category": "prototype",
+  "context": "FootballFans",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "nogomet",
+    "novčanik",
+    "self-custody",
+    "multitenant",
+    "white-label",
+    "pwa",
+    "cloudflare workers"
+  ],
+  "aliases": [
+    "klupski novčanik",
+    "klupskog novčanika",
+    "klupski novcanik",
+    "nogometni novčanik",
+    "lom.ff.hr",
+    "lom ff hr",
+    "lomnica",
+    "nk lomnica",
+    "novčanik za klubove",
+    "wallet za klubove",
+    "ss novčanik",
+    "ff novčanik"
+  ],
+  "facts": [
+    "Svih 1.014 klubova iz kataloga dobiva vlastitu poddomenu *.ff.hr, a dodavanje kluba ne košta ništa.",
+    "Boje su automatski izvučene iz grba za 977 klubova.",
+    "Za klubove je generirano 12.168 iOS splash ekrana i personalizirane ikone aplikacije.",
+    "Isti Worker na *.ff.hr poslužuje i novčanike za 155 političkih stranaka.",
+    "Pregled za dijeljenje (OpenGraph) prepisuje se na edgeu, pa link svakog kluba pokazuje njegov grb.",
+    "Od prvog prototipa za 3 kluba do svih 1.014 trebalo je tri tjedna (20. 6. – 10. 7. 2026.)."
+  ],
+  "talk_hooks": [
+    "Upišite ime svog kluba ispred .ff.hr: novčanik se otvori s njegovim grbom i bojama, a nijedan klub nije ručno podešen."
+  ],
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind",
+    "Cloudflare Workers",
+    "Cloudflare R2",
+    "Cloudflare Pages",
+    "PWA"
+  ],
+  "urls": {
+    "live": [
+      "https://lom.ff.hr"
+    ],
+    "repos": []
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Publika može otvoriti novčanik vlastitog kluba na mobitelu; jaka priča o skaliranju s AI-jem.",
+  "related": [
+    "ss-ff-landing",
+    "novcanik-prototipovi"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/ss-ss-novcanik-prototip.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://lom.ff.hr"
+    }
+  ],
+  "embed": {
+    "url": "https://lom.ff.hr",
+    "frameable": true,
+    "mode": "app",
+    "page_height": 810,
+    "checked": "2026-10-19"
+  },
+  "rank": 21
+}

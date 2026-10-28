@@ -1,0 +1,63 @@
+{
+  "id": "domovinatv-domovina-storage",
+  "title": "DOMOVINA Storage",
+  "one_liner": "Skripte i runbookovi za diskove, backup u cloud i čišćenje prostora na Macu.",
+  "description": "Interni projekt za terabajte medijskih podataka: seljenje vanjskih SSD-ova, backup u Cloudflare R2 i oslobađanje glavnog diska. Usput je noćni pipeline za podcaste ubrzan više od sto puta.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "internal",
+  "tags": [
+    "backup",
+    "storage",
+    "apfs",
+    "cloudflare r2",
+    "automatizacija"
+  ],
+  "aliases": [
+    "domovina storage",
+    "storage",
+    "storidž",
+    "backup",
+    "bekap",
+    "diskovi",
+    "diskova",
+    "r2 backup"
+  ],
+  "facts": [
+    "255 GiB podataka u Cloudflare R2 za oko 0,40 $ mjesečno.",
+    "Prelazak s exFAT na APFS smanjio je git mapu s 86 GB na 15 GB.",
+    "Brzina zapisa na isti SSD porasla je s 43–95 MB/s na 213–460 MB/s.",
+    "Dvije funkcije noćnog pipelinea ubrzane su 151 i 122 puta.",
+    "Glavni disk: slobodno s 12,85 GiB na oko 52 GiB."
+  ],
+  "talk_hooks": [
+    "AI nije samo za aplikacije. Ovdje je bio sistemski administrator koji je sigurno preselio stotine gigabajta."
+  ],
+  "stack": [
+    "Python",
+    "Bash",
+    "rclone",
+    "Cloudflare R2",
+    "macOS"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Korisno i s lijepim brojkama, ali interno i bez vizuala.",
+  "related": [
+    "domovinatv-mediakit-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-storage.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 44
+}

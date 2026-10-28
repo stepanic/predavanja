@@ -1,0 +1,74 @@
+{
+  "id": "domovinatv-domovina-gnosis-node",
+  "title": "Domovina Gnosis Node",
+  "one_liner": "Upute i skripte za vlastiti Gnosis Chain čvor na starom MacBooku.",
+  "description": "Repo je jedini izvor istine za pokretanje Gnosis Chain čvora (execution i consensus klijent) nativno na macOS-u, bez Dockera. Čvor treba služiti kao vlastiti RPC za Domovina novčanik, uz push obavijesti o uplatama i kasnije jedan validator. Sve je pripremljeno na drugom računalu, a pokretanje na MacBooku slijedi.",
+  "category": "infra",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "blockchain",
+    "gnosis",
+    "infra",
+    "macos",
+    "open-source"
+  ],
+  "aliases": [
+    "gnosis node",
+    "gnosis čvor",
+    "gnosis cvor",
+    "gnosis chain",
+    "gnosis noda",
+    "domovina gnosis",
+    "domovina gnosis node",
+    "gnosis validator",
+    "vlastiti rpc",
+    "nethermind",
+    "teku"
+  ],
+  "facts": [
+    "Nethermind 2.0.0 kao execution i Teku 26.9.1 kao consensus klijent.",
+    "Servisi rade kao skriveni korisnik preko LaunchDaemona, za rad 24/7.",
+    "Verzije i SHA-256 sume instalacije zapisane su na jednom mjestu.",
+    "Node.js listener prati blokove i šalje potpisane, deduplicirane događaje o uplatama.",
+    "Dokumentacija na hrvatskom, devet poglavlja od arhitekture do sigurnosti.",
+    "Prvi nacrt napravio je drugi AI alat, a Claude ga je preradio od nule."
+  ],
+  "talk_hooks": [
+    "Prvi nacrt napisao je Gemini u drugom alatu; dao sam ga Claudeu kao prompt i rekao neka napravi najbolje što misli.",
+    "Sve se priprema na jednom računalu, a na MacBooku se samo povuče repo i pokrene."
+  ],
+  "stack": [
+    "Shell",
+    "Node.js",
+    "Nethermind",
+    "Teku",
+    "launchd",
+    "Cloudflare"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/domovina-gnosis-node",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Zanimljiva infrastruktura, ali bez vizualnog dijela i još nije pokrenuta na ciljnom računalu.",
+  "related": [
+    "domovinatv-bank-push-gateway"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-gnosis-node.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 63
+}

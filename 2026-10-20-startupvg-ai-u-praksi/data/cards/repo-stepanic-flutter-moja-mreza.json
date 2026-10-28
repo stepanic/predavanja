@@ -1,0 +1,80 @@
+{
+  "id": "repo-stepanic-flutter-moja-mreza",
+  "title": "Moja Mreža uvoz (Flutter plugin i extension)",
+  "one_liner": "Plugin i Chrome extension koji se prijave Certilijom na HEP-ov portal Moja Mreža i uvezu mjerna mjesta, očitanja i potrošnju, bez prepisivanja.",
+  "description": "Počeo je u srpnju 2025. kao mali plugin koji u WebViewu otvara portal distributera struje, prije Claude Codea. U listopadu 2026. prerastao je u pravi uvoz podataka: korisnik se sam prijavi preko e-Građana i Certilije, a aplikacija (iOS, Android) ili Chrome extension samo čita stranice portala i pokaže pregled mjernih mjesta, očitanja i razdoblja potrošnje. Uz to su nastali alati za simulaciju solarne elektrane.",
+  "category": "tool",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "flutter",
+    "hep",
+    "plugin",
+    "certilia",
+    "chrome extension",
+    "privatnost",
+    "solar",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "moja mreža",
+    "moja mreza",
+    "hep",
+    "hep plugin",
+    "flutter moja mreža",
+    "očitanja brojila",
+    "brojilo",
+    "moja mreža uvoz",
+    "chrome extension",
+    "uvoz očitanja",
+    "certilia prijava",
+    "solarna elektrana",
+    "fotonaponska elektrana",
+    "pvgis"
+  ],
+  "facts": [
+    "Početna verzija nastala je u jednom danu (29. 7. 2025., 8 commitova), prije Claude Codea.",
+    "U listopadu 2026. dodano je programsko prijavljivanje preko e-Građana i Certilije te uvoz mjernih mjesta, očitanja i potrošnje; na Android emulatoru uvezeno je 46 očitanja i 23 razdoblja potrošnje.",
+    "Native implementacije: SwiftUI i WKWebView na iOS-u, Kotlin i Android WebView na Androidu; parser čita stupce po nazivu zaglavlja pa ne puca na sitnim promjenama HTML-a.",
+    "Model povjerenja: samo GET zahtjevi na pet stranica portala, OIB se ne uzima, sesija se briše nakon uvoza, a JavaScript smije raditi samo na domeni portala; dokument 'kako čitamo podatke' to opisuje korisniku.",
+    "Isti uvoz postoji i kao Chrome MV3 extension; tri verzije probane u jednom danu (od stalne dozvole do activeTab s vlastitim ekranom pristanka).",
+    "Uz uvoz su nastali PVGIS simulacija solarne elektrane i PDF izvještaj potrošnje za izvođače, plus usporedba ponuda opreme.",
+    "11 testova plugina i 5 testova extensiona prolaze."
+  ],
+  "talk_hooks": [
+    "Portal nema API; Claude je pročitao kako se prijava radi i napisao uvoz koji samo čita, a model povjerenja zapisao je kao dokument koji običan korisnik može provjeriti.",
+    "Mali plugin od prije godinu dana dobio je novi život u pet dana: iOS, Android i Chrome extension isti uvoz, s mjerama privatnosti od prvog dana."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "WebView",
+    "Swift",
+    "Kotlin",
+    "JavaScript",
+    "Python"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/flutter_moja_mreza",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Praktičan primjer reverse engineeringa portala uz jasnu priču o privatnosti; bez vizuala za projektor.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-flutter-moja-mreza.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 22
+}

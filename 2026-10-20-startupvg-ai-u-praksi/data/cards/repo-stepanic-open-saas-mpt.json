@@ -1,0 +1,89 @@
+{
+  "id": "repo-stepanic-open-saas-mpt",
+  "title": "Open SaaS + MPT",
+  "one_liner": "MPT (SEPA uplata u eurima) kao novi način plaćanja u Open SaaS, open-source SaaS predlošku tvrtke Wasp.",
+  "description": "Open SaaS je popularan besplatni predložak za SaaS aplikacije (React, Node.js, Prisma) s ugrađenim Stripeom i Polarom. Ovaj doprinos dodaje MPT: kupac plati običnom SEPA uplatom, a trgovac dobije EURe na svoj Safe. Pull request je otvoren prema upstreamu, a javni preview radi na opensaas.mpt.hr.",
+  "category": "web-app",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "open source",
+    "plaćanja",
+    "sepa",
+    "saas",
+    "wasp",
+    "pull request"
+  ],
+  "aliases": [
+    "open saas",
+    "opensaas",
+    "open sas",
+    "opensaas.mpt.hr",
+    "wasp",
+    "wasp open saas",
+    "mpt open saas",
+    "mpt plaćanje",
+    "pull request wasp"
+  ],
+  "facts": [
+    "Pull request #749 prema wasp-lang/open-saas otvoren 15. 10. 2026.",
+    "37 datoteka, oko 1.360 novih linija: procesor plaćanja, webhookovi (Standard Webhooks), vodič u dokumentaciji i e2e testovi.",
+    "Podržava samo jednokratne kupnje (krediti), jer se bankovna uplata ne obnavlja sama; stranica s cijenama to objašnjava.",
+    "E2E testovi se sad mogu vrtjeti i protiv MPT-a, ne samo Stripea; sandbox ključevi simuliraju uplatu.",
+    "Javni preview na opensaas.mpt.hr."
+  ],
+  "talk_hooks": [
+    "Umjesto da tražim da netko integrira moj sustav plaćanja, Claude Code je napisao integraciju u tuđi open-source projekt, s testovima i dokumentacijom, spremnu za pull request."
+  ],
+  "stack": [
+    "Wasp",
+    "React",
+    "Node.js",
+    "Prisma",
+    "TypeScript",
+    "Playwright",
+    "Coolify"
+  ],
+  "urls": {
+    "live": [
+      "https://opensaas.mpt.hr"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/open-saas",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 3,
+  "showcase_reason": "Doprinos tuđem open-source projektu; priča je dobra, vizualno je standardan SaaS predložak.",
+  "related": [
+    "domovinatv-mpt-landing",
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-stepanic-open-saas-mpt.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://opensaas.mpt.hr"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/repo-stepanic-open-saas-mpt.full.jpg",
+      "width": 2880,
+      "height": 9744,
+      "url": "https://opensaas.mpt.hr"
+    }
+  ],
+  "rank": 47,
+  "embed": {
+    "url": "https://opensaas.mpt.hr",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 4872,
+    "checked": "2026-10-19"
+  }
+}

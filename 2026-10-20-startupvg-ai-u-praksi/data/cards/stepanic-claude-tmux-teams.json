@@ -1,0 +1,75 @@
+{
+  "id": "stepanic-claude-tmux-teams",
+  "title": "Claude timovi u tmuxu",
+  "one_liner": "Tim od pet Claude Code agenata u jednom tmux prozoru, a čovjek razgovara samo s jednim.",
+  "description": "Otvoreni okvir za timove AI agenata: planer, orkestrator, recenzent i dva programera, svaki u svom tmux panelu, dogovaraju se međusobno. Glavna teza je da tim radi samo kad postoji 'orakl', objektivna provjera poput kompajlera i testova; bez nje pet Claudeova se samo slaže oko iste greške.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "multi-agent",
+    "claude code",
+    "tmux",
+    "ai timovi",
+    "orakl",
+    "open source",
+    "bash"
+  ],
+  "aliases": [
+    "claude tmux teams",
+    "tmux",
+    "ti mux",
+    "timovi agenata",
+    "ai tim",
+    "ai timovi",
+    "tim agenata",
+    "multi agent",
+    "orkestrator",
+    "orakl",
+    "klaud timovi",
+    "claude timovi",
+    "pet claudeova"
+  ],
+  "facts": [
+    "Pet Claude Code panela: planer, orkestrator, recenzent i dva programera.",
+    "Čovjek promptira samo u jednom panelu; ostali se dogovaraju preko tmux send-keys.",
+    "Četiri vertikale: razvoj (dokazano u produkciji), istraživanje, pravo i pitch (u dizajnu).",
+    "Mjereno: orkestrator je potrošio 4,15 od ukupno 12,28 dolara jednog pokretanja tima.",
+    "Smoke testovi: 41/41 za razvoj i 40/40 za istraživanje."
+  ],
+  "talk_hooks": [
+    "Pet Claudeova koji se slažu nije provjera nego korelirana greška: isti model, ista sljepoća. Tim radi tek kad ima nepotkupljivog suca, poput kompajlera.",
+    "Pokazat ću vam kako izgleda kad jedan čovjek vodi tim od pet AI programera u jednom terminalu."
+  ],
+  "stack": [
+    "Bash",
+    "Python",
+    "tmux",
+    "Claude Code"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/claude-tmux-teams",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Javno, vizualno upečatljivo (pet agenata u jednom prozoru) i nosi jaku, nenaivnu poruku o granicama AI timova.",
+  "related": [
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-claude-tmux-teams.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 45
+}

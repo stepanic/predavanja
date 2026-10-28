@@ -1,0 +1,80 @@
+{
+  "id": "stepanic-committers-top",
+  "title": "committers.top s isključenim repozitorijima",
+  "one_liner": "Fork GitHub ljestvice aktivnosti koji iz brojanja isključuje automatski generirane commitove.",
+  "description": "committers.top rangira najaktivnije GitHub korisnike po državama. Matija je bio prvi u Hrvatskoj, ali većinu doprinosa činio je jedan automatski repozitorij, pa je dodao mogućnost isključivanja repozitorija i predložio je autoru originala.",
+  "category": "tool",
+  "context": "open-source",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "github",
+    "open source",
+    "go",
+    "ljestvica"
+  ],
+  "aliases": [
+    "committers top",
+    "committers.top",
+    "komiters top",
+    "commiters top",
+    "github ljestvica",
+    "ljestvica commitera",
+    "prvo mjesto u hrvatskoj",
+    "najaktivniji na githubu"
+  ],
+  "facts": [
+    "Nakon isključenja jednog repozitorija javni doprinosi pali su s 35.333 na 2786.",
+    "Pozicija na hrvatskoj ljestvici promijenila se s 1. na 8. mjesto.",
+    "Otvorena dva pull requesta prema originalnom projektu: za Go kod i za sučelje."
+  ],
+  "talk_hooks": [
+    "Bio sam prvi u Hrvatskoj na GitHubu, ali pošteno: to su bili commitovi robota, pa sam s Claudeom napravio da se to može isključiti i spustio se na osmo mjesto."
+  ],
+  "stack": [
+    "Go",
+    "GitHub GraphQL API",
+    "Jekyll",
+    "GitHub Pages"
+  ],
+  "urls": {
+    "live": [
+      "https://stepanic.github.io/committers.top/"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/committers.top",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Kratka, iskrena i duhovita priča s jasnim brojkama; živ link.",
+  "related": [
+    "domovinatv-dataset-domovina-tv"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-committers-top.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://stepanic.github.io/committers.top/"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/stepanic-committers-top.full.jpg",
+      "width": 2880,
+      "height": 12000,
+      "url": "https://stepanic.github.io/committers.top/"
+    }
+  ],
+  "embed": {
+    "url": "https://stepanic.github.io/committers.top/",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 6410,
+    "checked": "2026-09-25"
+  },
+  "rank": 55
+}

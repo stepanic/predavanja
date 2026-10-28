@@ -1,0 +1,70 @@
+{
+  "id": "repo-pinka-finance-mcp-automation",
+  "title": "Pinka MCP automatizacija",
+  "one_liner": "Dizajn i lokalni MCP server kojim AI agent kreira kampanje na Pinki bez preglednika.",
+  "description": "Analiza i dizajn kako AI agenti mogu kreirati projekte na Pinki preko MCP-a (agent–alat) i A2A (agent–agent). Uključuje lokalni stdio MCP server za kreiranje i uređivanje kampanja te plan za udaljeni server.",
+  "category": "ai-agent",
+  "context": "Pinka",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "mcp",
+    "a2a",
+    "ai agent",
+    "supabase",
+    "safe"
+  ],
+  "aliases": [
+    "pinka mcp",
+    "mcp",
+    "em si pi",
+    "mcp server",
+    "a2a",
+    "a two a",
+    "pinka automatizacija",
+    "mcp.pinka.io",
+    "mcp automation"
+  ],
+  "facts": [
+    "Lokalni stdio MCP server za kreiranje i uređivanje kampanja.",
+    "Isti RPC poziva i MCP alat i A2A skill.",
+    "Safe adresa kampanje može se izvesti bez preglednika.",
+    "8 commita (2026-06-05 do 2026-06-26)."
+  ],
+  "talk_hooks": [
+    "Umjesto da klikam kroz sučelje, kažem Claudeu da otvori kampanju, a on to napravi preko MCP-a."
+  ],
+  "stack": [
+    "TypeScript",
+    "Node.js",
+    "MCP",
+    "A2A",
+    "Supabase",
+    "viem",
+    "Safe protocol-kit"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/pinka-finance/mcp-automation",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Relevantno za temu AI agenata, ali uglavnom dokumentacija bez vizuala.",
+  "related": [
+    "pinka-finance-landing"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-pinka-finance-mcp-automation.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 66
+}

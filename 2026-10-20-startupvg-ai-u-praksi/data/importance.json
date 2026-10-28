@@ -1,0 +1,411 @@
+{
+  "_opis": "Semantička važnost projekta (1-5), neovisno o količini rada: koliko je projekt središnji, koliko ljudi dotiče, koliko je ambiciozan i javan. Ulaz za tools/catalog/rank.py.",
+  "domovinatv-domovina-ai": [
+    5,
+    "glavni proizvod: AI obrađeni hrvatski podcasti na webu, mobitelu i TV-u"
+  ],
+  "domovinatv-fetch-domovina-tv": [
+    5,
+    "pipeline koji hrani cijeli Domovina ekosustav"
+  ],
+  "domovinatv-pay-domovina-ai": [
+    5,
+    "plaćanja u eurima i novčanik s passkeyem, temelj za sve naplate"
+  ],
+  "podcasterium-podcasterium-app": [
+    5,
+    "globalna verzija Domovina.ai za bilo koji podcast"
+  ],
+  "stadion-maksimir-stadion-maksimir-natjecaj-2026": [
+    5,
+    "javno glasanje s eOsobnom i blockchain provjerom, velika javna tema"
+  ],
+  "domovinatv-domovina-rag": [
+    5,
+    "semantička pretraga i MCP konektor za Claude nad hrvatskim podcastima"
+  ],
+  "pinka-finance-app": [
+    5,
+    "platforma za grupno financiranje, zaseban proizvod"
+  ],
+  "domovinatv-domovina-fiskal": [
+    4,
+    "open-source fiskalizacija i eRačuni, korisno svakoj hrvatskoj tvrtki"
+  ],
+  "domovinatv-domovina-api": [
+    4,
+    "zajednički backend i prijava za sve Domovina aplikacije"
+  ],
+  "domovinatv-karta-hrvatske": [
+    4,
+    "GIS karta s javnim podacima, vizualno najjači javni alat"
+  ],
+  "domovinatv-izbori-domovina-ai": [
+    4,
+    "izbori, pravednost sustava i simulator mandata"
+  ],
+  "domovinatv-zakoni-domovina-ai": [
+    4,
+    "pretraživi katalog svih propisa od 1990."
+  ],
+  "domovinatv-domovina-ulaznice": [
+    4,
+    "prodaja ulaznica bez provizije"
+  ],
+  "domovinatv-producer-domovina-tv": [
+    4,
+    "vlastita macOS aplikacija za snimanje podcasta"
+  ],
+  "tehnoetika-tehnoetika-app": [
+    4,
+    "open-source alternativa Substacku"
+  ],
+  "stepanic-flutter-certilia": [
+    4,
+    "open-source SDK za prijavu e-osobnom"
+  ],
+  "novcanik-prototipovi": [
+    4,
+    "17 brendiranih novčanika iz jednog predloška"
+  ],
+  "domovinatv-dataset-domovina-tv": [
+    4,
+    "otvoreni dataset hrvatskih podcasta"
+  ],
+  "podcasterium-podcasterium-registry": [
+    4,
+    "registar 4,7 milijuna podcast feedova"
+  ],
+  "deooptimomaximo-pediludium": [
+    4,
+    "živa aplikacija za Svjetsko prvenstvo 2026."
+  ],
+  "stepanic-realtime-presentation": [
+    4,
+    "ova prezentacija i javni katalog projekata"
+  ],
+  "domovinatv-rodjendaonice-domovina-ai": [
+    4,
+    "booking marketplace za dječje rođendaonice"
+  ],
+  "domovinatv-pipeline-domovina-ai": [
+    3,
+    "video u članak kao usluga s API ključevima"
+  ],
+  "domovinatv-sms-domovina-ai": [
+    3,
+    "vlastiti SMS gateway i provjera broja"
+  ],
+  "domovinatv-domovina-stats": [
+    3,
+    "javna statistika i karte hrvatskih podcasta"
+  ],
+  "ss-hrvatski-amaterski-nogometni-klubovi": [
+    3,
+    "imenik i karta 1.014 nogometnih klubova"
+  ],
+  "domovinatv-crkve-domovina-ai": [
+    3,
+    "katalog svih crkava s kartom"
+  ],
+  "domovinatv-stranke-domovina-ai": [
+    3,
+    "katalog svih političkih stranaka"
+  ],
+  "domovinatv-oou-domovina-ai": [
+    3,
+    "katalog škola i vrtića na karti"
+  ],
+  "domovinatv-podcast-domovina-ai": [
+    3,
+    "katalog 476 hrvatskih podcasta"
+  ],
+  "domovinatv-mpt-landing": [
+    3,
+    "interaktivno objašnjenje platnog kanala bez naknada"
+  ],
+  "muzevnibudite-projekt-41": [
+    3,
+    "klijentska aplikacija za 41-dnevni program"
+  ],
+  "italk-javna-nabava": [
+    3,
+    "AI radar javne nabave za tvrtku"
+  ],
+  "stepanic-fira-forms-connector": [
+    3,
+    "open-source fiskalni račun iz Google Sheetsa"
+  ],
+  "stepanic-claude-tmux-teams": [
+    3,
+    "tim Claude agenata u tmuxu"
+  ],
+  "stepanic-linkedin-poster": [
+    3,
+    "objave iz Claude Codea s linterom protiv AI stila"
+  ],
+  "repo-stepanic-flutter-moja-mreza": [
+    3,
+    "uvoz podataka s HEP-ovog portala preko e-osobne"
+  ],
+  "tehnoetika-chatcontrol-timeline": [
+    3,
+    "vremenska crta EU regulative ChatControl"
+  ],
+  "domovinatv-bank-push-gateway": [
+    3,
+    "push obavijest banke kao webhook za uplate"
+  ],
+  "repo-stepanic-modric-lottery-verify": [
+    3,
+    "nezavisna kriptografska provjera izvlačenja"
+  ],
+  "repo-spremni-za-stablecoin-spremni-hr": [
+    3,
+    "interaktivni pregled panela o stablecoinima"
+  ],
+  "domovinatv-company-details-api": [
+    2,
+    "API za veličinu tvrtke po OIB-u"
+  ],
+  "domovinatv-ai-domovina-ai": [
+    2,
+    "prototip čitača epizoda"
+  ],
+  "domovinatv-mediakit-domovina-tv": [
+    2,
+    "brand materijali i animirani logo"
+  ],
+  "domovinatv-domovina-cutter": [
+    2,
+    "izrezivanje poglavlja iz videa"
+  ],
+  "domovinatv-domovina-infra": [
+    2,
+    "server s 44 kontejnera, interna infrastruktura"
+  ],
+  "domovinatv-domovina-blockchain": [
+    2,
+    "arhitektura vlastitog blockchaina, plan"
+  ],
+  "tehnoetika-lika-odlagaliste-timeline": [
+    2,
+    "kronologija slučaja odlagališta u Lici"
+  ],
+  "stepanic-bojna-cavoglave-audio-analiza": [
+    2,
+    "audio forenzika jedne snimke"
+  ],
+  "lomnica-lomnica-50-godina-zupe": [
+    2,
+    "organizacija proslave obljetnice župe"
+  ],
+  "stepanic-launchd-menubar": [
+    2,
+    "macOS traka za noćne poslove"
+  ],
+  "italk-italk-hr": [
+    2,
+    "web stranica tvrtke"
+  ],
+  "pinka-finance-landing": [
+    2,
+    "landing stranica Pinke"
+  ],
+  "repo-mcps-whatsapp-mcp": [
+    2,
+    "dorade open-source WhatsApp MCP-a"
+  ],
+  "repo-pinka-finance-mcp-automation": [
+    2,
+    "MCP za kreiranje kampanja na Pinki"
+  ],
+  "domovinatv-domovina-ota": [
+    2,
+    "server za potpisana ažuriranja aplikacije"
+  ],
+  "domovinatv-domovina-gnosis-node": [
+    2,
+    "vlastiti Gnosis Chain čvor"
+  ],
+  "domovinatv-domovina-storage": [
+    2,
+    "runbookovi za diskove i backup"
+  ],
+  "stepanic-committers-top": [
+    2,
+    "fork GitHub ljestvice"
+  ],
+  "domovinatv-ppk-domovina-ai": [
+    2,
+    "skripta za porezni izvještaj"
+  ],
+  "repo-stepanic-automated-yt-shorts": [
+    2,
+    "automatski YouTube Shorts, rani eksperiment"
+  ],
+  "repo-stepanic-transkripcija-m4a-hrvatski": [
+    2,
+    "transkripcija hrvatskog audija, preteča pipelinea"
+  ],
+  "stepanic-hr-site-starter": [
+    2,
+    "predložak za klijentske stranice"
+  ],
+  "repo-spremni-domovina-wallet": [
+    2,
+    "rani prototip novčanika prije Claude Codea"
+  ],
+  "repo-stepanic-flutter-firebase-starter": [
+    2,
+    "Flutter i Firebase starter"
+  ],
+  "repo-stepanic-flutter-reusable-youtube-player": [
+    2,
+    "YouTube player za Flutter"
+  ],
+  "domovinatv-domovina-wsrv": [
+    1,
+    "optimizacija sličica"
+  ],
+  "domovinatv-domovina-browser": [
+    1,
+    "minimalni preglednik, eksperiment"
+  ],
+  "domovinatv": [
+    1,
+    "brendiranje Coolify panela"
+  ],
+  "domovinatv-cal-domovina-ai": [
+    1,
+    "brendirana Cal.com instanca"
+  ],
+  "stepanic-dotclaude-backup": [
+    1,
+    "backup Claude postavki"
+  ],
+  "repo-stepanic-dotclaude-sync": [
+    1,
+    "backup Claude postavki"
+  ],
+  "stepanic-citizen-go-feed": [
+    1,
+    "lokalna arhiva kampanja"
+  ],
+  "pinka-finance-cover-worker": [
+    1,
+    "pomoćni worker za naslovnice"
+  ],
+  "repo-podcasterium-podcasterium-landing": [
+    1,
+    "statične stranice uz aplikaciju"
+  ],
+  "repo-spremni-za-domene-spremni-hr": [
+    1,
+    "servis za poddomene, nedovršen"
+  ],
+  "repo-spremni-za-screenshot": [
+    1,
+    "screenshotovi iz YouTubea"
+  ],
+  "repo-stepanic-mcp-server-wasp": [
+    1,
+    "MCP za Wasp, eksperiment"
+  ],
+  "repo-stepanic-ms-ff-hr-next": [
+    1,
+    "početni Next.js projekt"
+  ],
+  "repo-spremni-za-inventuru-app": [
+    1,
+    "mala Flutter aplikacija"
+  ],
+  "repo-spremni-za-qr-offline-generator": [
+    1,
+    "mala Flutter aplikacija"
+  ],
+  "repo-stepanic": [
+    1,
+    "Shopify aplikacija za GLS, rani rad"
+  ],
+  "repo-stepanic-cravat-shopify-theme": [
+    1,
+    "izvedenica Shopify teme"
+  ],
+  "repo-stepanic-croatia-amateur-sport": [
+    1,
+    "skripta, preteča Klubova"
+  ],
+  "repo-stepanic-docx-to-latex": [
+    1,
+    "skripta za konverziju"
+  ],
+  "repo-stepanic-ff-mac-setup": [
+    1,
+    "upute za postavljanje Maca"
+  ],
+  "repo-stepanic-flutter-certilia-docs": [
+    1,
+    "kostur dokumentacije"
+  ],
+  "repo-stepanic-ms-ff-hr": [
+    1,
+    "predložak osobne stranice"
+  ],
+  "repo-stepanic-photobooth": [
+    1,
+    "početni Rust projekt"
+  ],
+  "repo-stepanic-qr-code-reader": [
+    1,
+    "mala Flutter aplikacija"
+  ],
+  "repo-stepanic-stepanic": [
+    1,
+    "profilni README"
+  ],
+  "repo-stepanic-wasp-app-123-by-cline": [
+    1,
+    "prazna aplikacija"
+  ],
+  "repo-stepanic-xcodebenchmark": [
+    1,
+    "jedan rezultat u tuđem benchmarku"
+  ],
+  "repo-stepanic-youtube-player-flutter": [
+    1,
+    "fork tuđeg paketa"
+  ],
+  "stepanic-open-diagram": [
+    3,
+    "otvoren alat koji zamjenjuje zatvoreni dbdiagram.io, živ na GitHub Pages"
+  ],
+  "repo-stepanic-open-saas-mpt": [
+    3,
+    "doprinos tuđem open-source projektu, MPT kao način plaćanja u Open SaaS"
+  ],
+  "domovinatv-odds-domovina-ai": [
+    4,
+    "javni blueprint o izbornom sustavu i P2P likvidnosti, s videom"
+  ],
+  "domovinatv-hyperframes-domovina-ai": [
+    2,
+    "radionica za videe iz HTML-a, podloga za odds i DBHZ"
+  ],
+  "domovinatv-omm-domovina-ai": [
+    3,
+    "živ servis za očitanja struje, s auditom sigurnosti"
+  ],
+  "lojtrica-oscope": [
+    2,
+    "mali zabavni PWA osciloskop"
+  ],
+  "ss-ss-novcanik-prototip": [
+    4,
+    "novčanik koji se sam brendira za 1.014 klubova po poddomeni"
+  ],
+  "ss-ff-landing": [
+    3,
+    "landing FootballFansa s nasumičnim klubom"
+  ]
+}

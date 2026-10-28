@@ -1,0 +1,79 @@
+{
+  "id": "stepanic-realtime-presentation",
+  "title": "Prezentacija koja sluša",
+  "one_liner": "Ova prezentacija: na projektoru žive stranice projekata, a publika pitanjima, naglas ili preko WhatsAppa, određuje što govornik pokazuje.",
+  "description": "Sustav za predavanje u StartupVG inkubatoru 20. 10. 2026.: umjesto slajdova, na platnu je stage aplikacija koja prikazuje žive stranice projekata iz kataloga kartica. Prvotni plan bio je AI redatelj koji sluša govor, ali govornik je 29. 9. odlučio da sam ručno bira kartice, a publika ga prekida pitanjima. Katalog kartica izvučen je automatski iz Claude Code sessiona i baze znanja.",
+  "category": "ai-agent",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "asr",
+    "prepoznavanje govora",
+    "llm",
+    "prezentacija",
+    "realtime",
+    "claude code",
+    "meta",
+    "whatsapp",
+    "stage",
+    "startupvg"
+  ],
+  "aliases": [
+    "ova prezentacija",
+    "prezentacija",
+    "prezentaciju",
+    "realtime prezentacija",
+    "real time presentation",
+    "prezentacija koja sluša",
+    "redatelj",
+    "ai redatelj",
+    "live prezentacija",
+    "kartice projekata",
+    "stage aplikacija",
+    "pitanja publike",
+    "whatsapp grupa",
+    "startupvg",
+    "startup vg"
+  ],
+  "facts": [
+    "Kartice projekata generirane su iz Claude Code sessiona i baze znanja cijele godine; katalog ima 180 kartica, a 34 su javne sa živom stranicom.",
+    "Stage aplikacija prikazuje žive stranice projekata u iframeovima, a 'kamera' ih sama scrolla i zumira; događaji i greške bilježe se u log radi dijagnostike uživo.",
+    "Susjedni projekti učitavaju se unaprijed (do pet odjednom), pa prelazak traje oko 1 ms umjesto do 4 s.",
+    "Pitanja publike stižu u WhatsApp grupu; skripta tools/wa_watch.py čita lokalnu bazu poruka samo za čitanje i svaku novu poruku ispisuje kao jedan redak u terminal na projektoru, uz samo prvo ime pošiljatelja.",
+    "Promjena smjera 29. 9.: ručni odabir kartica umjesto automatskog redatelja; cijelo predavanje snima Wispr Flow, a pitanja se poslije analiziraju i odgovaraju pisano.",
+    "Brojke za objavu uzete su iz CV telemetrije (Claude Code od travnja 2025., 5.180 sesija do 26. 9. 2026.), a ne iz inventure, koja je vidjela samo noviji dio i napuhala bi broj.",
+    "Prije gradnje napravljeno je istraživanje znanstvenih radova o prezentacijama vođenima govorom.",
+    "Termin predavanja pomican je četiri puta, a konačno je utorak 20. 10. 2026. u 18:00 u Velikoj Gorici."
+  ],
+  "talk_hooks": [
+    "Ovo što gledate na platnu nije unaprijed složen niz slajdova: bira se među stotinjak javnih kartica projekata, a vi odlučujete koju pitanjem, naglas ili u WhatsApp grupi.",
+    "Plan je bio da AI sluša što govorim i sam bira sljedeću karticu, ali sam se odlučio za ručni odabir jer publika vodi razgovor. Katalog od 180 kartica izvukli su AI agenti koji čitaju moje vlastite razgovore s Claudeom."
+  ],
+  "stack": [
+    "Python",
+    "Claude",
+    "Wispr Flow",
+    "Node.js",
+    "JavaScript",
+    "WhatsApp",
+    "SQLite"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Meta-demo koji publika doživljava uživo – najjača točka predavanja.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stepanic-realtime-presentation.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://projekti.domovina.ai"
+    }
+  ],
+  "rank": 20
+}

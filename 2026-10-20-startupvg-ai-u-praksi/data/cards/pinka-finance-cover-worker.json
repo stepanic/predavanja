@@ -1,0 +1,53 @@
+{
+  "id": "pinka-finance-cover-worker",
+  "title": "Pinka cover worker",
+  "one_liner": "Cloudflare Worker koji svaku uvezenu sliku pretvara u naslovnicu kampanje 1200 × 630.",
+  "description": "Mali servis za Pinku: kad se kampanja uveze iz linka, sličica videa ili avatar kanala automatski se izreže u jedinstveni format naslovnice i slike za dijeljenje. Prihvaća samo slike s dopuštenih domena i ne čuva nikakve tajne.",
+  "category": "infra",
+  "context": "Pinka",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "cloudflare workers",
+    "slike",
+    "og image",
+    "pinka"
+  ],
+  "aliases": [
+    "cover worker",
+    "kaver vorker",
+    "pinka cover",
+    "naslovnice",
+    "covers pinka",
+    "covers.pinka.io",
+    "obrada slika"
+  ],
+  "facts": [
+    "Izlaz je uvijek točno 1200 × 630 piksela, centrirano izrezan.",
+    "Prvih 5000 transformacija mjesečno je besplatno, a svaka se slika obrađuje samo jednom."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Cloudflare Workers",
+    "Cloudflare Images"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 1,
+  "showcase_reason": "Mali pomoćni servis bez samostalne priče.",
+  "related": [
+    "pinka-finance-app"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/pinka-finance-cover-worker.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 81
+}

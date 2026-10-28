@@ -1,0 +1,99 @@
+{
+  "id": "novcanik-prototipovi",
+  "title": "Novčanik — serija white-label prototipova",
+  "one_liner": "Jedan predložak novčanika iz kojeg je nastalo 17 brendiranih prototipova za različite zajednice.",
+  "description": "Dizajn-prototipovi novčanika u kojem korisnik sam drži svoj novac (self-custody), za udruge, klubove, kreatore, fakultet i gradove. Iz jednog predloška svaka varijanta dobiva vlastite boje, logo, tekstove, ekrane i pravne dokumente. Podaci su ilustrativni, prototipovi služe za razgovor s organizacijama.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "novčanik",
+    "white-label",
+    "self-custody",
+    "pwa",
+    "multitenant",
+    "prototip"
+  ],
+  "aliases": [
+    "novčanik",
+    "novčanika",
+    "novčaniku",
+    "novčanikom",
+    "novčanici",
+    "novcanik",
+    "wallet prototip",
+    "white label novčanik",
+    "prototipovi novčanika",
+    "self custody novčanik",
+    "domovina wallet",
+    "novčanik template"
+  ],
+  "facts": [
+    "17 brendiranih varijanti iz jednog predloška, 40 sessiona u pet tjedana (lipanj–srpanj 2026).",
+    "Nogometna varijanta sama se brendira za 1.014 klubova, prema poddomeni.",
+    "Jedna varijanta mijenja logo, boje i ime iz jednog koda preko URL parametra.",
+    "Prototip za udrugu kulturne baštine ima 3D preglednik biste: STL od 15 MB sveden na GLB od 1,4 MB.",
+    "Predložak ima modul glasovanja po načelu jedna osoba, jedan glas.",
+    "Prototip za udrugu kulturne baštine u rujnu je dobio vlastitu domenu, sigurnosnu reviziju i dokumentaciju o čuvanju sredstava."
+  ],
+  "talk_hooks": [
+    "Napravio sam jedan predložak, a Claude je za svaku novu organizaciju složio brendiranu verziju s bojama, logom, ekranima i pravnim dokumentima.",
+    "Umjesto da zajednici opisujem ideju, pokažem joj njezin vlastiti novčanik na mobitelu."
+  ],
+  "stack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Cloudflare Pages",
+    "Cloudflare Workers",
+    "Cloudflare KV",
+    "three.js",
+    "Safe",
+    "Gnosis Chain",
+    "Monerium EURe"
+  ],
+  "urls": {
+    "live": [
+      "https://novcanik-template.pages.dev",
+      "https://dbhz-prototip.pages.dev",
+      "https://fer-prototip.pages.dev",
+      "https://dbhz-prototip.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/dbhzhr/dbhz-novcanik-prototip",
+        "visibility": "public"
+      },
+      {
+        "url": "https://github.com/edemokracija/novcanik-prototip",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Vizualno jak i brojčano upečatljiv: 17 brendiranih aplikacija za pet tjedana, dobra priča o skaliranju rada s AI-jem.",
+  "related": [
+    "ss-ff-landing",
+    "pinka-finance-landing",
+    "domovinatv-domovina-ulaznice"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/novcanik-prototipovi.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://novcanik-template.pages.dev"
+    }
+  ],
+  "embed": {
+    "url": "https://novcanik-template.pages.dev",
+    "frameable": true,
+    "mode": "app",
+    "page_height": 810,
+    "checked": "2026-09-25"
+  },
+  "rank": 8
+}

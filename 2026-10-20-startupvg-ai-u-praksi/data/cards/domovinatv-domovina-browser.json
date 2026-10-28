@@ -1,0 +1,64 @@
+{
+  "id": "domovinatv-domovina-browser",
+  "title": "DOMOVINA Browser",
+  "one_liner": "Minimalni native macOS preglednik s najviše sedam tabova i podrškom za passkeyeve.",
+  "description": "Lagani preglednik za macOS izgrađen oko sistemskog WebKita, bez Chromiuma i suvišnih opcija. Namijenjen je Domovina servisima i prijavi passkeyevima.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "macos",
+    "swift",
+    "webkit",
+    "passkey"
+  ],
+  "aliases": [
+    "domovina browser",
+    "domovina preglednik",
+    "preglednik",
+    "browser",
+    "brauzer",
+    "macos browser",
+    "passkey",
+    "paski"
+  ],
+  "facts": [
+    "Cijela aplikacija je jedna Swift datoteka od oko 9 KB.",
+    "Najviše 7 tabova, to je jedino pravilo.",
+    "Passkeyevi preko Associated Domains za domovina.ai i poddomene."
+  ],
+  "talk_hooks": [
+    "Vlastiti preglednik nastao je u jednoj sesiji i stane u jednu Swift datoteku."
+  ],
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "WKWebView",
+    "xcodegen"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/domovina-browser",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Simpatičan prototip napravljen u jednoj sesiji, ali nije objavljen.",
+  "related": [
+    "domovinatv-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-domovina-browser.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 80
+}

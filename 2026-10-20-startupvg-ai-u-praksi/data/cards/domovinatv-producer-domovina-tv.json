@@ -1,0 +1,82 @@
+{
+  "id": "domovinatv-producer-domovina-tv",
+  "title": "DOMOVINA Studio",
+  "one_liner": "Vlastita macOS aplikacija za snimanje podcasta s točnim lip syncom i AI pripremom za YouTube.",
+  "description": "Open-source zamjena za Riverside.fm: snima dva mikrofona kao zasebne tragove i kameru preko capture kartice, a segmente šalje u oblak dok snimanje još traje. U postprodukciji automatski pripremi video za YouTube, a AI napiše naslove, poglavlja i opis.",
+  "category": "tool",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "building",
+  "tags": [
+    "podcast",
+    "macos",
+    "swift",
+    "lip sync",
+    "audio",
+    "youtube",
+    "cloudflare r2",
+    "open source"
+  ],
+  "aliases": [
+    "domovina studio",
+    "studio",
+    "producer",
+    "producer domovina",
+    "podcast studio",
+    "snimanje podcasta",
+    "lip sync",
+    "lipsink",
+    "riverside zamjena",
+    "domovina studija",
+    "studiju"
+  ],
+  "facts": [
+    "Oko 4650 linija Swifta i 71+ automatskih provjera.",
+    "Korekcija drifta sata spušta odstupanje u 3 sata snimke s 31,1 ms na ispod 5 ms.",
+    "Optimizacija proxy videa: s oko 27 GB na 7,5 GB po satu snimanja.",
+    "Zvuk za YouTube izlazi na -14 LUFS.",
+    "Za 3 minute govora: transkripcija oko 5 s, AI metapodaci oko 1 minute."
+  ],
+  "talk_hooks": [
+    "Nisam iOS/macOS developer, a imam vlastitu studijsku aplikaciju u Swiftu – Claude je napisao i teoriju lip synca s dijagramima prije koda.",
+    "Umjesto plaćanja Riversidea, napravili smo alat koji točno odgovara našem studiju i hardveru."
+  ],
+  "stack": [
+    "Swift",
+    "SwiftUI",
+    "AVFoundation",
+    "CoreAudio",
+    "Python",
+    "Bash",
+    "Cloudflare R2",
+    "Modal",
+    "Claude",
+    "pyannote"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/domovinatv/producer.domovina.tv",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Odlična priča (nativna aplikacija bez iskustva u Swiftu, hardver, AI postprodukcija), ali nema web demo.",
+  "related": [
+    "domovinatv-pipeline-domovina-ai",
+    "domovinatv-fetch-domovina-tv",
+    "domovinatv-domovina-cutter"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/domovinatv-producer-domovina-tv.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 11
+}

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "domovinatv-fetch-domovina-tv",
+    "title": "Domovina pipeline (fetch.domovina.tv)",
+    "score": 98.7,
+    "semantic": 5,
+    "semantic_reason": "pipeline koji hrani cijeli Domovina ekosustav",
+    "rank": 1
+  },
+  {
+    "id": "domovinatv-domovina-ai",
+    "title": "Domovina.ai",
+    "score": 96.0,
+    "semantic": 5,
+    "semantic_reason": "glavni proizvod: AI obrađeni hrvatski podcasti na webu, mobitelu i TV-u",
+    "rank": 2
+  },
+  {
+    "id": "domovinatv-pay-domovina-ai",
+    "title": "DOMOVINA Pay i Wallet",
+    "score": 90.2,
+    "semantic": 5,
+    "semantic_reason": "plaćanja u eurima i novčanik s passkeyem, temelj za sve naplate",
+    "rank": 3
+  },
+  {
+    "id": "domovinatv-domovina-rag",
+    "title": "DOMOVINA RAG i podcast pretraga",
+    "score": 86.3,
+    "semantic": 5,
+    "semantic_reason": "semantička pretraga i MCP konektor za Claude nad hrvatskim podcastima",
+    "rank": 4
+  },
+  {
+    "id": "stadion-maksimir-stadion-maksimir-natjecaj-2026",
+    "title": "Glasanje javnosti za stadion Maksimir",
+    "score": 82.8,
+    "semantic": 5,
+    "semantic_reason": "javno glasanje s eOsobnom i blockchain provjerom, velika javna tema",
+    "rank": 5
+  },
+  {
+    "id": "pinka-finance-app",
+    "title": "Pinka",
+    "score": 78.7,
+    "semantic": 5,
+    "semantic_reason": "platforma za grupno financiranje, zaseban proizvod",
+    "rank": 6
+  },
+  {
+    "id": "podcasterium-podcasterium-app",
+    "title": "Podcasterium",
+    "score": 78.0,
+    "semantic": 5,
+    "semantic_reason": "globalna verzija Domovina.ai za bilo koji podcast",
+    "rank": 7
+  },
+  {
+    "id": "novcanik-prototipovi",
+    "title": "Novčanik — serija white-label prototipova",
+    "score": 74.8,
+    "semantic": 4,
+    "semantic_reason": "17 brendiranih novčanika iz jednog predloška",
+    "rank": 8
+  },
+  {
+    "id": "domovinatv-karta-hrvatske",
+    "title": "Karta Hrvatske",
+    "score": 70.4,
+    "semantic": 4,
+    "semantic_reason": "GIS karta s javnim podacima, vizualno najjači javni alat",
+    "rank": 9
+  },
+  {
+    "id": "domovinatv-domovina-api",
+    "title": "Domovina API",
+    "score": 70.2,
+    "semantic": 4,
+    "semantic_reason": "zajednički backend i prijava za sve Domovina aplikacije",
+    "rank": 10
+  },
+  {
+    "id": "domovinatv-producer-domovina-tv",
+    "title": "DOMOVINA Studio",
+    "score": 67.0,
+    "semantic": 4,
+    "semantic_reason": "vlastita macOS aplikacija za snimanje podcasta",
+    "rank": 11
+  },
+  {
+    "id": "domovinatv-domovina-fiskal",
+    "title": "Domovina Fiskal",
+    "score": 66.9,
+    "semantic": 4,
+    "semantic_reason": "open-source fiskalizacija i eRačuni, korisno svakoj hrvatskoj tvrtki",
+    "rank": 12
+  },
+  {
+    "id": "domovinatv-rodjendaonice-domovina-ai",
+    "title": "Rođendaonice",
+    "score": 66.7,
+    "semantic": 4,
+    "semantic_reason": "booking marketplace za dječje rođendaonice",
+    "rank": 13
+  },
+  {
+    "id": "deooptimomaximo-pediludium",
+    "title": "Lopta je okrugla — prognoze za SP 2026",
+    "score": 66.5,
+    "semantic": 4,
+    "semantic_reason": "živa aplikacija za Svjetsko prvenstvo 2026.",
+    "rank": 14
+  },
+  {
+    "id": "domovinatv-izbori-domovina-ai",
+    "title": "Izbori u brojkama",
+    "score": 65.6,
+    "semantic": 4,
+    "semantic_reason": "izbori, pravednost sustava i simulator mandata",
+    "rank": 15
+  },
+  {
+    "id": "stepanic-flutter-certilia",
+    "title": "flutter_certilia",
+    "score": 64.3,
+    "semantic": 4,
+    "semantic_reason": "open-source SDK za prijavu e-osobnom",
+    "rank": 16
+  },
+  {
+    "id": "domovinatv-domovina-ulaznice",
+    "title": "Domovina Ulaznice",
+    "score": 63.9,
+    "semantic": 4,
+    "semantic_reason": "prodaja ulaznica bez provizije",
+    "rank": 17
+  },
+  {
+    "id": "tehnoetika-tehnoetika-app",
+    "title": "Tehnoetika platforma",
+    "score": 61.3,
+    "semantic": 4,
+    "semantic_reason": "open-source alternativa Substacku",
+    "rank": 18
+  },
+  {
+    "id": "domovinatv-dataset-domovina-tv",
+    "title": "DOMOVINA dataset podcasta",
+    "score": 61.2,
+    "semantic": 4,
+    "semantic_reason": "otvoreni dataset hrvatskih podcasta",
+    "rank": 19
+  },
+  {
+    "id": "stepanic-realtime-presentation",
+    "title": "Prezentacija koja sluša",
+    "score": 61.2,
+    "semantic": 4,
+    "semantic_reason": "ova prezentacija i javni katalog projekata",
+    "rank": 20
+  },
+  {
+    "id": "ss-ss-novcanik-prototip",
+    "title": "Klupski novčanik (lom.ff.hr)",
+    "score": 58.6,
+    "semantic": 4,
+    "semantic_reason": "novčanik koji se sam brendira za 1.014 klubova po poddomeni",
+    "rank": 21
+  },
+  {
+    "id": "repo-stepanic-flutter-moja-mreza",
+    "title": "Moja Mreža uvoz (Flutter plugin i extension)",
+    "score": 56.6,
+    "semantic": 3,
+    "semantic_reason": "uvoz podataka s HEP-ovog portala preko e-osobne",
+    "rank": 22
+  },
+  {
+    "id": "domovinatv-pipeline-domovina-ai",
+    "title": "Pipeline za video u članak",
+    "score": 55.3,
+    "semantic": 3,
+    "semantic_reason": "video u članak kao usluga s API ključevima",
+    "rank": 23
+  },
+  {
+    "id": "muzevnibudite-projekt-41",
+    "title": "Projekt 41",
+    "score": 54.5,
+    "semantic": 3,
+    "semantic_reason": "klijentska aplikacija za 41-dnevni program",
+    "rank": 24
+  },
+  {
+    "id": "domovinatv-zakoni-domovina-ai",
+    "title": "Zakoni (Narodne novine)",
+    "score": 53.5,
+    "semantic": 4,
+    "semantic_reason": "pretraživi katalog svih propisa od 1990.",
+    "rank": 25
+  },
+  {
+    "id": "stepanic-fira-forms-connector",
+    "title": "FIRA Forms Connector",
+    "score": 53.4,
+    "semantic": 3,
+    "semantic_reason": "open-source fiskalni račun iz Google Sheetsa",
+    "rank": 26
+  },
+  {
+    "id": "domovinatv-odds-domovina-ai",
+    "title": "Od danas do sutra (odds)",
+    "score": 51.2,
+    "semantic": 4,
+    "semantic_reason": "javni blueprint o izbornom sustavu i P2P likvidnosti, s videom",
+    "rank": 27
+  },
+  {
+    "id": "domovinatv-mpt-landing",
+    "title": "MPT – Mint Pay Transfer",
+    "score": 49.9,
+    "semantic": 3,
+    "semantic_reason": "interaktivno objašnjenje platnog kanala bez naknada",
+    "rank": 28
+  },
+  {
+    "id": "domovinatv-stranke-domovina-ai",
+    "title": "Hrvatske političke stranke",
+    "score": 48.8,
+    "semantic": 3,
+    "semantic_reason": "katalog svih političkih stranaka",
+    "rank": 29
+  },
+  {
+    "id": "domovinatv-sms-domovina-ai",
+    "title": "DOMOVINA SMS gateway",
+    "score": 48.6,
+    "semantic": 3,
+    "semantic_reason": "vlastiti SMS gateway i provjera broja",
+    "rank": 30
+  },
+  {
+    "id": "stepanic-linkedin-poster",
+    "title": "LinkedIn Poster",
+    "score": 48.6,
+    "semantic": 3,
+    "semantic_reason": "objave iz Claude Codea s linterom protiv AI stila",
+    "rank": 31
+  },
+  {
+    "id": "italk-javna-nabava",
+    "title": "Radar javne nabave",
+    "score": 48.5,
+    "semantic": 3,
+    "semantic_reason": "AI radar javne nabave za tvrtku",
+    "rank": 32
+  },
+  {
+    "id": "domovinatv-domovina-stats",
+    "title": "Domovina Stats",
+    "score": 47.9,
+    "semantic": 3,
+    "semantic_reason": "javna statistika i karte hrvatskih podcasta",
+    "rank": 33
+  },
+  {
+    "id": "ss-ff-landing",
+    "title": "FootballFans (ff.hr)",
+    "score": 47.6,
+    "semantic": 3,
+    "semantic_reason": "landing FootballFansa s nasumičnim klubom",
+    "rank": 34
+  },
+  {
+    "id": "domovinatv-crkve-domovina-ai",
+    "title": "Katalog crkava u Hrvatskoj",
+    "score": 47.5,
+    "semantic": 3,
+    "semantic_reason": "katalog svih crkava s kartom",
+    "rank": 35
+  },
+  {
+    "id": "stepanic-open-diagram",
+    "title": "Open Diagram",
+    "score": 43.9,
+    "semantic": 3,
+    "semantic_reason": "otvoren alat koji zamjenjuje zatvoreni dbdiagram.io, živ na GitHub Pages",
+    "rank": 36
+  },
+  {
+    "id": "ss-hrvatski-amaterski-nogometni-klubovi",
+    "title": "Klubovi — imenik hrvatskih nogometnih klubova",
+    "score": 43.3,
+    "semantic": 3,
+    "semantic_reason": "imenik i karta 1.014 nogometnih klubova",
+    "rank": 37
+  },
+  {
+    "id": "domovinatv-podcast-domovina-ai",
+    "title": "Katalog hrvatskih podcasta",
+    "score": 42.7,
+    "semantic": 3,
+    "semantic_reason": "katalog 476 hrvatskih podcasta",
+    "rank": 38
+  },
+  {
+    "id": "domovinatv-omm-domovina-ai",
+    "title": "Tvoji podaci s HEP-a (omm.domovina.ai)",
+    "score": 42.3,
+    "semantic": 3,
+    "semantic_reason": "živ servis za očitanja struje, s auditom sigurnosti",
+    "rank": 39
+  },
+  {
+    "id": "podcasterium-podcasterium-registry",
+    "title": "Podcasterium registar",
+    "score": 42.1,
+    "semantic": 4,
+    "semantic_reason": "registar 4,7 milijuna podcast feedova",
+    "rank": 40
+  },
+  {
+    "id": "tehnoetika-chatcontrol-timeline",
+    "title": "ChatControl vremenska crta",
+    "score": 42.0,
+    "semantic": 3,
+    "semantic_reason": "vremenska crta EU regulative ChatControl",
+    "rank": 41
+  },
+  {
+    "id": "domovinatv-bank-push-gateway",
+    "title": "Bank Push Gateway",
+    "score": 40.9,
+    "semantic": 3,
+    "semantic_reason": "push obavijest banke kao webhook za uplate",
+    "rank": 42
+  },
+  {
+    "id": "domovinatv-oou-domovina-ai",
+    "title": "Katalog škola i vrtića",
+    "score": 39.7,
+    "semantic": 3,
+    "semantic_reason": "katalog škola i vrtića na karti",
+    "rank": 43
+  },
+  {
+    "id": "domovinatv-domovina-storage",
+    "title": "DOMOVINA Storage",
+    "score": 38.9,
+    "semantic": 2,
+    "semantic_reason": "runbookovi za diskove i backup",
+    "rank": 44
+  },
+  {
+    "id": "stepanic-claude-tmux-teams",
+    "title": "Claude timovi u tmuxu",
+    "score": 38.9,
+    "semantic": 3,
+    "semantic_reason": "tim Claude agenata u tmuxu",
+    "rank": 45
+  },
+  {
+    "id": "pinka-finance-landing",
+    "title": "Pinka Finance landing",
+    "score": 38.2,
+    "semantic": 2,
+    "semantic_reason": "landing stranica Pinke",
+    "rank": 46
+  },
+  {
+    "id": "repo-stepanic-open-saas-mpt",
+    "title": "Open SaaS + MPT",
+    "score": 35.8,
+    "semantic": 3,
+    "semantic_reason": "doprinos tuđem open-source projektu, MPT kao način plaćanja u Open SaaS",
+    "rank": 47
+  },
+  {
+    "id": "domovinatv-domovina-infra",
+    "title": "DOMOVINA infrastruktura",
+    "score": 34.5,
+    "semantic": 2,
+    "semantic_reason": "server s 44 kontejnera, interna infrastruktura",
+    "rank": 48
+  },
+  {
+    "id": "repo-spremni-za-stablecoin-spremni-hr",
+    "title": "Stablecoin panel: interaktivni pregled",
+    "score": 33.6,
+    "semantic": 3,
+    "semantic_reason": "interaktivni pregled panela o stablecoinima",
+    "rank": 49
+  },
+  {
+    "id": "stepanic-launchd-menubar",
+    "title": "LaunchdBar",
+    "score": 33.5,
+    "semantic": 2,
+    "semantic_reason": "macOS traka za noćne poslove",
+    "rank": 50
+  },
+  {
+    "id": "italk-italk-hr",
+    "title": "ITalk web",
+    "score": 33.2,
+    "semantic": 2,
+    "semantic_reason": "web stranica tvrtke",
+    "rank": 51
+  },
+  {
+    "id": "repo-stepanic-modric-lottery-verify",
+    "title": "$MODRIC lutrija: nezavisna provjera",
+    "score": 33.1,
+    "semantic": 3,
+    "semantic_reason": "nezavisna kriptografska provjera izvlačenja",
+    "rank": 52
+  },
+  {
+    "id": "domovinatv-mediakit-domovina-tv",
+    "title": "DOMOVINA mediakit i animirani logo",
+    "score": 32.9,
+    "semantic": 2,
+    "semantic_reason": "brand materijali i animirani logo",
+    "rank": 53
+  },
+  {
+    "id": "domovinatv-domovina-cutter",
+    "title": "Domovina Cutter",
+    "score": 31.7,
+    "semantic": 2,
+    "semantic_reason": "izrezivanje poglavlja iz videa",
+    "rank": 54
+  },
+  {
+    "id": "stepanic-committers-top",
+    "title": "committers.top s isključenim repozitorijima",
+    "score": 28.0,
+    "semantic": 2,
+    "semantic_reason": "fork GitHub ljestvice",
+    "rank": 55
+  },
+  {
+    "id": "domovinatv-company-details-api",
+    "title": "Firme – veličina i status tvrtki",
+    "score": 26.4,
+    "semantic": 2,
+    "semantic_reason": "API za veličinu tvrtke po OIB-u",
+    "rank": 56
+  },
+  {
+    "id": "lomnica-lomnica-50-godina-zupe",
+    "title": "50 godina župe — organizacija proslave",
+    "score": 26.0,
+    "semantic": 2,
+    "semantic_reason": "organizacija proslave obljetnice župe",
+    "rank": 57
+  },
+  {
+    "id": "tehnoetika-lika-odlagaliste-timeline",
+    "title": "Lika: vremenska crta odlagališta otpada",
+    "score": 25.5,
+    "semantic": 2,
+    "semantic_reason": "kronologija slučaja odlagališta u Lici",
+    "rank": 58
+  },
+  {
+    "id": "stepanic-hr-site-starter",
+    "title": "HR site starter",
+    "score": 25.4,
+    "semantic": 2,
+    "semantic_reason": "predložak za klijentske stranice",
+    "rank": 59
+  },
+  {
+    "id": "domovinatv-ppk-domovina-ai",
+    "title": "PKK izvještaj",
+    "score": 25.3,
+    "semantic": 2,
+    "semantic_reason": "skripta za porezni izvještaj",
+    "rank": 60
+  },
+  {
+    "id": "domovinatv-domovina-ota",
+    "title": "Domovina OTA server",
+    "score": 24.5,
+    "semantic": 2,
+    "semantic_reason": "server za potpisana ažuriranja aplikacije",
+    "rank": 61
+  },
+  {
+    "id": "lojtrica-oscope",
+    "title": "Osciloskop u pregledniku",
+    "score": 23.4,
+    "semantic": 2,
+    "semantic_reason": "mali zabavni PWA osciloskop",
+    "rank": 62
+  },
+  {
+    "id": "domovinatv-domovina-gnosis-node",
+    "title": "Domovina Gnosis Node",
+    "score": 23.1,
+    "semantic": 2,
+    "semantic_reason": "vlastiti Gnosis Chain čvor",
+    "rank": 63
+  },
+  {
+    "id": "stepanic-bojna-cavoglave-audio-analiza",
+    "title": "Audio forenzika: Bojna Čavoglave",
+    "score": 23.1,
+    "semantic": 2,
+    "semantic_reason": "audio forenzika jedne snimke",
+    "rank": 64
+  },
+  {
+    "id": "repo-spremni-domovina-wallet",
+    "title": "DOMOVINA Wallet (Flutter)",
+    "score": 22.8,
+    "semantic": 2,
+    "semantic_reason": "rani prototip novčanika prije Claude Codea",
+    "rank": 65
+  },
+  {
+    "id": "repo-pinka-finance-mcp-automation",
+    "title": "Pinka MCP automatizacija",
+    "score": 22.2,
+    "semantic": 2,
+    "semantic_reason": "MCP za kreiranje kampanja na Pinki",
+    "rank": 66
+  },
+  {
+    "id": "repo-stepanic-flutter-reusable-youtube-player",
+    "title": "Flutter YouTube player",
+    "score": 22.0,
+    "semantic": 2,
+    "semantic_reason": "YouTube player za Flutter",
+    "rank": 67
+  },
+  {
+    "id": "domovinatv-hyperframes-domovina-ai",
+    "title": "Video tvornica (HyperFrames)",
+    "score": 21.3,
+    "semantic": 2,
+    "semantic_reason": "radionica za videe iz HTML-a, podloga za odds i DBHZ",
+    "rank": 68
+  },
+  {
+    "id": "repo-mcps-whatsapp-mcp",
+    "title": "WhatsApp MCP",
+    "score": 20.0,
+    "semantic": 2,
+    "semantic_reason": "dorade open-source WhatsApp MCP-a",
+    "rank": 69
+  },
+  {
+    "id": "domovinatv",
+    "title": "Coolify u Domovina bojama",
+    "score": 19.8,
+    "semantic": 1,
+    "semantic_reason": "brendiranje Coolify panela",
+    "rank": 70
+  },
+  {
+    "id": "repo-stepanic-flutter-firebase-starter",
+    "title": "Flutter Firebase Starter",
+    "score": 19.4,
+    "semantic": 2,
+    "semantic_reason": "Flutter i Firebase starter",
+    "rank": 71
+  },
+  {
+    "id": "repo-stepanic-transkripcija-m4a-hrvatski",
+    "title": "Transkripcija hrvatskog audija",
+    "score": 19.4,
+    "semantic": 2,
+    "semantic_reason": "transkripcija hrvatskog audija, preteča pipelinea",
+    "rank": 72
+  },
+  {
+    "id": "domovinatv-domovina-blockchain",
+    "title": "DOMOVINA blockchain",
+    "score": 19.3,
+    "semantic": 2,
+    "semantic_reason": "arhitektura vlastitog blockchaina, plan",
+    "rank": 73
+  },
+  {
+    "id": "domovinatv-ai-domovina-ai",
+    "title": "Domovina Čitaonica",
+    "score": 19.0,
+    "semantic": 2,
+    "semantic_reason": "prototip čitača epizoda",
+    "rank": 74
+  },
+  {
+    "id": "repo-stepanic-automated-yt-shorts",
+    "title": "Automatski YouTube Shorts",
+    "score": 19.0,
+    "semantic": 2,
+    "semantic_reason": "automatski YouTube Shorts, rani eksperiment",
+    "rank": 75
+  },
+  {
+    "id": "repo-stepanic-cravat-shopify-theme",
+    "title": "Cravat Shopify tema",
+    "score": 15.7,
+    "semantic": 1,
+    "semantic_reason": "izvedenica Shopify teme",
+    "rank": 76
+  },
+  {
+    "id": "repo-stepanic-youtube-player-flutter",
+    "title": "YouTube player za Flutter (fork)",
+    "score": 15.1,
+    "semantic": 1,
+    "semantic_reason": "fork tuđeg paketa",
+    "rank": 77
+  },
+  {
+    "id": "stepanic-dotclaude-backup",
+    "title": "Backup Claude memorije",
+    "score": 13.6,
+    "semantic": 1,
+    "semantic_reason": "backup Claude postavki",
+    "rank": 78
+  },
+  {
+    "id": "domovinatv-domovina-wsrv",
+    "title": "WebP optimizacija sličica",
+    "score": 11.8,
+    "semantic": 1,
+    "semantic_reason": "optimizacija sličica",
+    "rank": 79
+  },
+  {
+    "id": "domovinatv-domovina-browser",
+    "title": "DOMOVINA Browser",
+    "score": 11.0,
+    "semantic": 1,
+    "semantic_reason": "minimalni preglednik, eksperiment",
+    "rank": 80
+  },
+  {
+    "id": "pinka-finance-cover-worker",
+    "title": "Pinka cover worker",
+    "score": 10.7,
+    "semantic": 1,
+    "semantic_reason": "pomoćni worker za naslovnice",
+    "rank": 81
+  },
+  {
+    "id": "stepanic-citizen-go-feed",
+    "title": "Arhiva kampanja jedne udruge",
+    "score": 9.5,
+    "semantic": 1,
+    "semantic_reason": "lokalna arhiva kampanja",
+    "rank": 82
+  },
+  {
+    "id": "repo-stepanic-xcodebenchmark",
+    "title": "XcodeBenchmark (doprinos)",
+    "score": 9.2,
+    "semantic": 1,
+    "semantic_reason": "jedan rezultat u tuđem benchmarku",
+    "rank": 83
+  },
+  {
+    "id": "repo-spremni-za-screenshot",
+    "title": "Za Screenshot",
+    "score": 7.8,
+    "semantic": 1,
+    "semantic_reason": "screenshotovi iz YouTubea",
+    "rank": 84
+  },
+  {
+    "id": "domovinatv-cal-domovina-ai",
+    "title": "Cal.domovina.ai",
+    "score": 7.0,
+    "semantic": 1,
+    "semantic_reason": "brendirana Cal.com instanca",
+    "rank": 85
+  },
+  {
+    "id": "repo-spremni-za-inventuru-app",
+    "title": "Inventura",
+    "score": 6.9,
+    "semantic": 1,
+    "semantic_reason": "mala Flutter aplikacija",
+    "rank": 86
+  },
+  {
+    "id": "repo-stepanic",
+    "title": "MyGLS Shopify aplikacija",
+    "score": 6.8,
+    "semantic": 1,
+    "semantic_reason": "Shopify aplikacija za GLS, rani rad",
+    "rank": 87
+  },
+  {
+    "id": "repo-stepanic-ms-ff-hr-next",
+    "title": "ms-ff-hr Next.js",
+    "score": 6.8,
+    "semantic": 1,
+    "semantic_reason": "početni Next.js projekt",
+    "rank": 88
+  },
+  {
+    "id": "repo-stepanic-photobooth",
+    "title": "Photobooth (Dioxus)",
+    "score": 6.6,
+    "semantic": 1,
+    "semantic_reason": "početni Rust projekt",
+    "rank": 89
+  },
+  {
+    "id": "repo-spremni-za-qr-offline-generator",
+    "title": "Offline QR generator",
+    "score": 6.3,
+    "semantic": 1,
+    "semantic_reason": "mala Flutter aplikacija",
+    "rank": 90
+  },
+  {
+    "id": "repo-stepanic-qr-code-reader",
+    "title": "QR code reader",
+    "score": 6.2,
+    "semantic": 1,
+    "semantic_reason": "mala Flutter aplikacija",
+    "rank": 91
+  },
+  {
+    "id": "repo-stepanic-ms-ff-hr",
+    "title": "ms.ff.hr (prva verzija)",
+    "score": 5.8,
+    "semantic": 1,
+    "semantic_reason": "predložak osobne stranice",
+    "rank": 92
+  },
+  {
+    "id": "repo-stepanic-docx-to-latex",
+    "title": "DOCX u LaTeX",
+    "score": 5.7,
+    "semantic": 1,
+    "semantic_reason": "skripta za konverziju",
+    "rank": 93
+  },
+  {
+    "id": "repo-podcasterium-podcasterium-landing",
+    "title": "Podcasterium landing",
+    "score": 5.6,
+    "semantic": 1,
+    "semantic_reason": "statične stranice uz aplikaciju",
+    "rank": 94
+  },
+  {
+    "id": "repo-stepanic-flutter-certilia-docs",
+    "title": "Flutter Certilia dokumentacija",
+    "score": 5.5,
+    "semantic": 1,
+    "semantic_reason": "kostur dokumentacije",
+    "rank": 95
+  },
+  {
+    "id": "repo-stepanic-mcp-server-wasp",
+    "title": "MCP server za Wasp",
+    "score": 5.4,
+    "semantic": 1,
+    "semantic_reason": "MCP za Wasp, eksperiment",
+    "rank": 96
+  },
+  {
+    "id": "repo-stepanic-croatia-amateur-sport",
+    "title": "Popis amaterskih nogometnih klubova",
+    "score": 5.3,
+    "semantic": 1,
+    "semantic_reason": "skripta, preteča Klubova",
+    "rank": 97
+  },
+  {
+    "id": "repo-stepanic-dotclaude-sync",
+    "title": "dotclaude-sync",
+    "score": 5.1,
+    "semantic": 1,
+    "semantic_reason": "backup Claude postavki",
+    "rank": 98
+  },
+  {
+    "id": "repo-stepanic-wasp-app-123-by-cline",
+    "title": "Wasp aplikacija (Cline)",
+    "score": 5.0,
+    "semantic": 1,
+    "semantic_reason": "prazna aplikacija",
+    "rank": 99
+  },
+  {
+    "id": "repo-stepanic-ff-mac-setup",
+    "title": "FlutterFlow Mac setup",
+    "score": 2.9,
+    "semantic": 1,
+    "semantic_reason": "upute za postavljanje Maca",
+    "rank": 100
+  },
+  {
+    "id": "repo-spremni-za-domene-spremni-hr",
+    "title": "za.domene.spremni.hr",
+    "score": 1.7,
+    "semantic": 1,
+    "semantic_reason": "servis za poddomene, nedovršen",
+    "rank": 101
+  },
+  {
+    "id": "repo-stepanic-stepanic",
+    "title": "GitHub profil (stepanic)",
+    "score": 1.7,
+    "semantic": 1,
+    "semantic_reason": "profilni README",
+    "rank": 102
+  }
+]

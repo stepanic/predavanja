@@ -1,0 +1,100 @@
+{
+  "id": "pinka-finance-app",
+  "title": "Pinka",
+  "one_liner": "Platforma za grupno financiranje i donacije uplatom SEPA-om ili on-chain u eurima.",
+  "description": "Pinka.io je aplikacija za kampanje donacija i članarina: svaka kampanja ima trajni QR kod za bankovnu uplatu i za uplatu u digitalnim eurima. Organizatori kampanja potvrđuju identitet eOsobnom, a kampanje s lokacijom pojavljuju se na Karti Hrvatske. Kod je open-source.",
+  "category": "web-app",
+  "context": "Pinka",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "crowdfunding",
+    "donacije",
+    "sepa",
+    "eure",
+    "gnosis",
+    "next.js",
+    "supabase",
+    "passkey"
+  ],
+  "aliases": [
+    "pinka",
+    "pinke",
+    "pinki",
+    "pinku",
+    "pinkom",
+    "pinka.io",
+    "pinka io",
+    "pinka finance",
+    "pinka fajnens",
+    "grupno financiranje",
+    "donacije",
+    "crowdfunding",
+    "kraudfanding",
+    "pinka-app.pages.dev"
+  ],
+  "facts": [
+    "Trajni QR kodovi po kampanji: SEPA uplata i on-chain uplata u EURe.",
+    "Pet načina prijave: passkey, Certilia mobilni ID, Google, Apple i e-mail link.",
+    "Automatsko prepoznavanje ponavljajućih donatora nakon druge uplate.",
+    "Više od 270 prijevoda, hrvatski i engleski.",
+    "Kampanje s lokacijom prikazuju se kao markeri na gis.domovina.ai."
+  ],
+  "talk_hooks": [
+    "Ideja je bila donacije bez provizija kartica: korisnik plati običnim bankovnim nalogom, a novac završi na blockchainu."
+  ],
+  "stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind",
+    "Supabase",
+    "Solidity",
+    "Gnosis Chain",
+    "Cloudflare Pages",
+    "Cloudflare R2"
+  ],
+  "urls": {
+    "live": [
+      "https://pinka-app.pages.dev"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/pinka-finance/pinka-app",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živ proizvod koji spaja banke, identitet i blockchain; vizualno pristojan, ali tema zahtijeva objašnjenje.",
+  "related": [
+    "pinka-finance-cover-worker",
+    "pinka-finance-landing",
+    "domovinatv-pay-domovina-ai",
+    "domovinatv-karta-hrvatske"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/pinka-finance-app.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://pinka-app.pages.dev"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/pinka-finance-app.full.jpg",
+      "width": 2880,
+      "height": 1986,
+      "url": "https://pinka-app.pages.dev"
+    }
+  ],
+  "embed": {
+    "url": "https://pinka-app.pages.dev",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 993,
+    "checked": "2026-10-19"
+  },
+  "rank": 6
+}

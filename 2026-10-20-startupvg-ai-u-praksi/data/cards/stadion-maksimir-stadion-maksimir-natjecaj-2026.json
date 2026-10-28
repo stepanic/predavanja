@@ -1,0 +1,117 @@
+{
+  "id": "stadion-maksimir-stadion-maksimir-natjecaj-2026",
+  "title": "Glasanje javnosti za stadion Maksimir",
+  "one_liner": "Neslužbeno javno glasanje o 88 radova natječaja za stadion Maksimir: eOsobna, blockchain i provjera koju svatko može sam napraviti.",
+  "description": "Počelo je kao baza znanja o arhitektonskom natječaju za novi stadion Maksimir. Kad su objavljeni rezultati, na web je stiglo svih 88 natječajnih radova sa službenim slikama, a zatim i glasanje javnosti: svaka osoba prijavljena eOsobnom raspoređuje 100 bodova po radovima. Glasovi su od 26. 9. 2026. na Gnosis Chainu, a rezultat može provjeriti svatko, bez povjerenja u autora. U listopadu je uz glasanje stigao i jednostavniji drugi ekran za isti listić te plan kako bi isti sustav mogao služiti i za druga glasovanja.",
+  "category": "web-app",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "glasanje",
+    "blockchain",
+    "gnosis chain",
+    "eosobna",
+    "zk dokaz",
+    "bitcoin",
+    "opentimestamps",
+    "natječaj",
+    "arhitektura",
+    "istraživanje",
+    "open-source"
+  ],
+  "aliases": [
+    "maksimir",
+    "maksimira",
+    "maksimiru",
+    "stadion maksimir",
+    "stadiona maksimir",
+    "stadionu maksimir",
+    "maksimir.domovina.ai",
+    "maksimir domovina",
+    "glasanje",
+    "glasanju",
+    "glasanja",
+    "glasanje za stadion",
+    "natječaj za stadion",
+    "glasanje na blockchainu",
+    "dinamov stadion",
+    "glasaj",
+    "opći model glasovanja"
+  ],
+  "facts": [
+    "Svaka osoba prijavljena eOsobnom ili Certilia mobile.ID-jem ima 100 bodova za 88 natječajnih radova; listić smije mijenjati do 31. 12. 2027.",
+    "Prva faza (25. i 26. 9.) vodila je listiće u lancu SHA-256 hasheva, a snapshot se svakih sat vremena žigosao u Bitcoin preko OpenTimestampsa.",
+    "Od 26. 9. 2026. listići idu pametnom ugovoru na Gnosis Chainu koji sam zbraja bodove; glasač ne treba novčanik ni kriptovalutu jer transakciju plaća relayer.",
+    "Ključ glasača je 24 riječi u pregledniku, otključava ga passkey; anonimno dijeljenje glasa koristi Semaphore ZK dokaz.",
+    "Ugovor ima 100 % pokrivenost testovima i 23 od 23 namjerno ubačene greške (mutanta) uhvaćene; prije prijelaza kôd su pregledala dva neovisna AI pregleda.",
+    "Od 2. 10. 2026. postoji i /glasaj, drugo sučelje nad istim listićem i istim ugovorom: favoriti redom, prijedlog bodova i tri koraka, usporedno s klasičnim /glasanje radi usporedbe.",
+    "Popravljena je prijava eOsobnom na iPhoneu: uzrok je bio Certilijin limit zahtjeva, pa sučelje sad čeka s postupnim produljenjem razmaka.",
+    "8. 10. dokumentiran opći model glasovanja do eReferenduma (31 poznati problem u četiri skupine) i plan V2 koji registrar zamjenjuje ZK dokazom Certilijina potpisa; to je za sada samo plan, ne kôd.",
+    "Treći neovisni AI pregled (9. 10.) obradio je tjedan rada i planove V2; sigurnosni pregledi rade se samo na dokumentima, bez izmjena koda.",
+    "Uz glasanje: 11 istraživačkih dokumenata, medijski arhiv od 1.175 objava iz 203 izvora i 3D model pobjedničkog rada u pregledniku."
+  ],
+  "talk_hooks": [
+    "Od objave rezultata natječaja do glasanja na blockchainu prošla su dva dana: 25. 9. radovi i glasanje s eOsobnom, 26. 9. u 3 ujutro glasovi su već bili na Gnosis Chainu.",
+    "Kôd je pisao jedan model, a sigurnosni pregled drugi. Za mutacijsko testiranje prvi put sam čuo od AI-ja: namjerno je ubacio 23 greške u ugovor da provjeri hvataju li ih testovi.",
+    "Isti listić dobio je dva sučelja, složeno i trokoračno, da se vidi koje ljudi stvarno završe; AI je poslije napisao i plan kako bi to postalo opći sustav za glasovanja."
+  ],
+  "stack": [
+    "Vite",
+    "TypeScript",
+    "Cloudflare Workers",
+    "Supabase",
+    "PostgreSQL",
+    "Solidity",
+    "Hardhat",
+    "Gnosis Chain",
+    "Semaphore",
+    "OpenTimestamps",
+    "three.js",
+    "GitHub Actions",
+    "Python",
+    "Mermaid"
+  ],
+  "urls": {
+    "live": [
+      "https://maksimir.domovina.ai/glasanje",
+      "https://maksimir.domovina.ai"
+    ],
+    "repos": [
+      {
+        "url": "https://github.com/stepanic/stadion-maksimir-natjecaj-2026",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 5,
+  "showcase_reason": "Živ, javan i open-source; priča ima sve: eOsobnu, Bitcoin, blockchain, ZK dokaze i AI koji sam sebe provjerava. Nastalo u dva dana nakon objave rezultata.",
+  "related": [
+    "domovinatv-domovina-api",
+    "domovinatv-pay-domovina-ai"
+  ],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/stadion-maksimir-stadion-maksimir-natjecaj-2026.jpg",
+      "width": 2880,
+      "height": 1620,
+      "url": "https://maksimir.domovina.ai/glasanje"
+    },
+    {
+      "type": "fullpage",
+      "src": "media/stadion-maksimir-stadion-maksimir-natjecaj-2026.full.jpg",
+      "width": 2880,
+      "height": 8294,
+      "url": "https://maksimir.domovina.ai/glasanje"
+    }
+  ],
+  "embed": {
+    "url": "https://maksimir.domovina.ai/glasanje",
+    "frameable": true,
+    "mode": "page",
+    "page_height": 4147,
+    "checked": "2026-09-29"
+  },
+  "rank": 5
+}

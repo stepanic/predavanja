@@ -1,0 +1,22 @@
+data/prompts/
+data/card-inputs/
+data/inventory.json
+data/groups.json
+.DS_Store
+data/card-batches/
+node_modules/
+logs/
+docs/event/covers/*.zip
+docs/event/covers/[2-5]-*.png
+dist/
+
+# montaža: audio i radni fajlovi agy-a (veliki, mogu se ponovno napraviti)
+montaza/**/*.mp3
+montaza/manifest.tmp
+__pycache__/
+montaza/youtube/thumbnail.png
+
+# lokalno, nije u repou
+montaza/transkript/
+montaza/app/transkript.json
+montaza/youtube/*.srt

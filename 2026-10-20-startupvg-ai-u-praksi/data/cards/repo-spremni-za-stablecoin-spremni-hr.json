@@ -1,0 +1,70 @@
+{
+  "id": "repo-spremni-za-stablecoin-spremni-hr",
+  "title": "Stablecoin panel: interaktivni pregled",
+  "one_liner": "Video panela o stablecoinima s vremenskim slijedom izjava i galerijom koja prati snimku.",
+  "description": "Stranica koja panel diskusiju o stablecoinima iz Muzeja novca HNB-a pretvara u interaktivni pregled: video, kronologija ključnih izjava i screenshotovi, sve sinkronizirano sa snimkom. Klik na izjavu vodi na točan trenutak videa.",
+  "category": "landing",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "live",
+  "tags": [
+    "video",
+    "transkript",
+    "timeline",
+    "youtube",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "stablecoin",
+    "stablecoini",
+    "stable coin",
+    "stejblkoin",
+    "za stablecoin",
+    "spremni za stablecoin",
+    "za.stablecoin.spremni.hr",
+    "spremni",
+    "panel o stablecoinima",
+    "ultra stablecoin",
+    "ultra timeline",
+    "flutter player",
+    "kronološki player",
+    "ultra za stablecoin",
+    "kronološki youtube player u flutteru"
+  ],
+  "facts": [
+    "59 screenshotova s ključnih trenutaka panela.",
+    "Kronologija se sinkronizira s videom u stvarnom vremenu.",
+    "Hrvatski transkript ispravljen modelom Claude Opus 4.5 (prema nazivu datoteke).",
+    "Jedna HTML stranica bez build alata, 19 commitova u tri dana."
+  ],
+  "talk_hooks": [
+    "Ovo je preteča današnjeg predavanja: već tada sam govor pretvarao u vremenski slijed koji prati ono što se govori."
+  ],
+  "stack": [
+    "HTML",
+    "JavaScript",
+    "YouTube IFrame API"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/spremni/za.stablecoin.spremni.hr",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 4,
+  "showcase_reason": "Živo, vizualno i tematski blisko samom predavanju; nastalo prije Claude Codea.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-za-stablecoin-spremni-hr.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "repo"
+    }
+  ],
+  "rank": 49
+}

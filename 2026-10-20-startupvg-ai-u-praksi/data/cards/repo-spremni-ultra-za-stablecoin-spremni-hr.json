@@ -1,0 +1,46 @@
+{
+  "id": "repo-spremni-ultra-za-stablecoin-spremni-hr",
+  "title": "Kronološki YouTube player u Flutteru",
+  "one_liner": "Flutter verzija interaktivnog pregleda panela o stablecoinima, za Android, iOS i web (WASM).",
+  "description": "Nativna Flutter aplikacija koja ponavlja HTML stranicu s videom i interaktivnim vremenskim slijedom panela o stablecoinima, s ciljem glatkog rada na mobitelima i webu.",
+  "category": "prototype",
+  "context": "osobno",
+  "visibility": "public",
+  "status": "prototype",
+  "tags": [
+    "flutter",
+    "wasm",
+    "youtube",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "ultra stablecoin",
+    "ultra timeline",
+    "flutter player",
+    "kronološki player",
+    "ultra za stablecoin"
+  ],
+  "facts": [
+    "Plan implementacije uspoređuje HTML verziju od 1754 linije s Flutter pristupom.",
+    "Web build preko Flutter WASM-a.",
+    "6 commitova u jednom danu."
+  ],
+  "talk_hooks": [],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "WASM"
+  ],
+  "urls": {
+    "live": [],
+    "repos": []
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Tehnička varijanta stranice o stablecoinima; zanimljivo samo uz nju.",
+  "related": [
+    "repo-spremni-za-stablecoin-spremni-hr",
+    "repo-stepanic-flutter-reusable-youtube-player"
+  ],
+  "media": [],
+  "duplicate_of": "repo-spremni-za-stablecoin-spremni-hr"
+}

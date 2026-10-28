@@ -1,0 +1,60 @@
+{
+  "id": "repo-spremni-domovina-wallet",
+  "title": "DOMOVINA Wallet (Flutter)",
+  "one_liner": "Rani Flutter prototip kripto novčanika na Solani, prije Claude Codea.",
+  "description": "Prototip mobilnog novčanika u Flutteru: kreiranje i uvoz novčanika sa seed frazom, biometrija, popis tokena, slanje i primanje preko QR koda. Nastao je krajem 2025., prije rada s Claude Codeom.",
+  "category": "prototype",
+  "context": "Domovina",
+  "visibility": "public",
+  "status": "archived",
+  "tags": [
+    "flutter",
+    "solana",
+    "novčanik",
+    "prototip",
+    "prije-claude-codea"
+  ],
+  "aliases": [
+    "domovina wallet",
+    "domovina volet",
+    "domovina novčanik",
+    "flutter novčanik",
+    "solana novčanik",
+    "solana wallet"
+  ],
+  "facts": [
+    "28 commitova u šest dana (2025-12-24 do 2025-12-29).",
+    "Onboarding s provjerom mnemoničke fraze i uvozom preko ključa.",
+    "Slanje, primanje preko QR koda i popis praćenih tokena."
+  ],
+  "talk_hooks": [
+    "Dobar kontrast: ovo sam radio prije Claude Codea – par dana za osnovni prototip, bez dokumentacije i testova."
+  ],
+  "stack": [
+    "Flutter",
+    "Dart",
+    "Solana"
+  ],
+  "urls": {
+    "live": [],
+    "repos": [
+      {
+        "url": "https://github.com/spremni/domovina-wallet",
+        "visibility": "public"
+      }
+    ]
+  },
+  "showcase_score": 2,
+  "showcase_reason": "Koristan kao kontrast 'prije i poslije', sam za sebe nije upečatljiv.",
+  "related": [],
+  "media": [
+    {
+      "type": "screenshot",
+      "src": "media/repo-spremni-domovina-wallet.jpg",
+      "width": 2880,
+      "height": 1620,
+      "origin": "generated"
+    }
+  ],
+  "rank": 65
+}
