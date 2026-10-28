@@ -4,6 +4,8 @@ Dvosatno predavanje o svakodnevnom radu s AI agentima, održano u poduzetničkom
 
 Ova mapa dokumentira tri faze, od kojih je svaka napravljena s AI-jem.
 
+Pregled cijelog tijeka s dijagramima, odlukama i stvarnim promptovima: [`KAKO-JE-NASTALO.md`](KAKO-JE-NASTALO.md).
+
 ## 1. Priprema
 
 - Istraživanje o prezentacijama vođenima govorom, proaktivnom dohvaćanju i hrvatskom streaming ASR-u: [`docs/research/`](docs/research/) (izvori su samo poveznice).
