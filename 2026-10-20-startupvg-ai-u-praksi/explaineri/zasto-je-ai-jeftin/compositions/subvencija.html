@@ -1,0 +1,46 @@
+<template>
+  <style>
+    @font-face { font-family: "Archivo Black HR"; src: url("assets/fonts/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; }
+    @font-face { font-family: "Inter HR"; src: url("assets/fonts/Inter.ttf") format("truetype"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; background: #FFD21F; color: #121212; overflow: hidden; }
+    #sub-a { position: absolute; inset: 0; }
+    #sub-l { position: absolute; left: 140px; top: 200px; width: 560px; }
+    #sub-r { position: absolute; left: 860px; top: 200px; width: 920px; }
+    .sub-lab { font: 400 96px/1 "Archivo Black HR"; letter-spacing: -0.02em; margin-bottom: 40px; }
+    #sub-one { width: 300px; height: 300px; border-radius: 50%; background: #E5322D; border: 14px solid #121212;
+      display: flex; align-items: center; justify-content: center; font: 400 170px/1 "Archivo Black HR"; color: #121212; }
+    #sub-grid { display: grid; grid-template-columns: repeat(11, 54px); gap: 10px; }
+    .sub-c { width: 54px; height: 54px; border-radius: 50%; background: #121212; }
+    #sub-note { position: absolute; left: 140px; bottom: 70px; font: 700 36px "Inter HR"; }
+    #sub-b { position: absolute; left: 140px; top: 330px; width: 1640px; }
+    #sub-big { font: 400 120px/1.05 "Archivo Black HR"; letter-spacing: -0.03em; }
+    #sub-small { margin-top: 36px; font: 700 52px "Inter HR"; }
+  </style>
+  <div id="root" data-composition-id="subvencija" data-width="1920" data-height="1080">
+    <div id="sub-a">
+      <div id="sub-l"><div class="sub-lab">Uložiš 1</div><div id="sub-one">1</div></div>
+      <div id="sub-r"><div class="sub-lab">dobiješ 99</div><div id="sub-grid"></div></div>
+      <div id="sub-note">karikirano, govornikovim riječima</div>
+    </div>
+    <div id="sub-b">
+      <div id="sub-big">Danas zarađuju<br />proizvođači hardvera</div>
+      <div id="sub-small">a softverske kompanije su nisko profitabilne</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      document.querySelector("#sub-grid").innerHTML = Array.from({ length: 99 }, () => '<div class="sub-c"></div>').join("");
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#sub-l .sub-lab", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" }, 0);
+      tl.fromTo("#sub-one", { scale: 0 }, { scale: 1, duration: 0.5, ease: "back.out(1.8)" }, 0.48);
+      tl.fromTo("#sub-r .sub-lab", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" }, 1.44);
+      tl.fromTo(".sub-c", { scale: 0 }, { scale: 1, duration: 0.25, ease: "back.out(2)", stagger: 0.02 }, 1.92);
+      tl.fromTo("#sub-note", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 3.84);
+      tl.fromTo("#sub-a", { y: 0 }, { y: -1080, duration: 0.55, ease: "power3.in" }, 5.5);
+      tl.fromTo("#sub-b", { y: 1080 }, { y: 0, duration: 0.6, ease: "expo.out" }, 5.76);
+      tl.fromTo("#sub-small", { opacity: 0 }, { opacity: 1, duration: 0.35 }, 6.72);
+      tl.set({}, {}, 9.6);
+      window.__timelines["subvencija"] = tl;
+    })();
+  </script>
+</template>

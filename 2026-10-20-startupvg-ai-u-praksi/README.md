@@ -31,6 +31,10 @@ Montaža je radila na sirovim snimkama dviju kamera (LUMIX i mobitel), snimci za
 - Render po segmentima u 1080p iz 4K izvora, glasnoća −14 LUFS: `render.py`, `make_proxies.sh`.
 - YouTube paket (opis s poglavljima, thumbnail): [`montaza/youtube/`](montaza/youtube/). Titlovi se generiraju iz prijepisa pomoću `titlovi.py`, ali nisu u repou.
 
+## 4. Explaineri
+
+Kratki animirani filmovi (HyperFrames) koji prepričavaju pojedine ideje s predavanja, prvi je „Zašto je AI danas tako jeftin”: [`explaineri/`](explaineri/).
+
 ## Karta mapa
 
 | Mapa | Sadržaj |
@@ -38,6 +42,7 @@ Montaža je radila na sirovim snimkama dviju kamera (LUMIX i mobitel), snimci za
 | `app/` | web aplikacija za platno (mreža kartica, stage, WhatsApp QR modul) |
 | `data/` | samo javne kartice projekata, `catalog.json`, rang, slike |
 | `demo/web-tvrtka/` | demo stranica napravljena uživo |
+| `explaineri/` | animirani explaineri (HyperFrames projekti) |
 | `docs/` | bilješke po danima, `event/` (najava, naslovnice, priprema), `research/` (istraživanje) |
 | `montaza/` | skripte, preglednik, manifest, sinkronizacija, YouTube paket |
 | `tools/` | izrada kataloga, deploy, praćenje WhatsAppa |

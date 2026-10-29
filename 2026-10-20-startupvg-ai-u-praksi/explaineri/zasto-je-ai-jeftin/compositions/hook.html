@@ -1,0 +1,48 @@
+<template>
+  <style>
+    @font-face { font-family: "Archivo Black HR"; src: url("assets/fonts/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; }
+    @font-face { font-family: "Inter HR"; src: url("assets/fonts/Inter.ttf") format("truetype"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; background: #FFD21F; color: #121212; overflow: hidden; }
+    #hook-price { position: absolute; left: 140px; top: 250px; transform-origin: 0 0; }
+    #hook-label { font: 700 72px "Inter HR"; letter-spacing: -0.01em; }
+    #hook-num { font: 400 360px/1 "Archivo Black HR"; letter-spacing: -0.03em; color: #E5322D; margin-top: 10px; }
+    #hook-line { position: absolute; left: 980px; top: 92px; font: 700 52px "Inter HR"; }
+    #hook-count { position: absolute; left: 980px; top: 150px; font: 400 150px/1 "Archivo Black HR"; letter-spacing: -0.03em; }
+    #hook-houses { position: absolute; left: 189px; top: 470px; width: 1542px; display: grid;
+      grid-template-columns: repeat(9, 150px); column-gap: 24px; row-gap: 36px; }
+    .hook-house { width: 150px; height: 150px; }
+    #hook-note { position: absolute; left: 140px; bottom: 70px; font: 700 36px "Inter HR"; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1920" data-height="1080">
+    <div id="hook-price">
+      <div id="hook-label">Mjesečno plaćam AI</div>
+      <div id="hook-num">90 €</div>
+    </div>
+    <div id="hook-line">…a trošim struje kao</div>
+    <div id="hook-count"><span id="hook-n">0</span> kuća</div>
+    <div id="hook-houses"></div>
+    <div id="hook-note">procjena s predavanja</div>
+  </div>
+  <script>
+    (function () {
+      const box = document.querySelector("#hook-houses");
+      const house = '<svg class="hook-house" viewBox="0 0 150 150"><path d="M10 70 L75 14 L140 70 Z" fill="#121212"/><rect x="24" y="66" width="102" height="78" fill="#121212"/><rect class="w" x="40" y="84" width="26" height="26" fill="#FFD21F"/><rect class="w" x="84" y="84" width="26" height="26" fill="#FFD21F"/></svg>';
+      box.innerHTML = Array.from({ length: 17 }, () => house).join("");
+      const houses = box.querySelectorAll(".hook-house");
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#hook-num", { scale: 1.07 }, { scale: 1, duration: 0.5, ease: "expo.out", transformOrigin: "0 50%" }, 0.495);
+      tl.fromTo("#hook-price", { x: 0, y: 0, scale: 1 }, { x: 0, y: -170, scale: 0.42, duration: 0.6, ease: "power2.inOut" }, 2.415);
+      tl.fromTo("#hook-line", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 2.895);
+      tl.fromTo("#hook-count", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 3.375);
+      tl.fromTo(houses, { scale: 0, transformOrigin: "50% 100%" }, { scale: 1, duration: 0.35, ease: "back.out(1.6)", stagger: 0.24 }, 3.375);
+      tl.fromTo(box.querySelectorAll(".w"), { fill: "#FFD21F" }, { fill: "#E5322D", duration: 0.1, stagger: 0.12 }, 3.5);
+      const c = { v: 0 };
+      tl.fromTo(c, { v: 0 }, { v: 17, duration: 16 * 0.24 + 0.01, ease: "none",
+        onUpdate: () => { document.querySelector("#hook-n").textContent = Math.ceil(c.v); } }, 3.375);
+      tl.fromTo("#hook-count", { scale: 1 }, { scale: 1.08, duration: 0.12, yoyo: true, repeat: 1, transformOrigin: "0 50%" }, 7.215);
+      tl.fromTo("#hook-note", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 6.255);
+      tl.set({}, {}, 8.175);
+      window.__timelines["hook"] = tl;
+    })();
+  </script>
+</template>

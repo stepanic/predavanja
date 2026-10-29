@@ -1,0 +1,60 @@
+<template>
+  <style>
+    @font-face { font-family: "Archivo Black HR"; src: url("assets/fonts/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; }
+    @font-face { font-family: "Inter HR"; src: url("assets/fonts/Inter.ttf") format("truetype"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; background: #FFD21F; color: #121212; overflow: hidden; }
+    #put-cam { position: absolute; inset: 0; transform-origin: 0 0; }
+    #put-map { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+    #put-svg { position: absolute; inset: 0; }
+    .put-pin { position: absolute; width: 34px; height: 34px; margin: -17px 0 0 -17px; border-radius: 50%;
+      background: #FFD21F; border: 8px solid #E5322D; }
+    .put-tag { position: absolute; font: 700 40px "Inter HR"; color: #FFD21F; background: #121212; padding: 8px 18px; border-radius: 10px; white-space: nowrap; }
+    #put-pill { position: absolute; left: 1697px; top: 486px; transform: translate(-50%, -140%); }
+    #put-pill div { font: 700 40px "Inter HR"; color: #FFD21F; background: #121212; padding: 14px 26px; border-radius: 14px; white-space: nowrap; }
+    #put-dot { position: absolute; left: 0; top: 0; width: 40px; height: 40px; margin: -20px 0 0 -20px; border-radius: 50%; background: #E5322D; }
+    #put-line { position: absolute; left: 560px; top: 560px; font: 400 64px/1.1 "Archivo Black HR"; letter-spacing: -0.02em; }
+  </style>
+  <div id="root" data-composition-id="put" data-width="1920" data-height="1080">
+    <div id="put-cam">
+      <img id="put-map" src="assets/atlantik.svg" alt="" />
+      <svg id="put-svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+        <path id="put-arc" d="M1697 486 Q953 40 209 681" fill="none" stroke="#E5322D" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 22" />
+      </svg>
+      <div class="put-pin" style="left:1697px;top:486px"></div>
+      <div class="put-pin" id="put-me" style="left:209px;top:681px"></div>
+      <div class="put-tag" id="put-tvg" style="left:1600px;top:520px">Velika Gorica</div>
+      <div class="put-tag" id="put-tme" style="left:150px;top:720px">Memphis, SAD</div>
+      <div id="put-pill"><div>Napiši mi vic o Muji i Hasi</div></div>
+      <div id="put-dot"></div>
+    </div>
+    <div id="put-line">Upit vrlo vjerojatno<br />završi u Memphisu</div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const P0 = [1697, 486], C = [953, 40], P1 = [209, 681];
+      const arc = document.querySelector("#put-arc");
+      const L = arc.getTotalLength();
+      // kamera: počinje na Velikoj Gorici (scale 2.4), povlači se na cijelu kartu
+      const camAt = (s, fx, fy) => ({ scale: s, x: 960 - fx * s, y: 540 - fy * s });
+      tl.fromTo("#put-cam", camAt(2.4, 1697, 486), { ...camAt(1, 960, 540), duration: 1.9, ease: "power2.inOut" }, 0.48);
+      tl.fromTo("#put-pill", { scale: 1, opacity: 1 }, { scale: 0.05, opacity: 0, duration: 0.4, ease: "power2.in" }, 1.92);
+      tl.fromTo("#put-dot", { scale: 0 }, { scale: 1, duration: 0.3, ease: "back.out(2)" }, 2.16);
+      tl.fromTo(arc, { attr: { "stroke-dasharray": `0 ${L}` } }, { attr: { "stroke-dasharray": `${L} 0` }, duration: 2.88, ease: "power2.inOut" }, 2.4);
+      const p = { t: 0 };
+      const place = () => {
+        const t = p.t, u = 1 - t;
+        gsap.set("#put-dot", { x: u * u * P0[0] + 2 * u * t * C[0] + t * t * P1[0], y: u * u * P0[1] + 2 * u * t * C[1] + t * t * P1[1] });
+      };
+      tl.fromTo(p, { t: 0 }, { t: 1, duration: 2.88, ease: "power2.inOut", onUpdate: place, onStart: place }, 2.4);
+      tl.fromTo("#put-me", { scale: 1 }, { scale: 1.8, duration: 0.24, yoyo: true, repeat: 1, ease: "power2.out" }, 5.28);
+      tl.fromTo("#put-tme", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 5.28);
+      tl.fromTo("#put-line", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45, ease: "expo.out" }, 5.76);
+      tl.to("#put-line", { opacity: 0, duration: 0.3 }, 7.68);
+      tl.fromTo("#put-cam", camAt(1, 960, 540), { ...camAt(6, 209, 681), duration: 1.92, ease: "power3.in", immediateRender: false }, 7.68);
+      tl.set({}, {}, 9.6);
+      place();
+      window.__timelines["put"] = tl;
+    })();
+  </script>
+</template>

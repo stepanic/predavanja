@@ -1,0 +1,62 @@
+<template>
+  <style>
+    @font-face { font-family: "Archivo Black HR"; src: url("assets/fonts/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; }
+    @font-face { font-family: "Inter HR"; src: url("assets/fonts/Inter.ttf") format("truetype"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; background: #121212; color: #FFD21F; overflow: hidden; }
+    #cen-cam { position: absolute; inset: 0; transform-origin: 0 0; }
+    #cen-racks { position: absolute; left: 122px; top: 390px; display: flex; gap: 26px; }
+    .cen-rack { width: 178px; height: 600px; }
+    #cen-num { position: absolute; left: 109px; top: 120px; font: 400 170px/1 "Archivo Black HR"; letter-spacing: -0.03em; }
+    #cen-lab { position: absolute; left: 112px; top: 50px; font: 700 48px/1.25 "Inter HR"; color: #FFD21F; }
+    #cen-srv { position: absolute; left: 140px; top: 90px; background: #121212; padding: 36px 48px; border-radius: 20px; font: 400 150px/1 "Archivo Black HR"; letter-spacing: -0.03em; }
+    #cen-srv small { display: block; font: 700 52px "Inter HR"; margin-bottom: 18px; letter-spacing: 0; }
+    #cen-head { position: absolute; left: 140px; top: 120px; font: 400 104px/1.05 "Archivo Black HR"; letter-spacing: -0.02em; }
+    #cen-bar { position: absolute; left: 140px; top: 640px; width: 1640px; height: 200px; background: #FFD21F; border-radius: 24px;
+      display: flex; align-items: center; padding: 0 64px; }
+    #cen-text { font: 700 84px "Inter HR"; color: #121212; white-space: pre; }
+    #cen-note { position: absolute; left: 140px; top: 880px; font: 700 40px "Inter HR"; }
+  </style>
+  <div id="root" data-composition-id="centar" data-width="1920" data-height="1080">
+    <div id="cen-cam"><div id="cen-racks"></div></div>
+    <div id="cen-num">≈ 50 mlrd $</div>
+    <div id="cen-lab">hardvera u jednom data centru</div>
+    <div id="cen-srv"><small>Jedan server</small>≈ 2 mil. $</div>
+    <div id="cen-head">Odgovor izlazi<br />slovo po slovo</div>
+    <div id="cen-bar"><span id="cen-text">Sjede Mujo i Haso…</span></div>
+    <div id="cen-note">brzo, jer radi na stroju od ≈ 2 mil. $</div>
+  </div>
+  <script>
+    (function () {
+      const rack = (i) => {
+        let s = '<svg class="cen-rack" viewBox="0 0 190 640"><rect x="4" y="4" width="182" height="632" rx="10" fill="none" stroke="#FFD21F" stroke-width="8"/>';
+        for (let k = 0; k < 12; k++) {
+          const y = 30 + k * 50;
+          s += `<rect x="24" y="${y}" width="142" height="34" rx="4" fill="#FFD21F"/>`;
+          s += `<circle class="cen-led" cx="146" cy="${y + 17}" r="7" fill="${(i * 5 + k * 3) % 4 === 0 ? "#E5322D" : "#121212"}"/>`;
+        }
+        return s + "</svg>";
+      };
+      document.querySelector("#cen-racks").innerHTML = Array.from({ length: 8 }, (_, i) => rack(i)).join("");
+      const t = document.querySelector("#cen-text");
+      t.innerHTML = [...t.textContent].map((ch) => `<span class="cen-ch">${ch}</span>`).join("");
+      const tl = gsap.timeline({ paused: true });
+      const camAt = (s, fx, fy) => ({ scale: s, x: 960 - fx * s, y: 540 - fy * s });
+      tl.fromTo("#cen-cam", camAt(1.25, 960, 690), { ...camAt(1, 960, 540), duration: 3.84, ease: "power2.out" }, 0);
+      tl.fromTo(".cen-rack", { y: 760 }, { y: 0, duration: 0.45, ease: "expo.out", stagger: 0.48 }, 0);
+      tl.fromTo("#cen-num", { opacity: 0, scale: 1.12 }, { opacity: 1, scale: 1, duration: 0.5, ease: "expo.out", transformOrigin: "0 50%" }, 3.84);
+      tl.fromTo("#cen-lab", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, 4.32);
+      tl.to(["#cen-num", "#cen-lab"], { opacity: 0, duration: 0.3 }, 5.76);
+      // zum u četvrti ormar (središte x = 122 + 3*204 + 89 + 34 = 857)
+      tl.fromTo("#cen-cam", camAt(1, 960, 540), { ...camAt(2.6, 857, 690), duration: 1.92, ease: "power2.inOut", immediateRender: false }, 5.76);
+      tl.fromTo("#cen-srv", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: "expo.out" }, 7.68);
+      tl.to("#cen-srv", { opacity: 0, duration: 0.3 }, 9.36);
+      tl.fromTo("#cen-cam", { opacity: 1 }, { opacity: 0.25, duration: 0.5, immediateRender: false }, 9.6);
+      tl.fromTo("#cen-head", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45, ease: "expo.out" }, 9.6);
+      tl.fromTo("#cen-bar", { y: 480 }, { y: 0, duration: 0.5, ease: "expo.out" }, 10.08);
+      tl.fromTo(".cen-ch", { opacity: 0 }, { opacity: 1, duration: 0.01, stagger: 0.09 }, 10.56);
+      tl.fromTo("#cen-note", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 12.48);
+      tl.set({}, {}, 15.36);
+      window.__timelines["centar"] = tl;
+    })();
+  </script>
+</template>

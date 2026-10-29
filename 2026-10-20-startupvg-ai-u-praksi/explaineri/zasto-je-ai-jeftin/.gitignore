@@ -1,0 +1,5 @@
+.hyperframes/
+.media/
+renders/
+# glazba je 13 MB; vraća se iz HeyGen kataloga, vidi docs/2026-10-29-hyperframes-explaineri.md
+assets/bgm/
